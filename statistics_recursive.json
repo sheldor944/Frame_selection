@@ -1,0 +1,91 @@
+{
+  "total_videos": 10,
+  "total_input_frames": 4302,
+  "total_output_frames": 640,
+  "overall_compression_ratio": 6.721875,
+  "avg_frames_selected": 64.0,
+  "min_frames": 64,
+  "max_frames": 64,
+  "median_frames": 64.0,
+  "std_frames": 0.0,
+  "avg_segments": 25.8,
+  "frame_distribution": {
+    "0-32": 0,
+    "33-64": 0,
+    "65-96": 10,
+    "97-128": 0,
+    "128+": 0
+  },
+  "per_video_stats": [
+    {
+      "video_id": 0,
+      "input_frames": 196,
+      "output_frames": 64,
+      "compression_ratio": 3.0625,
+      "num_segments": 32
+    },
+    {
+      "video_id": 1,
+      "input_frames": 196,
+      "output_frames": 64,
+      "compression_ratio": 3.0625,
+      "num_segments": 32
+    },
+    {
+      "video_id": 2,
+      "input_frames": 467,
+      "output_frames": 64,
+      "compression_ratio": 7.296875,
+      "num_segments": 32
+    },
+    {
+      "video_id": 3,
+      "input_frames": 467,
+      "output_frames": 64,
+      "compression_ratio": 7.296875,
+      "num_segments": 32
+    },
+    {
+      "video_id": 4,
+      "input_frames": 584,
+      "output_frames": 64,
+      "compression_ratio": 9.125,
+      "num_segments": 32
+    },
+    {
+      "video_id": 5,
+      "input_frames": 584,
+      "output_frames": 64,
+      "compression_ratio": 9.125,
+      "num_segments": 1
+    },
+    {
+      "video_id": 6,
+      "input_frames": 436,
+      "output_frames": 64,
+      "compression_ratio": 6.8125,
+      "num_segments": 1
+    },
+    {
+      "video_id": 7,
+      "input_frames": 436,
+      "output_frames": 64,
+      "compression_ratio": 6.8125,
+      "num_segments": 32
+    },
+    {
+      "video_id": 8,
+      "input_frames": 468,
+      "output_frames": 64,
+      "compression_ratio": 7.3125,
+      "num_segments": 32
+    },
+    {
+      "video_id": 9,
+      "input_frames": 468,
+      "output_frames": 64,
+      "compression_ratio": 7.3125,
+      "num_segments": 32
+    }
+  ]
+}

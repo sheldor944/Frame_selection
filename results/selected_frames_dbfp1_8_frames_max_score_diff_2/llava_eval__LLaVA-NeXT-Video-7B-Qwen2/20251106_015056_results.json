@@ -1,0 +1,123 @@
+{
+  "results": {
+    "videomme": {
+      "alias": "videomme",
+      "videomme_perception_score,none": 59.55555555555556,
+      "videomme_perception_score_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "videomme": []
+  },
+  "configs": {
+    "videomme": {
+      "task": "videomme",
+      "dataset_path": "lmms-lab/Video-MME",
+      "dataset_kwargs": {
+        "token": true
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function videomme_doc_to_visual at 0x7a01871c6820>",
+      "doc_to_text": "<function videomme_doc_to_text at 0x7a0186c0e3a0>",
+      "doc_to_target": "answer",
+      "process_results": "<function videomme_process_results at 0x7a018627a0d0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "videomme_perception_score",
+          "aggregation": "<function videomme_aggregate_results at 0x7a018627aca0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 16,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ],
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+        },
+        "gpt4v": {
+          "pre_prompt": "",
+          "post_prompt": "Answer the question with A, B, C, or D."
+        },
+        "llava_vid": {
+          "pre_prompt": "",
+          "post_prompt": "The best answer is:"
+        },
+        "xcomposer2_4khd": {
+          "pre_prompt": "[UNUSED_TOKEN_146]user\n",
+          "post_prompt": " Answer this question with A, B, C, or D.[UNUSED_TOKEN_145]\n[UNUSED_TOKEN_146]assistant\n"
+        }
+      }
+    }
+  },
+  "versions": {
+    "videomme": "Yaml"
+  },
+  "n-shot": {
+    "videomme": 0
+  },
+  "higher_is_better": {
+    "videomme": {
+      "videomme_perception_score": true
+    }
+  },
+  "n-samples": {
+    "videomme": {
+      "original": 2700,
+      "effective": 2700
+    }
+  },
+  "config": {
+    "model": "llava_vid",
+    "model_args": "pretrained=/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=16,overwrite=False",
+    "batch_size": "16",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": "",
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "55057fb",
+  "date": "20251106_015056",
+  "task_hashes": {
+    "videomme": "8a7c80c796317813d7665e87b8621f35e9fa9faa07f5d44f9292406060d031ad"
+  },
+  "model_source": "llava_vid",
+  "model_name": "/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT-Video-7B-Qwen2",
+  "model_name_sanitized": "llava_eval__LLaVA-NeXT-Video-7B-Qwen2",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 3537595.856401649,
+  "end_time": 3542314.267386601,
+  "total_evaluation_time_seconds": "4718.410984952003"
+}

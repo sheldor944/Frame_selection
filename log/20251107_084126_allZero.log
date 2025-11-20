@@ -1,0 +1,70 @@
+nohup: ignoring input
+=== Step 1: Running change_score.py on all_zero ===
+anno_path: ./datasets/videomme/include_frame_idx.json
+=== Step 2: Running insert_frame_num.py ===
+=== Step 3: Running evaluation with lmms_eval ===
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2025-11-07 08:41:32[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to INFO[0m
+[32m2025-11-07 08:41:33[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/all_zero'}[0m
+[32m2025-11-07 08:41:33[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['videomme'][0m
+[32m2025-11-07 08:41:33[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+force sample: False
+Loaded LLaVA model: /home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.45s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.51s/it]
+Model Class: LlavaQwenForCausalLM
+[32m2025-11-07 08:41:53[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m223[0m - [1mUsing single device: cuda:0[0m
+Traceback (most recent call last):
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/tenacity/__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/api/task.py", line 1054, in download
+    self.dataset = datasets.load_dataset(
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/datasets/load.py", line 1397, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/datasets/load.py", line 1171, in load_dataset_builder
+    builder_instance: DatasetBuilder = builder_cls(
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/datasets/builder.py", line 344, in __init__
+    self.config, self.config_id = self._create_builder_config(
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/datasets/builder.py", line 562, in _create_builder_config
+    raise ValueError(f"BuilderConfig {builder_config} doesn't have a '{key}' key.")
+ValueError: BuilderConfig JsonConfig(name='default', version=0.0.0, data_dir=None, data_files={'test': ['/home/hpc4090/miraj/AKS/AKS/datasets/videomme/include_frame_idx.json']}, description=None, features=None, encoding='utf-8', encoding_errors=None, field=None, use_threads=True, block_size=None, chunksize=10485760, newlines_in_values=None) doesn't have a 'video' key.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/__main__.py", line 349, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/__main__.py", line 484, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/utils.py", line 536, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/evaluator.py", line 200, in simple_evaluate
+    task_dict = get_task_dict(tasks, task_manager, task_type)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/tasks/__init__.py", line 565, in get_task_dict
+    task_name_from_string_dict = task_manager.load_task_or_group(
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/tasks/__init__.py", line 378, in load_task_or_group
+    all_loaded_tasks = dict(collections.ChainMap(*map(load_fn, task_list)))
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/tasks/__init__.py", line 297, in _load_individual_task_or_group
+    return _load_task(task_config, task=name_or_config)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/tasks/__init__.py", line 267, in _load_task
+    task_object = TaskObj(config=config, model_name=self.model_name)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/api/task.py", line 724, in __init__
+    self.download(self.config.dataset_kwargs)
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/tenacity/__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/tenacity/__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/tenacity/__init__.py", line 368, in iter
+    result = action(retry_state)
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/tenacity/__init__.py", line 411, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x7b32f000b7f0 state=finished raised ValueError>]
+[32m2025-11-07 08:42:01[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m371[0m - [31m[1mError during evaluation: RetryError[<Future at 0x7b32f000b7f0 state=finished raised ValueError>]. Please set `--verbosity=DEBUG` to get more information.[0m
+=== Evaluation Complete ===

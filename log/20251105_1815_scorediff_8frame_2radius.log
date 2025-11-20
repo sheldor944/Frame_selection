@@ -1,0 +1,46 @@
+nohup: ignoring input
+=== Step 1: Running change_score.py on selected_frames_dbfp1_8_frames_max_score_diff_2 ===
+=== Step 2: Running insert_frame_num.py ===
+=== Step 3: Running evaluation with lmms_eval ===
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2025-11-05 18:15:35[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to INFO[0m
+[32m2025-11-05 18:15:37[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/selected_frames_dbfp1_8_frames_max_score_diff_2'}[0m
+[32m2025-11-05 18:15:37[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['videomme'][0m
+[32m2025-11-05 18:15:37[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+force sample: False
+Loaded LLaVA model: /home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/__main__.py", line 349, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/__main__.py", line 484, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/utils.py", line 536, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/evaluator.py", line 189, in simple_evaluate
+    lm = lmms_eval.models.get_model(model, force_simple).create_from_arg_string(
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/api/model.py", line 306, in create_from_arg_string
+    return cls(**args, **args2)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/lmms-eval/lmms_eval/models/simple/llava_vid.py", line 177, in __init__
+    self._tokenizer, self._model, self._image_processor, self._max_length = load_pretrained_model(pretrained, None, self.model_name,  device_map=self.device_map, torch_dtype=self.torch_dtype, attn_implementation=attn_implementation)
+  File "/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT/llava/model/builder.py", line 228, in load_pretrained_model
+    model = LlavaQwenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, attn_implementation=attn_implementation, **kwargs)
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3531, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3958, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/transformers/modeling_utils.py", line 812, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, **set_module_kwargs)
+  File "/home/hpc4090/miraj/AKS/AKS/llava/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 343, in set_module_tensor_to_device
+    new_value = value.to(device, non_blocking=non_blocking)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 23.64 GiB of which 17.06 MiB is free. Process 2209462 has 20.20 GiB memory in use. Including non-PyTorch memory, this process has 3.41 GiB memory in use. Of the allocated memory 3.01 GiB is allocated by PyTorch, and 25.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[32m2025-11-05 18:15:41[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m371[0m - [31m[1mError during evaluation: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 23.64 GiB of which 17.06 MiB is free. Process 2209462 has 20.20 GiB memory in use. Including non-PyTorch memory, this process has 3.41 GiB memory in use. Of the allocated memory 3.01 GiB is allocated by PyTorch, and 25.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables). Please set `--verbosity=DEBUG` to get more information.[0m
+=== Evaluation Complete ===
