@@ -1,0 +1,891 @@
+DIFFUSION ANALYSIS SUMMARY
+================================================================================
+
+
+sample_1_idx_143:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 7.37%
+    Mean absolute change: 0.0011
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0273
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 10.00%
+    Mean absolute change: 0.0018
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0265
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 11.69%
+    Mean absolute change: 0.0023
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0260
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 3.76%
+    Mean absolute change: 0.0006
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0284
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 6.70%
+    Mean absolute change: 0.0010
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0275
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 8.54%
+    Mean absolute change: 0.0014
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0270
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 1.25%
+    Mean absolute change: 0.0002
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0291
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 2.41%
+    Mean absolute change: 0.0004
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0288
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 3.49%
+    Mean absolute change: 0.0005
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0285
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 8.59%
+    Mean absolute change: 0.0080
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0270
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 12.04%
+    Mean absolute change: 0.0130
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0259
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 14.45%
+    Mean absolute change: 0.0166
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0252
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 6.58%
+    Mean absolute change: 0.0040
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0275
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 8.61%
+    Mean absolute change: 0.0072
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0269
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 10.32%
+    Mean absolute change: 0.0099
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0264
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 3.50%
+    Mean absolute change: 0.0013
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0285
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 5.46%
+    Mean absolute change: 0.0026
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0279
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 6.61%
+    Mean absolute change: 0.0037
+    Original smoothness: 0.0295
+    Diffused smoothness: 0.0275
+
+sample_2_idx_347:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 29.39%
+    Mean absolute change: 0.0269
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1223
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 45.68%
+    Mean absolute change: 0.0444
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.0941
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 55.77%
+    Mean absolute change: 0.0563
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.0766
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 14.70%
+    Mean absolute change: 0.0135
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1478
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 26.40%
+    Mean absolute change: 0.0246
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1275
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 35.71%
+    Mean absolute change: 0.0338
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1114
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 4.90%
+    Mean absolute change: 0.0045
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1647
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 9.47%
+    Mean absolute change: 0.0087
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1568
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 13.73%
+    Mean absolute change: 0.0127
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1494
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 34.52%
+    Mean absolute change: 0.0449
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1134
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 50.97%
+    Mean absolute change: 0.0691
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.0849
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 60.96%
+    Mean absolute change: 0.0832
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.0676
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 19.55%
+    Mean absolute change: 0.0225
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1393
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 31.71%
+    Mean absolute change: 0.0397
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1183
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 40.86%
+    Mean absolute change: 0.0532
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1024
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 6.57%
+    Mean absolute change: 0.0075
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1618
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 12.64%
+    Mean absolute change: 0.0144
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1513
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 18.26%
+    Mean absolute change: 0.0208
+    Original smoothness: 0.1732
+    Diffused smoothness: 0.1416
+
+sample_3_idx_999:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 19.15%
+    Mean absolute change: 0.0029
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0247
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 28.89%
+    Mean absolute change: 0.0047
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0218
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 33.74%
+    Mean absolute change: 0.0059
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0203
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 9.58%
+    Mean absolute change: 0.0015
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0277
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 17.09%
+    Mean absolute change: 0.0026
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0254
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 23.01%
+    Mean absolute change: 0.0036
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0235
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 3.19%
+    Mean absolute change: 0.0005
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0296
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 6.16%
+    Mean absolute change: 0.0009
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0287
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 8.91%
+    Mean absolute change: 0.0014
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0279
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 22.77%
+    Mean absolute change: 0.0081
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0236
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 32.30%
+    Mean absolute change: 0.0128
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0207
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 37.71%
+    Mean absolute change: 0.0161
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0191
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 12.41%
+    Mean absolute change: 0.0040
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0268
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 20.98%
+    Mean absolute change: 0.0072
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0242
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 26.66%
+    Mean absolute change: 0.0098
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0224
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 4.41%
+    Mean absolute change: 0.0013
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0292
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 8.24%
+    Mean absolute change: 0.0026
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0281
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 11.65%
+    Mean absolute change: 0.0038
+    Original smoothness: 0.0306
+    Diffused smoothness: 0.0270
+
+sample_4_idx_256:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 21.60%
+    Mean absolute change: 0.0062
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0448
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 33.45%
+    Mean absolute change: 0.0099
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0381
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 38.83%
+    Mean absolute change: 0.0122
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0350
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 10.80%
+    Mean absolute change: 0.0031
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0510
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 19.27%
+    Mean absolute change: 0.0055
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0462
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 25.91%
+    Mean absolute change: 0.0075
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0424
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 3.60%
+    Mean absolute change: 0.0010
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0551
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 6.94%
+    Mean absolute change: 0.0020
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0532
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 10.05%
+    Mean absolute change: 0.0029
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0515
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 25.72%
+    Mean absolute change: 0.0160
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0425
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 37.50%
+    Mean absolute change: 0.0254
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0358
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 43.84%
+    Mean absolute change: 0.0317
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0321
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 14.27%
+    Mean absolute change: 0.0080
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0490
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 23.47%
+    Mean absolute change: 0.0143
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0438
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 30.26%
+    Mean absolute change: 0.0195
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0399
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 5.02%
+    Mean absolute change: 0.0027
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0543
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 9.33%
+    Mean absolute change: 0.0051
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0519
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 13.30%
+    Mean absolute change: 0.0075
+    Original smoothness: 0.0572
+    Diffused smoothness: 0.0496
+
+sample_5_idx_669:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 27.02%
+    Mean absolute change: 0.0009
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0046
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 42.97%
+    Mean absolute change: 0.0014
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0036
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 51.57%
+    Mean absolute change: 0.0018
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0031
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 13.52%
+    Mean absolute change: 0.0004
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0055
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 24.36%
+    Mean absolute change: 0.0008
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0048
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 33.08%
+    Mean absolute change: 0.0011
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0042
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 4.51%
+    Mean absolute change: 0.0001
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0060
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 8.71%
+    Mean absolute change: 0.0003
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0058
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 12.65%
+    Mean absolute change: 0.0004
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0055
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 30.94%
+    Mean absolute change: 0.0017
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0044
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 46.32%
+    Mean absolute change: 0.0026
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0034
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 54.61%
+    Mean absolute change: 0.0032
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0029
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 16.51%
+    Mean absolute change: 0.0008
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0053
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 28.10%
+    Mean absolute change: 0.0015
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0045
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 36.86%
+    Mean absolute change: 0.0020
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0040
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 5.95%
+    Mean absolute change: 0.0003
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0059
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 11.08%
+    Mean absolute change: 0.0005
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0056
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 15.50%
+    Mean absolute change: 0.0008
+    Original smoothness: 0.0063
+    Diffused smoothness: 0.0053
+
+sample_6_idx_571:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 23.62%
+    Mean absolute change: 0.0033
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0213
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 36.57%
+    Mean absolute change: 0.0053
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0177
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 43.40%
+    Mean absolute change: 0.0067
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0158
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 11.82%
+    Mean absolute change: 0.0016
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0246
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 21.14%
+    Mean absolute change: 0.0030
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0220
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 28.49%
+    Mean absolute change: 0.0041
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0199
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 3.94%
+    Mean absolute change: 0.0005
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0268
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 7.60%
+    Mean absolute change: 0.0011
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0258
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 11.01%
+    Mean absolute change: 0.0015
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0248
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 28.23%
+    Mean absolute change: 0.0071
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0200
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 40.96%
+    Mean absolute change: 0.0111
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0165
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 47.64%
+    Mean absolute change: 0.0137
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0146
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 15.33%
+    Mean absolute change: 0.0036
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0236
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 25.73%
+    Mean absolute change: 0.0063
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0207
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 33.34%
+    Mean absolute change: 0.0085
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0186
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 5.45%
+    Mean absolute change: 0.0012
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0263
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 10.18%
+    Mean absolute change: 0.0023
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0250
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 14.34%
+    Mean absolute change: 0.0033
+    Original smoothness: 0.0279
+    Diffused smoothness: 0.0239
+
+sample_7_idx_752:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 27.66%
+    Mean absolute change: 0.0116
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0607
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 42.49%
+    Mean absolute change: 0.0188
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0482
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 50.55%
+    Mean absolute change: 0.0237
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0415
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 13.84%
+    Mean absolute change: 0.0058
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0722
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 24.75%
+    Mean absolute change: 0.0105
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0631
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 33.35%
+    Mean absolute change: 0.0144
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0559
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 4.61%
+    Mean absolute change: 0.0019
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0800
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 8.90%
+    Mean absolute change: 0.0037
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0764
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 12.89%
+    Mean absolute change: 0.0054
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0730
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 33.81%
+    Mean absolute change: 0.0213
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0555
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 48.73%
+    Mean absolute change: 0.0329
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0430
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 56.86%
+    Mean absolute change: 0.0399
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0362
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 18.07%
+    Mean absolute change: 0.0107
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0687
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 30.68%
+    Mean absolute change: 0.0189
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0581
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 39.74%
+    Mean absolute change: 0.0253
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0505
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 6.21%
+    Mean absolute change: 0.0036
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0786
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 11.82%
+    Mean absolute change: 0.0068
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0739
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 16.83%
+    Mean absolute change: 0.0099
+    Original smoothness: 0.0839
+    Diffused smoothness: 0.0697
+
+sample_8_idx_116:
+----------------------------------------
+
+  alpha_0.7_edge_score_diff_iter_1:
+    Smoothness reduction: 18.24%
+    Mean absolute change: 0.0066
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0588
+
+  alpha_0.7_edge_score_diff_iter_2:
+    Smoothness reduction: 27.96%
+    Mean absolute change: 0.0108
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0518
+
+  alpha_0.7_edge_score_diff_iter_3:
+    Smoothness reduction: 33.18%
+    Mean absolute change: 0.0136
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0481
+
+  alpha_0.85_edge_score_diff_iter_1:
+    Smoothness reduction: 9.14%
+    Mean absolute change: 0.0033
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0653
+
+  alpha_0.85_edge_score_diff_iter_2:
+    Smoothness reduction: 16.37%
+    Mean absolute change: 0.0060
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0601
+
+  alpha_0.85_edge_score_diff_iter_3:
+    Smoothness reduction: 22.06%
+    Mean absolute change: 0.0082
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0560
+
+  alpha_0.95_edge_score_diff_iter_1:
+    Smoothness reduction: 3.05%
+    Mean absolute change: 0.0011
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0697
+
+  alpha_0.95_edge_score_diff_iter_2:
+    Smoothness reduction: 5.88%
+    Mean absolute change: 0.0021
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0677
+
+  alpha_0.95_edge_score_diff_iter_3:
+    Smoothness reduction: 8.52%
+    Mean absolute change: 0.0031
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0658
+
+  alpha_0.7_edge_temporal_iter_1:
+    Smoothness reduction: 24.59%
+    Mean absolute change: 0.0189
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0542
+
+  alpha_0.7_edge_temporal_iter_2:
+    Smoothness reduction: 36.50%
+    Mean absolute change: 0.0300
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0457
+
+  alpha_0.7_edge_temporal_iter_3:
+    Smoothness reduction: 43.54%
+    Mean absolute change: 0.0375
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0406
+
+  alpha_0.85_edge_temporal_iter_1:
+    Smoothness reduction: 14.20%
+    Mean absolute change: 0.0094
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0617
+
+  alpha_0.85_edge_temporal_iter_2:
+    Smoothness reduction: 22.94%
+    Mean absolute change: 0.0169
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0554
+
+  alpha_0.85_edge_temporal_iter_3:
+    Smoothness reduction: 29.54%
+    Mean absolute change: 0.0230
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0507
+
+  alpha_0.95_edge_temporal_iter_1:
+    Smoothness reduction: 5.48%
+    Mean absolute change: 0.0031
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0680
+
+  alpha_0.95_edge_temporal_iter_2:
+    Smoothness reduction: 9.85%
+    Mean absolute change: 0.0061
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0648
+
+  alpha_0.95_edge_temporal_iter_3:
+    Smoothness reduction: 13.50%
+    Mean absolute change: 0.0088
+    Original smoothness: 0.0719
+    Diffused smoothness: 0.0622

@@ -1,0 +1,128 @@
+hello miraj 
+
+======================================================================
+⚡ STREAMING DENSE SAMPLING (UNLIMITED FRAMES)
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 8.0
+Model: blip
+Batch size: 256
+FP16: True
+Workers: 32
+Checkpoint every: 20 videos
+Resume mode: True
+Mode: STREAMING (no frame limits)
+======================================================================
+
+Loading existing frames and scores...
+✅ Frames file: 2700 videos
+✅ Scores file: 2700 videos
+Loading questions from: ./datasets/videomme/include_frame_idx.json
+✅ Loaded 2700 questions
+
+🎯 Processing 2700 videos (limited by --num_videos)
+
+Video folder: /home/train01/.cache/huggingface/custom_video_qa_cache/data/data
+
+🔍 Checking for existing checkpoint...
+✅ RESUMING from video 1020
+   Already processed: 1020 videos
+   Remaining: 1680 videos
+
+
+======================================================================
+[cuda:1] Loading blip model...
+======================================================================
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Model loaded successfully
+======================================================================
+
+======================================================================
+Starting video processing...
+======================================================================
+
+Processing videos:  38%|█████████████████████████▋                                          | 1020/2700 [00:00<?, ?it/s]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5332 | Min=0.0929 | Range=[0.0929, 0.5332]
+  🎯 Threshold: 0.3732 (70.0% of max)
+  ✅ High-Score Frames: 87/538 (16.2%)
+  📍 First 10 indices: [232, 290, 348, 609, 667, 1566, 1885, 2088, 2146, 2175]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|█████████████████████████▋                                          | 1020/2700 [00:00<?, ?it/s]Processing videos:  38%|█████▋         | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=STREAMING, high_frames=87]  📦 Streaming 3143 frames to disk...
+    Progress: 3.2% (100/3143 frames)
+    Progress: 35.0% (1100/3143 frames)
+    Progress: 66.8% (2100/3143 frames)
+    Progress: 98.6% (3100/3143 frames)
+  ✅ Streamed 3143 frames to temp files
+Processing videos:  38%|███     | 1020/2700 [00:54<?, ?it/s, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=167]Processing videos:  38%|▍| 1021/2700 [00:54<25:27:10, 54.57s/it, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9890 | Min=0.2037 | Range=[0.2037, 0.9890]
+  🎯 Threshold: 0.6923 (70.0% of max)
+  ✅ High-Score Frames: 512/538 (95.2%)
+  📍 First 10 indices: [174, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1021/2700 [00:54<25:27:10, 54.57s/it, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=Processing videos:  38%|█▏ | 1021/2700 [00:54<25:27:10, 54.57s/it, video=tBVUTFPate0, status=STREAMING, high_frames=512]  📦 Streaming 14994 frames to disk...
+    Progress: 0.7% (100/14994 frames)
+    Progress: 7.3% (1100/14994 frames)
+    Progress: 14.0% (2100/14994 frames)
+    Progress: 20.7% (3100/14994 frames)
+    Progress: 27.3% (4100/14994 frames)
+    Progress: 34.0% (5100/14994 frames)
+    Progress: 40.7% (6100/14994 frames)
+    Progress: 47.4% (7100/14994 frames)
+    Progress: 54.0% (8100/14994 frames)
+    Progress: 60.7% (9100/14994 frames)
+    Progress: 67.4% (10100/14994 frames)
+    Progress: 74.0% (11100/14994 frames)
+    Progress: 80.7% (12100/14994 frames)
+    Progress: 87.4% (13100/14994 frames)
+    Progress: 94.0% (14100/14994 frames)
+  ✅ Streamed 14994 frames to temp files
+Processing videos:  38%|▍| 1021/2700 [05:00<25:27:10, 54.57s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, duProcessing videos:  38%|▍| 1022/2700 [05:00<77:48:23, 166.93s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, d                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9951 | Min=0.0284 | Range=[0.0284, 0.9951]
+  🎯 Threshold: 0.6966 (70.0% of max)
+  ✅ High-Score Frames: 379/538 (70.4%)
+  📍 First 10 indices: [174, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1022/2700 [05:00<77:48:23, 166.93s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, dProcessing videos:  38%|▊ | 1022/2700 [05:00<77:48:23, 166.93s/it, video=tBVUTFPate0, status=STREAMING, high_frames=379]  📦 Streaming 11773 frames to disk...
+    Progress: 0.8% (100/11773 frames)
+    Progress: 9.3% (1100/11773 frames)
+    Progress: 17.8% (2100/11773 frames)
+    Progress: 26.3% (3100/11773 frames)
+    Progress: 34.8% (4100/11773 frames)
+    Progress: 43.3% (5100/11773 frames)
+    Progress: 51.8% (6100/11773 frames)
+    Progress: 60.3% (7100/11773 frames)
+    Progress: 68.8% (8100/11773 frames)
+    Progress: 77.3% (9100/11773 frames)
+    Progress: 85.8% (10100/11773 frames)
+    Progress: 94.3% (11100/11773 frames)
+  ✅ Streamed 11773 frames to temp files
+Processing videos:  38%|▍| 1022/2700 [08:13<77:48:23, 166.93s/it, video=tBVUTFPate0, orig=538, new=11773, final=11850, dProcessing videos:  38%|▍| 1023/2700 [08:13<83:27:49, 179.17s/it, video=tBVUTFPate0, orig=538, new=11773, final=11850, d                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: AmrrSfiMxGA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9886 | Min=0.2586 | Range=[0.2586, 0.9886]
+  🎯 Threshold: 0.6920 (70.0% of max)
+  ✅ High-Score Frames: 591/616 (95.9%)
+  📍 First 10 indices: [29, 58, 87, 116, 145, 174, 203, 232, 261, 290]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1023/2700 [08:14<83:27:49, 179.17s/it, video=tBVUTFPate0, orig=538, new=11773, final=11850, dProcessing videos:  38%|▊ | 1023/2700 [08:14<83:27:49, 179.17s/it, video=AmrrSfiMxGA, status=STREAMING, high_frames=591]  📦 Streaming 17365 frames to disk...
+    Progress: 0.6% (100/17365 frames)
+    Progress: 6.3% (1100/17365 frames)
+    Progress: 12.1% (2100/17365 frames)
+    Progress: 17.9% (3100/17365 frames)
+    Progress: 23.6% (4100/17365 frames)

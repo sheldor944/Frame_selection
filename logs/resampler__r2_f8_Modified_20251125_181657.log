@@ -1,0 +1,107 @@
+hello miraj 
+
+======================================================================
+⚡ ULTRA-FAST RAM-BASED DENSE SAMPLING
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 8.0
+Model: blip
+Batch size: 256
+FP16: True
+Workers: 32
+Checkpoint every: 20 videos
+Resume mode: True
+Mode: RAM-BASED (10x faster)
+======================================================================
+
+Loading existing frames and scores...
+✅ Frames file: 2700 videos
+✅ Scores file: 2700 videos
+Loading questions from: ./datasets/videomme/include_frame_idx.json
+✅ Loaded 2700 questions
+
+🎯 Processing 2700 videos (limited by --num_videos)
+
+Video folder: /home/train01/.cache/huggingface/custom_video_qa_cache/data/data
+
+🔍 Checking for existing checkpoint...
+✅ RESUMING from video 1020
+   Already processed: 1020 videos
+   Remaining: 1680 videos
+
+
+======================================================================
+[cuda:1] Loading blip model...
+======================================================================
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Model loaded successfully
+======================================================================
+
+======================================================================
+Starting video processing...
+======================================================================
+
+Processing videos:  38%|█████████████████████████▋                                          | 1020/2700 [00:00<?, ?it/s]Processing videos:  38%|█████████████▌                      | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=INIT]Processing videos:  38%|█████████████▌                      | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5332 | Min=0.0929 | Range=[0.0929, 0.5332]
+  🎯 Threshold: 0.3732 (70.0% of max)
+  ✅ High-Score Frames: 87/538 (16.2%)
+  📍 First 10 indices: [232, 290, 348, 609, 667, 1566, 1885, 2088, 2146, 2175]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|█████████████▌                      | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=INIT]Processing videos:  38%|███████▉             | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=PROCESSING, high=87]Processing videos:  38%|███████▉             | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=PROCESSING, high=87]  📦 Processing 3,143 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/3,143 frames
+     • Batch 2/2 (100%) - 3,143/3,143 frames
+  ✅ Done: 3,143 frames in 51.7s (61 fps)
+Processing videos:  38%|▍| 1020/2700 [00:51<?, ?it/s, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=167, time=5Processing videos:  38%|▍| 1021/2700 [00:51<24:14:30, 51.98s/it, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=Processing videos:  38%|█████████▍               | 1021/2700 [00:51<24:14:30, 51.98s/it, video=tBVUTFPate0, status=INIT]Processing videos:  38%|█████████▍               | 1021/2700 [00:51<24:14:30, 51.98s/it, video=tBVUTFPate0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9890 | Min=0.2037 | Range=[0.2037, 0.9890]
+  🎯 Threshold: 0.6923 (70.0% of max)
+  ✅ High-Score Frames: 512/538 (95.2%)
+  📍 First 10 indices: [174, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|█████████▍               | 1021/2700 [00:52<24:14:30, 51.98s/it, video=tBVUTFPate0, status=INIT]Processing videos:  38%|███▍     | 1021/2700 [00:52<24:14:30, 51.98s/it, video=tBVUTFPate0, status=PROCESSING, high=512]Processing videos:  38%|███▍     | 1021/2700 [00:52<24:14:30, 51.98s/it, video=tBVUTFPate0, status=PROCESSING, high=512]  📦 Processing 14,994 frames in RAM...
+     • Batch size: 1,000 frames
+     • Total batches: 15
+     • Batch 1/15 (7%) - 1,000/14,994 frames
+     • Batch 2/15 (13%) - 2,000/14,994 frames
+     • Batch 3/15 (20%) - 3,000/14,994 frames
+     • Batch 4/15 (27%) - 4,000/14,994 frames
+     • Batch 5/15 (33%) - 5,000/14,994 frames
+     • Batch 6/15 (40%) - 6,000/14,994 frames
+     • Batch 7/15 (47%) - 7,000/14,994 frames
+     • Batch 8/15 (53%) - 8,000/14,994 frames
+     • Batch 9/15 (60%) - 9,000/14,994 frames
+     • Batch 10/15 (67%) - 10,000/14,994 frames
+     • Batch 11/15 (73%) - 11,000/14,994 frames
+     • Batch 12/15 (80%) - 12,000/14,994 frames
+     • Batch 13/15 (87%) - 13,000/14,994 frames
+     • Batch 14/15 (93%) - 14,000/14,994 frames
+     • Batch 15/15 (100%) - 14,994/14,994 frames
+  ✅ Done: 14,994 frames in 218.2s (69 fps)
+Processing videos:  38%|▍| 1021/2700 [04:31<24:14:30, 51.98s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, duProcessing videos:  38%|▍| 1022/2700 [04:31<70:10:55, 150.57s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, dProcessing videos:  38%|█████████               | 1022/2700 [04:31<70:10:55, 150.57s/it, video=tBVUTFPate0, status=INIT]Processing videos:  38%|█████████               | 1022/2700 [04:31<70:10:55, 150.57s/it, video=tBVUTFPate0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9951 | Min=0.0284 | Range=[0.0284, 0.9951]
+  🎯 Threshold: 0.6966 (70.0% of max)
+  ✅ High-Score Frames: 379/538 (70.4%)
+  📍 First 10 indices: [174, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|█████████               | 1022/2700 [04:32<70:10:55, 150.57s/it, video=tBVUTFPate0, status=INIT]Processing videos:  38%|███     | 1022/2700 [04:32<70:10:55, 150.57s/it, video=tBVUTFPate0, status=PROCESSING, high=379]Processing videos:  38%|███     | 1022/2700 [04:32<70:10:55, 150.57s/it, video=tBVUTFPate0, status=PROCESSING, high=379]  📦 Processing 11,773 frames in RAM...
+     • Batch size: 1,000 frames
+     • Total batches: 12
+     • Batch 1/12 (8%) - 1,000/11,773 frames
+     • Batch 2/12 (17%) - 2,000/11,773 frames
+     • Batch 3/12 (25%) - 3,000/11,773 frames
+     • Batch 4/12 (33%) - 4,000/11,773 frames

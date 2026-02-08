@@ -1,0 +1,33 @@
+================================================================================
+PPTMAS vs Standard TMAS - Expected Improvements
+================================================================================
+
+Configuration:
+  Dataset: longvideobench
+  Model: clip
+  Budget K: 32
+  α (peak protection): 0.4
+  β (revival): 0.15
+  γ (diversity): 0.6
+
+Expected Advantages of PPTMAS:
+  ✓ Higher peak recall (typically +10-20% vs TMAS)
+  ✓ Better coverage of critical events
+  ✓ Improved temporal diversity (via log-det term)
+  ✓ Late-stage peak recovery mechanism
+  ✓ Explicit multi-scale peak detection
+
+To compare with baseline TMAS, run:
+  python /home/train01/aks/Frame_selection/PPTMAS.py \
+    --dataset_name longvideobench \
+    --extract_feature_model clip \
+    --max_num_frames 32 \
+    --score_path ./outscores/longvideobench/clip/scores.json \
+    --frame_path ./outscores/longvideobench/clip/frames.json \
+    --metadata_path ./datasets/longvideobench/metadata.json
+
+Evaluation Metrics to Compute:
+  1. Peak Recall@K: fraction of top-M peaks included
+  2. Coverage Uniformity: std(inter-frame distances)
+  3. Temporal Spread: max distance between consecutive selections
+  4. Downstream Task Performance: mAP, ROUGE, etc.

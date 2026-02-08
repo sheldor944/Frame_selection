@@ -1,0 +1,1137 @@
+hello miraj 
+
+======================================================================
+⚡ ULTRA-FAST DENSE SAMPLING WITH CHECKPOINTS
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 8.0
+Model: blip
+Batch size: 128
+FP16: True
+Workers: 16
+Checkpoint every: 25 videos
+Resume mode: True
+======================================================================
+
+Loading existing frames and scores...
+✅ Frames file: 2700 videos
+✅ Scores file: 2700 videos
+Loading questions from: ./datasets/videomme/include_frame_idx.json
+✅ Loaded 2700 questions
+
+🎯 Processing 2700 videos (limited by --num_videos)
+
+Video folder: /home/train01/.cache/huggingface/custom_video_qa_cache/data/data
+
+🔍 Checking for existing checkpoint...
+✅ RESUMING from video 25
+   Already processed: 25 videos
+   Remaining: 2675 videos
+
+
+======================================================================
+[cuda:1] Loading blip model...
+======================================================================
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Model loaded successfully
+======================================================================
+
+======================================================================
+Starting video processing...
+======================================================================
+
+Processing videos:   1%|▋                                                                     | 25/2700 [00:00<?, ?it/s]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sUDY-SMREtA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9972 | Min=0.0345 | Range=[0.0345, 0.9972]
+  🎯 Threshold: 0.6980 (70.0% of max)
+  ✅ High-Score Frames: 35/79 (44.3%)
+  📍 First 10 indices: [23, 46, 69, 92, 115, 138, 161, 299, 322, 345]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|▋                                                                     | 25/2700 [00:00<?, ?it/s]Processing videos:   1%|            | 25/2700 [00:19<?, ?it/s, video=sUDY-SMREtA, orig=79, new=1046, final=1077, dup=48]Processing videos:   1%| | 26/2700 [00:19<14:14:07, 19.17s/it, video=sUDY-SMREtA, orig=79, new=1046, final=1077, dup=48]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sUDY-SMREtA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9702 | Min=0.0013 | Range=[0.0013, 0.9702]
+  🎯 Threshold: 0.6792 (70.0% of max)
+  ✅ High-Score Frames: 21/79 (26.6%)
+  📍 First 10 indices: [46, 69, 299, 322, 345, 368, 391, 414, 437, 1012]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%| | 26/2700 [00:19<14:14:07, 19.17s/it, video=sUDY-SMREtA, orig=79, new=1046, final=1077, dup=48]Processing videos:   1%|   | 26/2700 [00:30<14:14:07, 19.17s/it, video=sUDY-SMREtA, orig=79, new=670, final=719, dup=30]Processing videos:   1%|   | 27/2700 [00:30<10:40:24, 14.38s/it, video=sUDY-SMREtA, orig=79, new=670, final=719, dup=30]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: PSt_op3fQck
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2644 | Min=0.0174 | Range=[0.0174, 0.2644]
+  🎯 Threshold: 0.1851 (70.0% of max)
+  ✅ High-Score Frames: 6/115 (5.2%)
+  📍 First 10 indices: [2400, 2425, 2450, 2475, 2500, 2525]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|   | 27/2700 [00:30<10:40:24, 14.38s/it, video=sUDY-SMREtA, orig=79, new=670, final=719, dup=30]Processing videos:   1%|   | 27/2700 [00:33<10:40:24, 14.38s/it, video=PSt_op3fQck, orig=115, new=177, final=283, dup=9]Processing videos:   1%|    | 28/2700 [00:33<6:45:11,  9.10s/it, video=PSt_op3fQck, orig=115, new=177, final=283, dup=9]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: PSt_op3fQck
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.1364 | Min=0.0002 | Range=[0.0002, 0.1364]
+  🎯 Threshold: 0.0955 (70.0% of max)
+  ✅ High-Score Frames: 6/115 (5.2%)
+  📍 First 10 indices: [125, 150, 175, 200, 225, 650]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|    | 28/2700 [00:33<6:45:11,  9.10s/it, video=PSt_op3fQck, orig=115, new=177, final=283, dup=9]Processing videos:   1%|   | 28/2700 [00:36<6:45:11,  9.10s/it, video=PSt_op3fQck, orig=115, new=187, final=291, dup=11]Processing videos:   1%|   | 29/2700 [00:36<4:58:58,  6.72s/it, video=PSt_op3fQck, orig=115, new=187, final=291, dup=11]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: PSt_op3fQck
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8573 | Min=0.0051 | Range=[0.0051, 0.8573]
+  🎯 Threshold: 0.6001 (70.0% of max)
+  ✅ High-Score Frames: 11/115 (9.6%)
+  📍 First 10 indices: [175, 650, 675, 700, 725, 750, 775, 800, 1025, 1800]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|   | 29/2700 [00:36<4:58:58,  6.72s/it, video=PSt_op3fQck, orig=115, new=187, final=291, dup=11]Processing videos:   1%|   | 29/2700 [00:41<4:58:58,  6.72s/it, video=PSt_op3fQck, orig=115, new=341, final=435, dup=21]Processing videos:   1%|   | 30/2700 [00:41<4:37:28,  6.24s/it, video=PSt_op3fQck, orig=115, new=341, final=435, dup=21]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: OE5S-NbNsro
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2075 | Min=0.0056 | Range=[0.0056, 0.2075]
+  🎯 Threshold: 0.1453 (70.0% of max)
+  ✅ High-Score Frames: 8/123 (6.5%)
+  📍 First 10 indices: [0, 92, 115, 207, 2737, 2760, 2783, 2806]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|   | 30/2700 [00:41<4:37:28,  6.24s/it, video=PSt_op3fQck, orig=115, new=341, final=435, dup=21]Processing videos:   1%|   | 30/2700 [00:46<4:37:28,  6.24s/it, video=OE5S-NbNsro, orig=123, new=298, final=407, dup=14]Processing videos:   1%|   | 31/2700 [00:46<4:15:41,  5.75s/it, video=OE5S-NbNsro, orig=123, new=298, final=407, dup=14]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: OE5S-NbNsro
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2030 | Min=0.0003 | Range=[0.0003, 0.2030]
+  🎯 Threshold: 0.1421 (70.0% of max)
+  ✅ High-Score Frames: 7/123 (5.7%)
+  📍 First 10 indices: [0, 92, 207, 2737, 2760, 2783, 2806]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|   | 31/2700 [00:46<4:15:41,  5.75s/it, video=OE5S-NbNsro, orig=123, new=298, final=407, dup=14]Processing videos:   1%|   | 31/2700 [00:50<4:15:41,  5.75s/it, video=OE5S-NbNsro, orig=123, new=253, final=363, dup=13]Processing videos:   1%|   | 32/2700 [00:50<3:52:20,  5.23s/it, video=OE5S-NbNsro, orig=123, new=253, final=363, dup=13]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: OE5S-NbNsro
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.6818 | Min=0.0041 | Range=[0.0041, 0.6818]
+  🎯 Threshold: 0.4773 (70.0% of max)
+  ✅ High-Score Frames: 73/123 (59.3%)
+  📍 First 10 indices: [230, 299, 368, 506, 575, 644, 690, 713, 736, 782]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|   | 32/2700 [00:50<3:52:20,  5.23s/it, video=OE5S-NbNsro, orig=123, new=253, final=363, dup=13]Processing videos:   1%| | 32/2700 [01:26<3:52:20,  5.23s/it, video=OE5S-NbNsro, orig=123, new=2239, final=2257, dup=105Processing videos:   1%| | 33/2700 [01:26<11:07:06, 15.01s/it, video=OE5S-NbNsro, orig=123, new=2239, final=2257, dup=10                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: qvwfWyU9Gfc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9989 | Min=0.0152 | Range=[0.0152, 0.9989]
+  🎯 Threshold: 0.6992 (70.0% of max)
+  ✅ High-Score Frames: 19/56 (33.9%)
+  📍 First 10 indices: [50, 75, 100, 125, 150, 250, 275, 300, 325, 350]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%| | 33/2700 [01:26<11:07:06, 15.01s/it, video=OE5S-NbNsro, orig=123, new=2239, final=2257, dup=10Processing videos:   1%|   | 33/2700 [01:35<11:07:06, 15.01s/it, video=qvwfWyU9Gfc, orig=56, new=584, final=608, dup=32]Processing videos:   1%|    | 34/2700 [01:35<9:40:23, 13.06s/it, video=qvwfWyU9Gfc, orig=56, new=584, final=608, dup=32]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: qvwfWyU9Gfc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9850 | Min=0.0110 | Range=[0.0110, 0.9850]
+  🎯 Threshold: 0.6895 (70.0% of max)
+  ✅ High-Score Frames: 20/56 (35.7%)
+  📍 First 10 indices: [50, 75, 100, 125, 150, 250, 275, 300, 325, 350]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|    | 34/2700 [01:35<9:40:23, 13.06s/it, video=qvwfWyU9Gfc, orig=56, new=584, final=608, dup=32]Processing videos:   1%|    | 34/2700 [01:44<9:40:23, 13.06s/it, video=qvwfWyU9Gfc, orig=56, new=609, final=632, dup=33]Processing videos:   1%|    | 35/2700 [01:44<8:46:32, 11.85s/it, video=qvwfWyU9Gfc, orig=56, new=609, final=632, dup=33]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: qvwfWyU9Gfc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7428 | Min=0.0371 | Range=[0.0371, 0.7428]
+  🎯 Threshold: 0.5199 (70.0% of max)
+  ✅ High-Score Frames: 2/56 (3.6%)
+  📍 First 10 indices: [350, 575]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|    | 35/2700 [01:44<8:46:32, 11.85s/it, video=qvwfWyU9Gfc, orig=56, new=609, final=632, dup=33]Processing videos:   1%|      | 35/2700 [01:45<8:46:32, 11.85s/it, video=qvwfWyU9Gfc, orig=56, new=70, final=120, dup=6]Processing videos:   1%|      | 36/2700 [01:45<6:23:45,  8.64s/it, video=qvwfWyU9Gfc, orig=56, new=70, final=120, dup=6]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5wLv3pCqZ9o
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9976 | Min=0.0055 | Range=[0.0055, 0.9976]
+  🎯 Threshold: 0.6983 (70.0% of max)
+  ✅ High-Score Frames: 60/72 (83.3%)
+  📍 First 10 indices: [0, 25, 50, 75, 100, 125, 150, 175, 200, 250]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|      | 36/2700 [01:45<6:23:45,  8.64s/it, video=qvwfWyU9Gfc, orig=56, new=70, final=120, dup=6]Processing videos:   1%|  | 36/2700 [02:09<6:23:45,  8.64s/it, video=5wLv3pCqZ9o, orig=72, new=1528, final=1534, dup=66]Processing videos:   1%|  | 37/2700 [02:09<9:42:57, 13.13s/it, video=5wLv3pCqZ9o, orig=72, new=1528, final=1534, dup=66]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5wLv3pCqZ9o
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5155 | Min=0.0305 | Range=[0.0305, 0.5155]
+  🎯 Threshold: 0.3608 (70.0% of max)
+  ✅ High-Score Frames: 8/72 (11.1%)
+  📍 First 10 indices: [425, 450, 525, 600, 975, 1050, 1125, 1550]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|  | 37/2700 [02:09<9:42:57, 13.13s/it, video=5wLv3pCqZ9o, orig=72, new=1528, final=1534, dup=66]Processing videos:   1%|    | 37/2700 [02:13<9:42:57, 13.13s/it, video=5wLv3pCqZ9o, orig=72, new=243, final=296, dup=19]Processing videos:   1%|    | 38/2700 [02:13<7:44:07, 10.46s/it, video=5wLv3pCqZ9o, orig=72, new=243, final=296, dup=19]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5wLv3pCqZ9o
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9912 | Min=0.0005 | Range=[0.0005, 0.9912]
+  🎯 Threshold: 0.6939 (70.0% of max)
+  ✅ High-Score Frames: 4/72 (5.6%)
+  📍 First 10 indices: [1100, 1125, 1150, 1175]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|    | 38/2700 [02:13<7:44:07, 10.46s/it, video=5wLv3pCqZ9o, orig=72, new=243, final=296, dup=19]Processing videos:   1%|     | 38/2700 [02:15<7:44:07, 10.46s/it, video=5wLv3pCqZ9o, orig=72, new=127, final=192, dup=7]Processing videos:   1%|     | 39/2700 [02:15<5:52:29,  7.95s/it, video=5wLv3pCqZ9o, orig=72, new=127, final=192, dup=7]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: uqILuTcux_o
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=1.0000 | Min=0.0027 | Range=[0.0027, 1.0000]
+  🎯 Threshold: 0.7000 (70.0% of max)
+  ✅ High-Score Frames: 6/116 (5.2%)
+  📍 First 10 indices: [0, 25, 50, 75, 100, 125]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|     | 39/2700 [02:15<5:52:29,  7.95s/it, video=5wLv3pCqZ9o, orig=72, new=127, final=192, dup=7]Processing videos:   1%|    | 39/2700 [02:17<5:52:29,  7.95s/it, video=uqILuTcux_o, orig=116, new=127, final=236, dup=7]Processing videos:   1%|    | 40/2700 [02:17<4:32:29,  6.15s/it, video=uqILuTcux_o, orig=116, new=127, final=236, dup=7]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: uqILuTcux_o
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=1.0000 | Min=0.0042 | Range=[0.0042, 1.0000]
+  🎯 Threshold: 0.7000 (70.0% of max)
+  ✅ High-Score Frames: 19/116 (16.4%)
+  📍 First 10 indices: [0, 25, 50, 75, 100, 125, 275, 1075, 2175, 2200]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|    | 40/2700 [02:17<4:32:29,  6.15s/it, video=uqILuTcux_o, orig=116, new=127, final=236, dup=7]Processing videos:   1%|   | 40/2700 [02:25<4:32:29,  6.15s/it, video=uqILuTcux_o, orig=116, new=553, final=636, dup=33]Processing videos:   2%|   | 41/2700 [02:25<5:02:40,  6.83s/it, video=uqILuTcux_o, orig=116, new=553, final=636, dup=33]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: uqILuTcux_o
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=1.0000 | Min=0.0008 | Range=[0.0008, 1.0000]
+  🎯 Threshold: 0.7000 (70.0% of max)
+  ✅ High-Score Frames: 6/116 (5.2%)
+  📍 First 10 indices: [0, 25, 50, 75, 100, 125]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|   | 41/2700 [02:25<5:02:40,  6.83s/it, video=uqILuTcux_o, orig=116, new=553, final=636, dup=33]Processing videos:   2%|    | 41/2700 [02:27<5:02:40,  6.83s/it, video=uqILuTcux_o, orig=116, new=127, final=236, dup=7]Processing videos:   2%|    | 42/2700 [02:27<3:56:42,  5.34s/it, video=uqILuTcux_o, orig=116, new=127, final=236, dup=7]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: eXKE0nAMmg4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8850 | Min=0.0011 | Range=[0.0011, 0.8850]
+  🎯 Threshold: 0.6195 (70.0% of max)
+  ✅ High-Score Frames: 16/106 (15.1%)
+  📍 First 10 indices: [116, 290, 319, 348, 783, 986, 1189, 1218, 1247, 2407]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 42/2700 [02:27<3:56:42,  5.34s/it, video=uqILuTcux_o, orig=116, new=127, final=236, dup=7]Processing videos:   2%|   | 42/2700 [02:37<3:56:42,  5.34s/it, video=eXKE0nAMmg4, orig=106, new=623, final=694, dup=35]Processing videos:   2%|   | 43/2700 [02:37<4:52:57,  6.62s/it, video=eXKE0nAMmg4, orig=106, new=623, final=694, dup=35]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: eXKE0nAMmg4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9964 | Min=0.0009 | Range=[0.0009, 0.9964]
+  🎯 Threshold: 0.6975 (70.0% of max)
+  ✅ High-Score Frames: 51/106 (48.1%)
+  📍 First 10 indices: [0, 29, 58, 87, 116, 290, 319, 348, 377, 406]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|   | 43/2700 [02:37<4:52:57,  6.62s/it, video=eXKE0nAMmg4, orig=106, new=623, final=694, dup=35]Processing videos:   2%| | 43/2700 [03:03<4:52:57,  6.62s/it, video=eXKE0nAMmg4, orig=106, new=1669, final=1698, dup=77]Processing videos:   2%| | 44/2700 [03:03<9:07:44, 12.37s/it, video=eXKE0nAMmg4, orig=106, new=1669, final=1698, dup=77]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: eXKE0nAMmg4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4371 | Min=0.0116 | Range=[0.0116, 0.4371]
+  🎯 Threshold: 0.3060 (70.0% of max)
+  ✅ High-Score Frames: 7/106 (6.6%)
+  📍 First 10 indices: [348, 1102, 1131, 1160, 1421, 1624, 1653]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%| | 44/2700 [03:03<9:07:44, 12.37s/it, video=eXKE0nAMmg4, orig=106, new=1669, final=1698, dup=77]Processing videos:   2%|   | 44/2700 [03:07<9:07:44, 12.37s/it, video=eXKE0nAMmg4, orig=106, new=283, final=372, dup=17]Processing videos:   2%|   | 45/2700 [03:07<7:26:02, 10.08s/it, video=eXKE0nAMmg4, orig=106, new=283, final=372, dup=17]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5_fXicEnKKk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9889 | Min=0.0017 | Range=[0.0017, 0.9889]
+  🎯 Threshold: 0.6923 (70.0% of max)
+  ✅ High-Score Frames: 48/91 (52.7%)
+  📍 First 10 indices: [120, 150, 180, 210, 240, 270, 300, 330, 390, 420]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|   | 45/2700 [03:07<7:26:02, 10.08s/it, video=eXKE0nAMmg4, orig=106, new=283, final=372, dup=17]Processing videos:   2%|    | 45/2700 [03:14<7:26:02, 10.08s/it, video=5_fXicEnKKk, orig=91, new=742, final=757, dup=76]Processing videos:   2%|    | 46/2700 [03:14<6:44:32,  9.15s/it, video=5_fXicEnKKk, orig=91, new=742, final=757, dup=76]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5_fXicEnKKk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9848 | Min=0.0057 | Range=[0.0057, 0.9848]
+  🎯 Threshold: 0.6894 (70.0% of max)
+  ✅ High-Score Frames: 55/91 (60.4%)
+  📍 First 10 indices: [120, 150, 180, 210, 240, 270, 300, 330, 360, 390]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 46/2700 [03:14<6:44:32,  9.15s/it, video=5_fXicEnKKk, orig=91, new=742, final=757, dup=76]Processing videos:   2%|    | 46/2700 [03:21<6:44:32,  9.15s/it, video=5_fXicEnKKk, orig=91, new=751, final=766, dup=76]Processing videos:   2%|    | 47/2700 [03:21<6:13:49,  8.45s/it, video=5_fXicEnKKk, orig=91, new=751, final=766, dup=76]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5_fXicEnKKk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8771 | Min=0.0003 | Range=[0.0003, 0.8771]
+  🎯 Threshold: 0.6140 (70.0% of max)
+  ✅ High-Score Frames: 8/91 (8.8%)
+  📍 First 10 indices: [480, 750, 990, 1020, 1140, 1710, 1740, 2010]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 47/2700 [03:21<6:13:49,  8.45s/it, video=5_fXicEnKKk, orig=91, new=751, final=766, dup=76]Processing videos:   2%|    | 47/2700 [03:24<6:13:49,  8.45s/it, video=5_fXicEnKKk, orig=91, new=265, final=325, dup=31]Processing videos:   2%|    | 48/2700 [03:24<4:57:03,  6.72s/it, video=5_fXicEnKKk, orig=91, new=265, final=325, dup=31]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: O0qVPW1fUn4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8892 | Min=0.0929 | Range=[0.0929, 0.8892]
+  🎯 Threshold: 0.6224 (70.0% of max)
+  ✅ High-Score Frames: 85/96 (88.5%)
+  📍 First 10 indices: [180, 210, 240, 270, 300, 330, 360, 390, 420, 450]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 48/2700 [03:24<4:57:03,  6.72s/it, video=5_fXicEnKKk, orig=91, new=265, final=325, dup=31]Processing videos:   2%|    | 48/2700 [03:38<4:57:03,  6.72s/it, video=O0qVPW1fUn4, orig=96, new=881, final=888, dup=89]Processing videos:   2%|    | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=881, final=888, dup=89]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: O0qVPW1fUn4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2378 | Min=0.0063 | Range=[0.0063, 0.2378]
+  🎯 Threshold: 0.1665 (70.0% of max)
+  ✅ High-Score Frames: 1/96 (1.0%)
+  📍 First 10 indices: [0]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=881, final=888, dup=89]Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                        
+======================================================================
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                        💾 CHECKPOINT SAVED [50/2700]
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                        ======================================================================
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          GPU Memory: 0.00GB allocated, 0.00GB reserved
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          Videos processed: 50
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          With dense sampling: 50
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          Total frames: 33,063
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          Elapsed time: 3.65 min
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          Speed: 0.11 videos/sec
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                          ✅ Safe to restart if needed
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                        ======================================================================
+
+Processing videos:   2%|      | 49/2700 [03:38<6:32:19,  8.88s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]Processing videos:   2%|      | 50/2700 [03:38<4:41:28,  6.37s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: O0qVPW1fUn4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9954 | Min=0.0791 | Range=[0.0791, 0.9954]
+  🎯 Threshold: 0.6968 (70.0% of max)
+  ✅ High-Score Frames: 83/96 (86.5%)
+  📍 First 10 indices: [210, 240, 270, 300, 330, 360, 390, 420, 450, 480]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|      | 50/2700 [03:38<4:41:28,  6.37s/it, video=O0qVPW1fUn4, orig=96, new=21, final=114, dup=3]Processing videos:   2%|    | 50/2700 [03:52<4:41:28,  6.37s/it, video=O0qVPW1fUn4, orig=96, new=861, final=870, dup=87]Processing videos:   2%|    | 51/2700 [03:52<6:17:02,  8.54s/it, video=O0qVPW1fUn4, orig=96, new=861, final=870, dup=87]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tX8a00l_Dfs
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9990 | Min=0.9681 | Range=[0.9681, 0.9990]
+  🎯 Threshold: 0.6993 (70.0% of max)
+  ✅ High-Score Frames: 85/85 (100.0%)
+  📍 First 10 indices: [0, 23, 46, 69, 92, 115, 138, 161, 184, 207]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 51/2700 [03:52<6:17:02,  8.54s/it, video=O0qVPW1fUn4, orig=96, new=861, final=870, dup=87]Processing videos:   2%|  | 51/2700 [04:22<6:17:02,  8.54s/it, video=tX8a00l_Dfs, orig=85, new=1940, final=1940, dup=85]Processing videos:   2%| | 52/2700 [04:22<11:01:25, 14.99s/it, video=tX8a00l_Dfs, orig=85, new=1940, final=1940, dup=85]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tX8a00l_Dfs
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9575 | Min=0.7608 | Range=[0.7608, 0.9575]
+  🎯 Threshold: 0.6702 (70.0% of max)
+  ✅ High-Score Frames: 85/85 (100.0%)
+  📍 First 10 indices: [0, 23, 46, 69, 92, 115, 138, 161, 184, 207]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%| | 52/2700 [04:22<11:01:25, 14.99s/it, video=tX8a00l_Dfs, orig=85, new=1940, final=1940, dup=85]Processing videos:   2%| | 52/2700 [04:52<11:01:25, 14.99s/it, video=tX8a00l_Dfs, orig=85, new=1940, final=1940, dup=85]Processing videos:   2%| | 53/2700 [04:52<14:14:26, 19.37s/it, video=tX8a00l_Dfs, orig=85, new=1940, final=1940, dup=85]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tX8a00l_Dfs
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.0155 | Min=0.0042 | Range=[0.0042, 0.0155]
+  🎯 Threshold: 0.0109 (70.0% of max)
+  ✅ High-Score Frames: 3/85 (3.5%)
+  📍 First 10 indices: [1886, 1909, 1932]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%| | 53/2700 [04:52<14:14:26, 19.37s/it, video=tX8a00l_Dfs, orig=85, new=1940, final=1940, dup=85]Processing videos:   2%|    | 53/2700 [04:53<14:14:26, 19.37s/it, video=tX8a00l_Dfs, orig=85, new=111, final=192, dup=4]Processing videos:   2%|    | 54/2700 [04:53<10:21:05, 14.08s/it, video=tX8a00l_Dfs, orig=85, new=111, final=192, dup=4]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: mVIXU0x9ocI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9647 | Min=0.0001 | Range=[0.0001, 0.9647]
+  🎯 Threshold: 0.6753 (70.0% of max)
+  ✅ High-Score Frames: 4/106 (3.8%)
+  📍 First 10 indices: [2450, 2475, 2500, 2525]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 54/2700 [04:53<10:21:05, 14.08s/it, video=tX8a00l_Dfs, orig=85, new=111, final=192, dup=4]Processing videos:   2%|   | 54/2700 [04:55<10:21:05, 14.08s/it, video=mVIXU0x9ocI, orig=106, new=127, final=226, dup=7]Processing videos:   2%|    | 55/2700 [04:55<7:39:24, 10.42s/it, video=mVIXU0x9ocI, orig=106, new=127, final=226, dup=7]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: mVIXU0x9ocI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9948 | Min=0.0021 | Range=[0.0021, 0.9948]
+  🎯 Threshold: 0.6963 (70.0% of max)
+  ✅ High-Score Frames: 6/106 (5.7%)
+  📍 First 10 indices: [1025, 1050, 1075, 1100, 1125, 2125]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 55/2700 [04:55<7:39:24, 10.42s/it, video=mVIXU0x9ocI, orig=106, new=127, final=226, dup=7]Processing videos:   2%|   | 55/2700 [04:58<7:39:24, 10.42s/it, video=mVIXU0x9ocI, orig=106, new=187, final=282, dup=11]Processing videos:   2%|   | 56/2700 [04:58<5:58:19,  8.13s/it, video=mVIXU0x9ocI, orig=106, new=187, final=282, dup=11]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: mVIXU0x9ocI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9757 | Min=0.0037 | Range=[0.0037, 0.9757]
+  🎯 Threshold: 0.6830 (70.0% of max)
+  ✅ High-Score Frames: 45/106 (42.5%)
+  📍 First 10 indices: [175, 200, 225, 350, 375, 400, 425, 500, 525, 550]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|   | 56/2700 [04:58<5:58:19,  8.13s/it, video=mVIXU0x9ocI, orig=106, new=187, final=282, dup=11]Processing videos:   2%| | 56/2700 [05:19<5:58:19,  8.13s/it, video=mVIXU0x9ocI, orig=106, new=1359, final=1386, dup=79]Processing videos:   2%| | 57/2700 [05:19<8:48:02, 11.99s/it, video=mVIXU0x9ocI, orig=106, new=1359, final=1386, dup=79]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: YPaLGP_xr-w
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9992 | Min=0.0001 | Range=[0.0001, 0.9992]
+  🎯 Threshold: 0.6995 (70.0% of max)
+  ✅ High-Score Frames: 41/108 (38.0%)
+  📍 First 10 indices: [207, 230, 253, 276, 299, 322, 483, 506, 529, 552]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%| | 57/2700 [05:19<8:48:02, 11.99s/it, video=mVIXU0x9ocI, orig=106, new=1359, final=1386, dup=79]Processing videos:   2%| | 57/2700 [05:41<8:48:02, 11.99s/it, video=YPaLGP_xr-w, orig=108, new=1410, final=1456, dup=62]Processing videos:   2%| | 58/2700 [05:41<11:00:29, 15.00s/it, video=YPaLGP_xr-w, orig=108, new=1410, final=1456, dup=62                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: YPaLGP_xr-w
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9675 | Min=0.0008 | Range=[0.0008, 0.9675]
+  🎯 Threshold: 0.6773 (70.0% of max)
+  ✅ High-Score Frames: 10/108 (9.3%)
+  📍 First 10 indices: [1127, 1150, 1173, 1196, 1219, 1311, 1334, 1357, 1426, 1449]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%| | 58/2700 [05:41<11:00:29, 15.00s/it, video=YPaLGP_xr-w, orig=108, new=1410, final=1456, dup=62Processing videos:   2%|  | 58/2700 [05:47<11:00:29, 15.00s/it, video=YPaLGP_xr-w, orig=108, new=374, final=466, dup=16]Processing videos:   2%|   | 59/2700 [05:47<8:58:06, 12.23s/it, video=YPaLGP_xr-w, orig=108, new=374, final=466, dup=16]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: YPaLGP_xr-w
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9681 | Min=0.0000 | Range=[0.0000, 0.9681]
+  🎯 Threshold: 0.6777 (70.0% of max)
+  ✅ High-Score Frames: 7/108 (6.5%)
+  📍 First 10 indices: [276, 299, 322, 621, 1334, 1495, 1518]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|   | 59/2700 [05:47<8:58:06, 12.23s/it, video=YPaLGP_xr-w, orig=108, new=374, final=466, dup=16]Processing videos:   2%|   | 59/2700 [05:52<8:58:06, 12.23s/it, video=YPaLGP_xr-w, orig=108, new=313, final=406, dup=15]Processing videos:   2%|   | 60/2700 [05:52<7:24:25, 10.10s/it, video=YPaLGP_xr-w, orig=108, new=313, final=406, dup=15]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TbaCxIJ_VP4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.3756 | Min=0.0139 | Range=[0.0139, 0.3756]
+  🎯 Threshold: 0.2629 (70.0% of max)
+  ✅ High-Score Frames: 2/83 (2.4%)
+  📍 First 10 indices: [168, 576]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|   | 60/2700 [05:52<7:24:25, 10.10s/it, video=YPaLGP_xr-w, orig=108, new=313, final=406, dup=15]Processing videos:   2%|     | 60/2700 [05:53<7:24:25, 10.10s/it, video=TbaCxIJ_VP4, orig=83, new=66, final=139, dup=10]Processing videos:   2%|     | 61/2700 [05:53<5:27:41,  7.45s/it, video=TbaCxIJ_VP4, orig=83, new=66, final=139, dup=10]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TbaCxIJ_VP4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9994 | Min=0.0182 | Range=[0.0182, 0.9994]
+  🎯 Threshold: 0.6996 (70.0% of max)
+  ✅ High-Score Frames: 22/83 (26.5%)
+  📍 First 10 indices: [24, 48, 72, 96, 120, 144, 168, 528, 552, 576]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|     | 61/2700 [05:53<5:27:41,  7.45s/it, video=TbaCxIJ_VP4, orig=83, new=66, final=139, dup=10]Processing videos:   2%|    | 61/2700 [05:58<5:27:41,  7.45s/it, video=TbaCxIJ_VP4, orig=83, new=251, final=300, dup=34]Processing videos:   2%|    | 62/2700 [05:58<4:47:22,  6.54s/it, video=TbaCxIJ_VP4, orig=83, new=251, final=300, dup=34]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TbaCxIJ_VP4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9824 | Min=0.0017 | Range=[0.0017, 0.9824]
+  🎯 Threshold: 0.6877 (70.0% of max)
+  ✅ High-Score Frames: 36/83 (43.4%)
+  📍 First 10 indices: [168, 192, 240, 264, 288, 312, 336, 360, 552, 600]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 62/2700 [05:58<4:47:22,  6.54s/it, video=TbaCxIJ_VP4, orig=83, new=251, final=300, dup=34]Processing videos:   2%|    | 62/2700 [06:04<4:47:22,  6.54s/it, video=TbaCxIJ_VP4, orig=83, new=436, final=461, dup=58]Processing videos:   2%|    | 63/2700 [06:04<4:52:49,  6.66s/it, video=TbaCxIJ_VP4, orig=83, new=436, final=461, dup=58]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: n3IYmdy6d4Y
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9959 | Min=0.0008 | Range=[0.0008, 0.9959]
+  🎯 Threshold: 0.6971 (70.0% of max)
+  ✅ High-Score Frames: 28/99 (28.3%)
+  📍 First 10 indices: [46, 92, 391, 437, 552, 575, 598, 736, 989, 1081]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 63/2700 [06:05<4:52:49,  6.66s/it, video=TbaCxIJ_VP4, orig=83, new=436, final=461, dup=58]Processing videos:   2%|  | 63/2700 [06:20<4:52:49,  6.66s/it, video=n3IYmdy6d4Y, orig=99, new=1044, final=1091, dup=52]Processing videos:   2%|  | 64/2700 [06:20<6:50:28,  9.34s/it, video=n3IYmdy6d4Y, orig=99, new=1044, final=1091, dup=52]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: n3IYmdy6d4Y
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9996 | Min=0.0142 | Range=[0.0142, 0.9996]
+  🎯 Threshold: 0.6997 (70.0% of max)
+  ✅ High-Score Frames: 17/99 (17.2%)
+  📍 First 10 indices: [253, 276, 299, 322, 345, 368, 391, 759, 782, 805]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|  | 64/2700 [06:20<6:50:28,  9.34s/it, video=n3IYmdy6d4Y, orig=99, new=1044, final=1091, dup=52]Processing videos:   2%|    | 64/2700 [06:29<6:50:28,  9.34s/it, video=n3IYmdy6d4Y, orig=99, new=619, final=689, dup=29]Processing videos:   2%|    | 65/2700 [06:29<6:49:33,  9.33s/it, video=n3IYmdy6d4Y, orig=99, new=619, final=689, dup=29]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: n3IYmdy6d4Y
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9109 | Min=0.0016 | Range=[0.0016, 0.9109]
+  🎯 Threshold: 0.6376 (70.0% of max)
+  ✅ High-Score Frames: 7/99 (7.1%)
+  📍 First 10 indices: [2116, 2139, 2162, 2185, 2208, 2231, 2254]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 65/2700 [06:29<6:49:33,  9.33s/it, video=n3IYmdy6d4Y, orig=99, new=619, final=689, dup=29]Processing videos:   2%|     | 65/2700 [06:32<6:49:33,  9.33s/it, video=n3IYmdy6d4Y, orig=99, new=197, final=288, dup=8]Processing videos:   2%|     | 66/2700 [06:32<5:26:51,  7.45s/it, video=n3IYmdy6d4Y, orig=99, new=197, final=288, dup=8]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: iZYLeIJwe4w
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4117 | Min=0.0047 | Range=[0.0047, 0.4117]
+  🎯 Threshold: 0.2882 (70.0% of max)
+  ✅ High-Score Frames: 16/88 (18.2%)
+  📍 First 10 indices: [300, 325, 350, 1125, 1450, 1550, 1575, 1600, 1625, 1675]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|     | 66/2700 [06:32<5:26:51,  7.45s/it, video=n3IYmdy6d4Y, orig=99, new=197, final=288, dup=8]Processing videos:   2%|    | 66/2700 [06:40<5:26:51,  7.45s/it, video=iZYLeIJwe4w, orig=88, new=502, final=560, dup=30]Processing videos:   2%|    | 67/2700 [06:40<5:25:33,  7.42s/it, video=iZYLeIJwe4w, orig=88, new=502, final=560, dup=30]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: iZYLeIJwe4w
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9997 | Min=0.1007 | Range=[0.1007, 0.9997]
+  🎯 Threshold: 0.6998 (70.0% of max)
+  ✅ High-Score Frames: 79/88 (89.8%)
+  📍 First 10 indices: [0, 25, 50, 75, 100, 125, 150, 175, 200, 225]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   2%|    | 67/2700 [06:40<5:25:33,  7.42s/it, video=iZYLeIJwe4w, orig=88, new=502, final=560, dup=30]Processing videos:   2%|  | 67/2700 [07:10<5:25:33,  7.42s/it, video=iZYLeIJwe4w, orig=88, new=1977, final=1982, dup=83]Processing videos:   3%| | 68/2700 [07:10<10:27:19, 14.30s/it, video=iZYLeIJwe4w, orig=88, new=1977, final=1982, dup=83]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: iZYLeIJwe4w
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9991 | Min=0.0119 | Range=[0.0119, 0.9991]
+  🎯 Threshold: 0.6994 (70.0% of max)
+  ✅ High-Score Frames: 60/88 (68.2%)
+  📍 First 10 indices: [0, 200, 225, 250, 275, 300, 325, 350, 375, 400]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 68/2700 [07:10<10:27:19, 14.30s/it, video=iZYLeIJwe4w, orig=88, new=1977, final=1982, dup=83]Processing videos:   3%| | 68/2700 [07:36<10:27:19, 14.30s/it, video=iZYLeIJwe4w, orig=88, new=1610, final=1624, dup=74]Processing videos:   3%| | 69/2700 [07:36<12:53:44, 17.65s/it, video=iZYLeIJwe4w, orig=88, new=1610, final=1624, dup=74]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: jkNxmTrrZSk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7514 | Min=0.0781 | Range=[0.0781, 0.7514]
+  🎯 Threshold: 0.5260 (70.0% of max)
+  ✅ High-Score Frames: 22/102 (21.6%)
+  📍 First 10 indices: [312, 552, 1008, 1488, 1512, 1536, 1560, 1584, 1608, 1632]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 69/2700 [07:36<12:53:44, 17.65s/it, video=iZYLeIJwe4w, orig=88, new=1610, final=1624, dup=74]Processing videos:   3%|  | 69/2700 [07:41<12:53:44, 17.65s/it, video=jkNxmTrrZSk, orig=102, new=292, final=354, dup=40]Processing videos:   3%|  | 70/2700 [07:41<10:06:47, 13.84s/it, video=jkNxmTrrZSk, orig=102, new=292, final=354, dup=40]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: jkNxmTrrZSk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9971 | Min=0.0149 | Range=[0.0149, 0.9971]
+  🎯 Threshold: 0.6980 (70.0% of max)
+  ✅ High-Score Frames: 35/102 (34.3%)
+  📍 First 10 indices: [48, 72, 96, 120, 144, 168, 192, 216, 240, 264]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|  | 70/2700 [07:41<10:06:47, 13.84s/it, video=jkNxmTrrZSk, orig=102, new=292, final=354, dup=40]Processing videos:   3%|  | 70/2700 [07:47<10:06:47, 13.84s/it, video=jkNxmTrrZSk, orig=102, new=388, final=438, dup=52]Processing videos:   3%|   | 71/2700 [07:47<8:25:50, 11.54s/it, video=jkNxmTrrZSk, orig=102, new=388, final=438, dup=52]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: jkNxmTrrZSk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8069 | Min=0.1571 | Range=[0.1571, 0.8069]
+  🎯 Threshold: 0.5648 (70.0% of max)
+  ✅ High-Score Frames: 30/102 (29.4%)
+  📍 First 10 indices: [48, 288, 312, 528, 552, 816, 840, 864, 888, 936]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|   | 71/2700 [07:47<8:25:50, 11.54s/it, video=jkNxmTrrZSk, orig=102, new=388, final=438, dup=52]Processing videos:   3%|   | 71/2700 [07:53<8:25:50, 11.54s/it, video=jkNxmTrrZSk, orig=102, new=421, final=466, dup=57]Processing videos:   3%|   | 72/2700 [07:53<7:21:39, 10.08s/it, video=jkNxmTrrZSk, orig=102, new=421, final=466, dup=57]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: ebzbKa32kuk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9593 | Min=0.1779 | Range=[0.1779, 0.9593]
+  🎯 Threshold: 0.6715 (70.0% of max)
+  ✅ High-Score Frames: 64/70 (91.4%)
+  📍 First 10 indices: [25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|   | 72/2700 [07:53<7:21:39, 10.08s/it, video=jkNxmTrrZSk, orig=102, new=421, final=466, dup=57]Processing videos:   3%|  | 72/2700 [08:18<7:21:39, 10.08s/it, video=ebzbKa32kuk, orig=70, new=1602, final=1606, dup=66]Processing videos:   3%| | 73/2700 [08:18<10:33:12, 14.46s/it, video=ebzbKa32kuk, orig=70, new=1602, final=1606, dup=66]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: ebzbKa32kuk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9987 | Min=0.0296 | Range=[0.0296, 0.9987]
+  🎯 Threshold: 0.6991 (70.0% of max)
+  ✅ High-Score Frames: 61/70 (87.1%)
+  📍 First 10 indices: [25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 73/2700 [08:18<10:33:12, 14.46s/it, video=ebzbKa32kuk, orig=70, new=1602, final=1606, dup=66]Processing videos:   3%| | 73/2700 [08:42<10:33:12, 14.46s/it, video=ebzbKa32kuk, orig=70, new=1545, final=1550, dup=65]Processing videos:   3%| | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=1545, final=1550, dup=65]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: ebzbKa32kuk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2494 | Min=0.0200 | Range=[0.0200, 0.2494]
+  🎯 Threshold: 0.1746 (70.0% of max)
+  ✅ High-Score Frames: 1/70 (1.4%)
+  📍 First 10 indices: [0]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=1545, final=1550, dup=65]Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                        
+======================================================================
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                        💾 CHECKPOINT SAVED [75/2700]
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                        ======================================================================
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          GPU Memory: 0.00GB allocated, 0.00GB reserved
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          Videos processed: 75
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          With dense sampling: 75
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          Total frames: 53,861
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          Elapsed time: 8.72 min
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          Speed: 0.10 videos/sec
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                          ✅ Safe to restart if needed
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                        ======================================================================
+
+Processing videos:   3%|▏     | 74/2700 [08:42<12:35:29, 17.26s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]Processing videos:   3%|▏      | 75/2700 [08:42<8:55:29, 12.24s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: XWfqBKeC0g8
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9962 | Min=0.7299 | Range=[0.7299, 0.9962]
+  🎯 Threshold: 0.6974 (70.0% of max)
+  ✅ High-Score Frames: 30/30 (100.0%)
+  📍 First 10 indices: [0, 24, 48, 72, 96, 120, 144, 168, 192, 216]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏      | 75/2700 [08:42<8:55:29, 12.24s/it, video=ebzbKa32kuk, orig=70, new=17, final=86, dup=1]Processing videos:   3%|    | 75/2700 [08:47<8:55:29, 12.24s/it, video=XWfqBKeC0g8, orig=30, new=247, final=247, dup=30]Processing videos:   3%|    | 76/2700 [08:47<7:10:34,  9.85s/it, video=XWfqBKeC0g8, orig=30, new=247, final=247, dup=30]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: XWfqBKeC0g8
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9997 | Min=0.4939 | Range=[0.4939, 0.9997]
+  🎯 Threshold: 0.6998 (70.0% of max)
+  ✅ High-Score Frames: 29/30 (96.7%)
+  📍 First 10 indices: [0, 24, 48, 72, 96, 120, 144, 168, 192, 216]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|    | 76/2700 [08:47<7:10:34,  9.85s/it, video=XWfqBKeC0g8, orig=30, new=247, final=247, dup=30]Processing videos:   3%|    | 76/2700 [08:51<7:10:34,  9.85s/it, video=XWfqBKeC0g8, orig=30, new=241, final=241, dup=30]Processing videos:   3%|    | 77/2700 [08:51<5:52:15,  8.06s/it, video=XWfqBKeC0g8, orig=30, new=241, final=241, dup=30]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: XWfqBKeC0g8
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9687 | Min=0.1617 | Range=[0.1617, 0.9687]
+  🎯 Threshold: 0.6781 (70.0% of max)
+  ✅ High-Score Frames: 24/30 (80.0%)
+  📍 First 10 indices: [48, 72, 96, 120, 144, 168, 192, 216, 240, 264]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|    | 77/2700 [08:51<5:52:15,  8.06s/it, video=XWfqBKeC0g8, orig=30, new=241, final=241, dup=30]Processing videos:   3%|    | 77/2700 [08:54<5:52:15,  8.06s/it, video=XWfqBKeC0g8, orig=30, new=241, final=241, dup=30]Processing videos:   3%|    | 78/2700 [08:54<4:56:58,  6.80s/it, video=XWfqBKeC0g8, orig=30, new=241, final=241, dup=30]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tS4a6I4-Yjo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8931 | Min=0.0010 | Range=[0.0010, 0.8931]
+  🎯 Threshold: 0.6251 (70.0% of max)
+  ✅ High-Score Frames: 12/109 (11.0%)
+  📍 First 10 indices: [425, 450, 475, 500, 525, 550, 575, 600, 625, 650]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|    | 78/2700 [08:54<4:56:58,  6.80s/it, video=XWfqBKeC0g8, orig=30, new=241, final=241, dup=30]Processing videos:   3%|   | 78/2700 [09:00<4:56:58,  6.80s/it, video=tS4a6I4-Yjo, orig=109, new=327, final=421, dup=15]Processing videos:   3%|   | 79/2700 [09:00<4:36:07,  6.32s/it, video=tS4a6I4-Yjo, orig=109, new=327, final=421, dup=15]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tS4a6I4-Yjo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.3090 | Min=0.0012 | Range=[0.0012, 0.3090]
+  🎯 Threshold: 0.2163 (70.0% of max)
+  ✅ High-Score Frames: 1/109 (0.9%)
+  📍 First 10 indices: [525]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|   | 79/2700 [09:00<4:36:07,  6.32s/it, video=tS4a6I4-Yjo, orig=109, new=327, final=421, dup=15]Processing videos:   3%|▏    | 79/2700 [09:00<4:36:07,  6.32s/it, video=tS4a6I4-Yjo, orig=109, new=35, final=141, dup=3]Processing videos:   3%|▏    | 80/2700 [09:00<3:22:45,  4.64s/it, video=tS4a6I4-Yjo, orig=109, new=35, final=141, dup=3]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tS4a6I4-Yjo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.3002 | Min=0.0083 | Range=[0.0083, 0.3002]
+  🎯 Threshold: 0.2101 (70.0% of max)
+  ✅ High-Score Frames: 3/109 (2.8%)
+  📍 First 10 indices: [525, 650, 675]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏    | 80/2700 [09:00<3:22:45,  4.64s/it, video=tS4a6I4-Yjo, orig=109, new=35, final=141, dup=3]Processing videos:   3%|    | 80/2700 [09:02<3:22:45,  4.64s/it, video=tS4a6I4-Yjo, orig=109, new=104, final=205, dup=8]Processing videos:   3%|    | 81/2700 [09:02<2:44:53,  3.78s/it, video=tS4a6I4-Yjo, orig=109, new=104, final=205, dup=8]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TVkck1ACKDQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9998 | Min=0.0134 | Range=[0.0134, 0.9998]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 20/30 (66.7%)
+  📍 First 10 indices: [0, 25, 50, 75, 175, 200, 225, 250, 275, 300]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|    | 81/2700 [09:02<2:44:53,  3.78s/it, video=tS4a6I4-Yjo, orig=109, new=104, final=205, dup=8]Processing videos:   3%|    | 81/2700 [09:07<2:44:53,  3.78s/it, video=TVkck1ACKDQ, orig=30, new=496, final=502, dup=24]Processing videos:   3%|    | 82/2700 [09:07<2:58:40,  4.09s/it, video=TVkck1ACKDQ, orig=30, new=496, final=502, dup=24]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TVkck1ACKDQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5610 | Min=0.0256 | Range=[0.0256, 0.5610]
+  🎯 Threshold: 0.3927 (70.0% of max)
+  ✅ High-Score Frames: 6/30 (20.0%)
+  📍 First 10 indices: [0, 25, 400, 475, 550, 575]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|    | 82/2700 [09:07<2:58:40,  4.09s/it, video=TVkck1ACKDQ, orig=30, new=496, final=502, dup=24]Processing videos:   3%|    | 82/2700 [09:08<2:58:40,  4.09s/it, video=TVkck1ACKDQ, orig=30, new=148, final=166, dup=12]Processing videos:   3%|    | 83/2700 [09:08<2:23:14,  3.28s/it, video=TVkck1ACKDQ, orig=30, new=148, final=166, dup=12]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TVkck1ACKDQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.3318 | Min=0.0085 | Range=[0.0085, 0.3318]
+  🎯 Threshold: 0.2322 (70.0% of max)
+  ✅ High-Score Frames: 1/30 (3.3%)
+  📍 First 10 indices: [550]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|    | 83/2700 [09:08<2:23:14,  3.28s/it, video=TVkck1ACKDQ, orig=30, new=148, final=166, dup=12]Processing videos:   3%|▏      | 83/2700 [09:09<2:23:14,  3.28s/it, video=TVkck1ACKDQ, orig=30, new=35, final=62, dup=3]Processing videos:   3%|▏      | 84/2700 [09:09<1:44:47,  2.40s/it, video=TVkck1ACKDQ, orig=30, new=35, final=62, dup=3]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: JbDRs0ja3PE
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7569 | Min=0.0041 | Range=[0.0041, 0.7569]
+  🎯 Threshold: 0.5298 (70.0% of max)
+  ✅ High-Score Frames: 1/30 (3.3%)
+  📍 First 10 indices: [480]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏      | 84/2700 [09:09<1:44:47,  2.40s/it, video=TVkck1ACKDQ, orig=30, new=35, final=62, dup=3]Processing videos:   3%|▏      | 84/2700 [09:09<1:44:47,  2.40s/it, video=JbDRs0ja3PE, orig=30, new=41, final=66, dup=5]Processing videos:   3%|▏      | 85/2700 [09:09<1:22:20,  1.89s/it, video=JbDRs0ja3PE, orig=30, new=41, final=66, dup=5]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: JbDRs0ja3PE
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4852 | Min=0.0214 | Range=[0.0214, 0.4852]
+  🎯 Threshold: 0.3397 (70.0% of max)
+  ✅ High-Score Frames: 3/30 (10.0%)
+  📍 First 10 indices: [750, 780, 810]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏      | 85/2700 [09:09<1:22:20,  1.89s/it, video=JbDRs0ja3PE, orig=30, new=41, final=66, dup=5]Processing videos:   3%|▏      | 85/2700 [09:11<1:22:20,  1.89s/it, video=JbDRs0ja3PE, orig=30, new=61, final=84, dup=7]Processing videos:   3%|▏      | 86/2700 [09:11<1:13:40,  1.69s/it, video=JbDRs0ja3PE, orig=30, new=61, final=84, dup=7]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: JbDRs0ja3PE
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7712 | Min=0.0189 | Range=[0.0189, 0.7712]
+  🎯 Threshold: 0.5398 (70.0% of max)
+  ✅ High-Score Frames: 4/30 (13.3%)
+  📍 First 10 indices: [720, 780, 810, 840]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏      | 86/2700 [09:11<1:13:40,  1.69s/it, video=JbDRs0ja3PE, orig=30, new=61, final=84, dup=7]Processing videos:   3%|▏     | 86/2700 [09:12<1:13:40,  1.69s/it, video=JbDRs0ja3PE, orig=30, new=80, final=102, dup=8]Processing videos:   3%|▏     | 87/2700 [09:12<1:10:50,  1.63s/it, video=JbDRs0ja3PE, orig=30, new=80, final=102, dup=8]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 39HTpUG1MwQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9978 | Min=0.1389 | Range=[0.1389, 0.9978]
+  🎯 Threshold: 0.6984 (70.0% of max)
+  ✅ High-Score Frames: 90/102 (88.2%)
+  📍 First 10 indices: [225, 250, 275, 300, 325, 350, 375, 400, 425, 450]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏     | 87/2700 [09:12<1:10:50,  1.63s/it, video=JbDRs0ja3PE, orig=30, new=80, final=102, dup=8]Processing videos:   3%| | 87/2700 [09:47<1:10:50,  1.63s/it, video=39HTpUG1MwQ, orig=102, new=2277, final=2286, dup=93]Processing videos:   3%| | 88/2700 [09:47<8:29:27, 11.70s/it, video=39HTpUG1MwQ, orig=102, new=2277, final=2286, dup=93]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 39HTpUG1MwQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9876 | Min=0.0417 | Range=[0.0417, 0.9876]
+  🎯 Threshold: 0.6913 (70.0% of max)
+  ✅ High-Score Frames: 56/102 (54.9%)
+  📍 First 10 indices: [475, 500, 525, 550, 575, 600, 625, 650, 675, 700]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 88/2700 [09:47<8:29:27, 11.70s/it, video=39HTpUG1MwQ, orig=102, new=2277, final=2286, dup=93]Processing videos:   3%| | 88/2700 [10:10<8:29:27, 11.70s/it, video=39HTpUG1MwQ, orig=102, new=1474, final=1510, dup=66]Processing videos:   3%| | 89/2700 [10:10<10:48:56, 14.91s/it, video=39HTpUG1MwQ, orig=102, new=1474, final=1510, dup=66                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 39HTpUG1MwQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9962 | Min=0.0676 | Range=[0.0676, 0.9962]
+  🎯 Threshold: 0.6974 (70.0% of max)
+  ✅ High-Score Frames: 84/102 (82.4%)
+  📍 First 10 indices: [225, 250, 275, 300, 325, 350, 375, 400, 425, 450]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 89/2700 [10:10<10:48:56, 14.91s/it, video=39HTpUG1MwQ, orig=102, new=1474, final=1510, dup=66Processing videos:   3%| | 89/2700 [10:43<10:48:56, 14.91s/it, video=39HTpUG1MwQ, orig=102, new=2163, final=2174, dup=91Processing videos:   3%| | 90/2700 [10:43<14:46:25, 20.38s/it, video=39HTpUG1MwQ, orig=102, new=2163, final=2174, dup=91                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TPS22HRRY1k
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9998 | Min=0.0096 | Range=[0.0096, 0.9998]
+  🎯 Threshold: 0.6998 (70.0% of max)
+  ✅ High-Score Frames: 45/117 (38.5%)
+  📍 First 10 indices: [29, 58, 87, 116, 145, 174, 203, 232, 261, 290]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 90/2700 [10:43<14:46:25, 20.38s/it, video=39HTpUG1MwQ, orig=102, new=2163, final=2174, dup=91Processing videos:   3%| | 90/2700 [11:05<14:46:25, 20.38s/it, video=TPS22HRRY1k, orig=117, new=1430, final=1489, dup=58Processing videos:   3%| | 91/2700 [11:05<15:10:04, 20.93s/it, video=TPS22HRRY1k, orig=117, new=1430, final=1489, dup=58                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TPS22HRRY1k
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2861 | Min=0.0046 | Range=[0.0046, 0.2861]
+  🎯 Threshold: 0.2003 (70.0% of max)
+  ✅ High-Score Frames: 4/117 (3.4%)
+  📍 First 10 indices: [29, 145, 899, 1160]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%| | 91/2700 [11:05<15:10:04, 20.93s/it, video=TPS22HRRY1k, orig=117, new=1430, final=1489, dup=58Processing videos:   3%|  | 91/2700 [11:08<15:10:04, 20.93s/it, video=TPS22HRRY1k, orig=117, new=154, final=259, dup=12]Processing videos:   3%|  | 92/2700 [11:08<11:10:41, 15.43s/it, video=TPS22HRRY1k, orig=117, new=154, final=259, dup=12]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: TPS22HRRY1k
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8257 | Min=0.0387 | Range=[0.0387, 0.8257]
+  🎯 Threshold: 0.5780 (70.0% of max)
+  ✅ High-Score Frames: 17/117 (14.5%)
+  📍 First 10 indices: [29, 58, 87, 116, 145, 580, 609, 899, 1740, 2001]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|  | 92/2700 [11:08<11:10:41, 15.43s/it, video=TPS22HRRY1k, orig=117, new=154, final=259, dup=12]Processing videos:   3%|  | 92/2700 [11:16<11:10:41, 15.43s/it, video=TPS22HRRY1k, orig=117, new=568, final=655, dup=30]Processing videos:   3%|   | 93/2700 [11:16<9:40:49, 13.37s/it, video=TPS22HRRY1k, orig=117, new=568, final=655, dup=30]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: X30VlGh3HwQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9723 | Min=0.0006 | Range=[0.0006, 0.9723]
+  🎯 Threshold: 0.6806 (70.0% of max)
+  ✅ High-Score Frames: 25/99 (25.3%)
+  📍 First 10 indices: [638, 725, 841, 870, 1247, 1334, 1392, 1421, 1450, 1479]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|   | 93/2700 [11:16<9:40:49, 13.37s/it, video=TPS22HRRY1k, orig=117, new=568, final=655, dup=30]Processing videos:   3%|▏   | 93/2700 [11:29<9:40:49, 13.37s/it, video=X30VlGh3HwQ, orig=99, new=831, final=889, dup=41]Processing videos:   3%|▏   | 94/2700 [11:29<9:27:49, 13.07s/it, video=X30VlGh3HwQ, orig=99, new=831, final=889, dup=41]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: X30VlGh3HwQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9995 | Min=0.0034 | Range=[0.0034, 0.9995]
+  🎯 Threshold: 0.6997 (70.0% of max)
+  ✅ High-Score Frames: 23/99 (23.2%)
+  📍 First 10 indices: [145, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   3%|▏   | 94/2700 [11:29<9:27:49, 13.07s/it, video=X30VlGh3HwQ, orig=99, new=831, final=889, dup=41]Processing videos:   3%|▏   | 94/2700 [11:41<9:27:49, 13.07s/it, video=X30VlGh3HwQ, orig=99, new=791, final=853, dup=37]Processing videos:   4%|▏   | 95/2700 [11:41<9:12:56, 12.74s/it, video=X30VlGh3HwQ, orig=99, new=791, final=853, dup=37]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: X30VlGh3HwQ
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9945 | Min=0.0004 | Range=[0.0004, 0.9945]
+  🎯 Threshold: 0.6962 (70.0% of max)
+  ✅ High-Score Frames: 10/99 (10.1%)
+  📍 First 10 indices: [1566, 1595, 1624, 1653, 1682, 1711, 1740, 1769, 1798, 1827]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 95/2700 [11:41<9:12:56, 12.74s/it, video=X30VlGh3HwQ, orig=99, new=791, final=853, dup=37]Processing videos:   4%|▏   | 95/2700 [11:46<9:12:56, 12.74s/it, video=X30VlGh3HwQ, orig=99, new=323, final=409, dup=13]Processing videos:   4%|▏   | 96/2700 [11:46<7:33:17, 10.44s/it, video=X30VlGh3HwQ, orig=99, new=323, final=409, dup=13]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: zKyWRRJQbkM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9970 | Min=0.0004 | Range=[0.0004, 0.9970]
+  🎯 Threshold: 0.6979 (70.0% of max)
+  ✅ High-Score Frames: 36/117 (30.8%)
+  📍 First 10 indices: [0, 29, 58, 87, 116, 145, 174, 203, 232, 261]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 96/2700 [11:46<7:33:17, 10.44s/it, video=X30VlGh3HwQ, orig=99, new=323, final=409, dup=13]Processing videos:   4%| | 96/2700 [12:02<7:33:17, 10.44s/it, video=zKyWRRJQbkM, orig=117, new=1100, final=1169, dup=48]Processing videos:   4%| | 97/2700 [12:02<8:54:15, 12.31s/it, video=zKyWRRJQbkM, orig=117, new=1100, final=1169, dup=48]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: zKyWRRJQbkM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9774 | Min=0.0000 | Range=[0.0000, 0.9774]
+  🎯 Threshold: 0.6842 (70.0% of max)
+  ✅ High-Score Frames: 6/117 (5.1%)
+  📍 First 10 indices: [1624, 1682, 1711, 1740, 1769, 1798]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%| | 97/2700 [12:02<8:54:15, 12.31s/it, video=zKyWRRJQbkM, orig=117, new=1100, final=1169, dup=48]Processing videos:   4%|   | 97/2700 [12:05<8:54:15, 12.31s/it, video=zKyWRRJQbkM, orig=117, new=208, final=315, dup=10]Processing videos:   4%|   | 98/2700 [12:05<6:54:57,  9.57s/it, video=zKyWRRJQbkM, orig=117, new=208, final=315, dup=10]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: zKyWRRJQbkM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9998 | Min=0.0003 | Range=[0.0003, 0.9998]
+  🎯 Threshold: 0.6998 (70.0% of max)
+  ✅ High-Score Frames: 82/117 (70.1%)
+  📍 First 10 indices: [0, 29, 58, 87, 116, 145, 174, 203, 232, 261]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|   | 98/2700 [12:05<6:54:57,  9.57s/it, video=zKyWRRJQbkM, orig=117, new=208, final=315, dup=10]Processing videos:   4%| | 98/2700 [12:44<6:54:57,  9.57s/it, video=zKyWRRJQbkM, orig=117, new=2467, final=2487, dup=97]Processing videos:   4%| | 99/2700 [12:44<13:10:47, 18.24s/it, video=zKyWRRJQbkM, orig=117, new=2467, final=2487, dup=97                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: blSnLEZe-sI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.6297 | Min=0.0092 | Range=[0.0092, 0.6297]
+  🎯 Threshold: 0.4408 (70.0% of max)
+  ✅ High-Score Frames: 1/104 (1.0%)
+  📍 First 10 indices: [50]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%| | 99/2700 [12:44<13:10:47, 18.24s/it, video=zKyWRRJQbkM, orig=117, new=2467, final=2487, dup=97Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                        
+======================================================================
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                        💾 CHECKPOINT SAVED [100/2700]
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                        ======================================================================
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          GPU Memory: 0.00GB allocated, 0.00GB reserved
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          Videos processed: 100
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          With dense sampling: 100
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          Total frames: 70,970
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          Elapsed time: 12.75 min
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          Speed: 0.10 videos/sec
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                          ✅ Safe to restart if needed
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                        ======================================================================
+
+Processing videos:   4%|▏   | 99/2700 [12:45<13:10:47, 18.24s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]Processing videos:   4%|▏   | 100/2700 [12:45<9:21:33, 12.96s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: blSnLEZe-sI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2592 | Min=0.0080 | Range=[0.0080, 0.2592]
+  🎯 Threshold: 0.1814 (70.0% of max)
+  ✅ High-Score Frames: 7/104 (6.7%)
+  📍 First 10 indices: [0, 50, 1375, 1625, 1650, 2000, 2575]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 100/2700 [12:45<9:21:33, 12.96s/it, video=blSnLEZe-sI, orig=104, new=35, final=136, dup=3]Processing videos:   4%|  | 100/2700 [12:48<9:21:33, 12.96s/it, video=blSnLEZe-sI, orig=104, new=202, final=290, dup=16]Processing videos:   4%|  | 101/2700 [12:48<7:12:21,  9.98s/it, video=blSnLEZe-sI, orig=104, new=202, final=290, dup=16]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: blSnLEZe-sI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=1.0000 | Min=0.0002 | Range=[0.0002, 1.0000]
+  🎯 Threshold: 0.7000 (70.0% of max)
+  ✅ High-Score Frames: 9/104 (8.7%)
+  📍 First 10 indices: [1100, 1125, 1150, 1175, 1200, 1225, 1250, 1275, 1300]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 101/2700 [12:48<7:12:21,  9.98s/it, video=blSnLEZe-sI, orig=104, new=202, final=290, dup=16]Processing videos:   4%|  | 101/2700 [12:52<7:12:21,  9.98s/it, video=blSnLEZe-sI, orig=104, new=252, final=344, dup=12]Processing videos:   4%|  | 102/2700 [12:52<5:56:18,  8.23s/it, video=blSnLEZe-sI, orig=104, new=252, final=344, dup=12]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: Gh_GtYtQoVI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2868 | Min=0.0015 | Range=[0.0015, 0.2868]
+  🎯 Threshold: 0.2008 (70.0% of max)
+  ✅ High-Score Frames: 3/85 (3.5%)
+  📍 First 10 indices: [400, 425, 550]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 102/2700 [12:52<5:56:18,  8.23s/it, video=blSnLEZe-sI, orig=104, new=252, final=344, dup=12]Processing videos:   4%|▏   | 102/2700 [12:53<5:56:18,  8.23s/it, video=Gh_GtYtQoVI, orig=85, new=104, final=181, dup=8]Processing videos:   4%|▏   | 103/2700 [12:53<4:29:37,  6.23s/it, video=Gh_GtYtQoVI, orig=85, new=104, final=181, dup=8]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: Gh_GtYtQoVI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9998 | Min=0.0128 | Range=[0.0128, 0.9998]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 62/85 (72.9%)
+  📍 First 10 indices: [100, 125, 150, 175, 200, 475, 500, 525, 550, 575]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 103/2700 [12:53<4:29:37,  6.23s/it, video=Gh_GtYtQoVI, orig=85, new=104, final=181, dup=8]Processing videos:   4%| | 103/2700 [13:18<4:29:37,  6.23s/it, video=Gh_GtYtQoVI, orig=85, new=1604, final=1621, dup=68]Processing videos:   4%| | 104/2700 [13:18<8:31:17, 11.82s/it, video=Gh_GtYtQoVI, orig=85, new=1604, final=1621, dup=68]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: Gh_GtYtQoVI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9722 | Min=0.0675 | Range=[0.0675, 0.9722]
+  🎯 Threshold: 0.6806 (70.0% of max)
+  ✅ High-Score Frames: 59/85 (69.4%)
+  📍 First 10 indices: [0, 50, 75, 100, 125, 150, 175, 200, 550, 575]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%| | 104/2700 [13:18<8:31:17, 11.82s/it, video=Gh_GtYtQoVI, orig=85, new=1604, final=1621, dup=68]Processing videos:   4%| | 104/2700 [13:42<8:31:17, 11.82s/it, video=Gh_GtYtQoVI, orig=85, new=1523, final=1541, dup=67]Processing videos:   4%| | 105/2700 [13:42<11:02:58, 15.33s/it, video=Gh_GtYtQoVI, orig=85, new=1523, final=1541, dup=67                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: MXKDvuEkSF0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9641 | Min=0.0151 | Range=[0.0151, 0.9641]
+  🎯 Threshold: 0.6749 (70.0% of max)
+  ✅ High-Score Frames: 12/105 (11.4%)
+  📍 First 10 indices: [92, 115, 368, 414, 437, 460, 483, 506, 529, 552]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%| | 105/2700 [13:42<11:02:58, 15.33s/it, video=Gh_GtYtQoVI, orig=85, new=1523, final=1541, dup=67Processing videos:   4%| | 105/2700 [13:48<11:02:58, 15.33s/it, video=MXKDvuEkSF0, orig=105, new=429, final=513, dup=21]Processing videos:   4%|  | 106/2700 [13:48<9:08:53, 12.70s/it, video=MXKDvuEkSF0, orig=105, new=429, final=513, dup=21]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: MXKDvuEkSF0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9999 | Min=0.0001 | Range=[0.0001, 0.9999]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 17/105 (16.2%)
+  📍 First 10 indices: [1679, 1702, 1725, 1748, 1771, 1794, 1817, 1840, 1863, 1886]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 106/2700 [13:48<9:08:53, 12.70s/it, video=MXKDvuEkSF0, orig=105, new=429, final=513, dup=21]Processing videos:   4%|  | 106/2700 [13:56<9:08:53, 12.70s/it, video=MXKDvuEkSF0, orig=105, new=517, final=597, dup=25]Processing videos:   4%|  | 107/2700 [13:56<8:01:00, 11.13s/it, video=MXKDvuEkSF0, orig=105, new=517, final=597, dup=25]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: MXKDvuEkSF0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8872 | Min=0.0013 | Range=[0.0013, 0.8872]
+  🎯 Threshold: 0.6211 (70.0% of max)
+  ✅ High-Score Frames: 4/105 (3.8%)
+  📍 First 10 indices: [437, 460, 483, 506]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 107/2700 [13:56<8:01:00, 11.13s/it, video=MXKDvuEkSF0, orig=105, new=517, final=597, dup=25]Processing videos:   4%|   | 107/2700 [13:58<8:01:00, 11.13s/it, video=MXKDvuEkSF0, orig=105, new=142, final=241, dup=6]Processing videos:   4%|   | 108/2700 [13:58<6:05:38,  8.46s/it, video=MXKDvuEkSF0, orig=105, new=142, final=241, dup=6]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: EQ-67udZEeg
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9848 | Min=0.0179 | Range=[0.0179, 0.9848]
+  🎯 Threshold: 0.6893 (70.0% of max)
+  ✅ High-Score Frames: 30/107 (28.0%)
+  📍 First 10 indices: [87, 116, 1653, 1885, 1914, 1943, 1972, 2001, 2030, 2059]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|   | 108/2700 [13:58<6:05:38,  8.46s/it, video=MXKDvuEkSF0, orig=105, new=142, final=241, dup=6]Processing videos:   4%| | 108/2700 [14:13<6:05:38,  8.46s/it, video=EQ-67udZEeg, orig=107, new=1004, final=1067, dup=44Processing videos:   4%| | 109/2700 [14:13<7:27:59, 10.37s/it, video=EQ-67udZEeg, orig=107, new=1004, final=1067, dup=44                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: EQ-67udZEeg
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9998 | Min=0.0050 | Range=[0.0050, 0.9998]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 23/107 (21.5%)
+  📍 First 10 indices: [1537, 1566, 1595, 1624, 1653, 1682, 1711, 1740, 1769, 1798]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%| | 109/2700 [14:13<7:27:59, 10.37s/it, video=EQ-67udZEeg, orig=107, new=1004, final=1067, dup=44Processing videos:   4%|  | 109/2700 [14:23<7:27:59, 10.37s/it, video=EQ-67udZEeg, orig=107, new=700, final=781, dup=26]Processing videos:   4%|  | 110/2700 [14:23<7:26:16, 10.34s/it, video=EQ-67udZEeg, orig=107, new=700, final=781, dup=26]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: EQ-67udZEeg
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9996 | Min=0.0082 | Range=[0.0082, 0.9996]
+  🎯 Threshold: 0.6997 (70.0% of max)
+  ✅ High-Score Frames: 28/107 (26.2%)
+  📍 First 10 indices: [29, 58, 87, 116, 174, 203, 232, 261, 290, 1160]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 110/2700 [14:23<7:26:16, 10.34s/it, video=EQ-67udZEeg, orig=107, new=700, final=781, dup=26]Processing videos:   4%|  | 110/2700 [14:37<7:26:16, 10.34s/it, video=EQ-67udZEeg, orig=107, new=924, final=989, dup=42]Processing videos:   4%|  | 111/2700 [14:37<8:08:43, 11.33s/it, video=EQ-67udZEeg, orig=107, new=924, final=989, dup=42]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: GqeRnxSuLFI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9931 | Min=0.0006 | Range=[0.0006, 0.9931]
+  🎯 Threshold: 0.6952 (70.0% of max)
+  ✅ High-Score Frames: 6/53 (11.3%)
+  📍 First 10 indices: [264, 288, 312, 792, 816, 840]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 111/2700 [14:37<8:08:43, 11.33s/it, video=EQ-67udZEeg, orig=107, new=924, final=989, dup=42]Processing videos:   4%|▏   | 111/2700 [14:38<8:08:43, 11.33s/it, video=GqeRnxSuLFI, orig=53, new=98, final=137, dup=14]Processing videos:   4%|▏   | 112/2700 [14:38<6:04:07,  8.44s/it, video=GqeRnxSuLFI, orig=53, new=98, final=137, dup=14]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: GqeRnxSuLFI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5458 | Min=0.0451 | Range=[0.0451, 0.5458]
+  🎯 Threshold: 0.3820 (70.0% of max)
+  ✅ High-Score Frames: 8/53 (15.1%)
+  📍 First 10 indices: [0, 24, 48, 72, 96, 120, 144, 888]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 112/2700 [14:38<6:04:07,  8.44s/it, video=GqeRnxSuLFI, orig=53, new=98, final=137, dup=14]Processing videos:   4%|▏   | 112/2700 [14:40<6:04:07,  8.44s/it, video=GqeRnxSuLFI, orig=53, new=98, final=137, dup=14]Processing videos:   4%|▏   | 113/2700 [14:40<4:33:59,  6.35s/it, video=GqeRnxSuLFI, orig=53, new=98, final=137, dup=14]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: GqeRnxSuLFI
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4284 | Min=0.0039 | Range=[0.0039, 0.4284]
+  🎯 Threshold: 0.2999 (70.0% of max)
+  ✅ High-Score Frames: 4/53 (7.5%)
+  📍 First 10 indices: [624, 888, 912, 936]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 113/2700 [14:40<4:33:59,  6.35s/it, video=GqeRnxSuLFI, orig=53, new=98, final=137, dup=14]Processing videos:   4%|▏   | 113/2700 [14:41<4:33:59,  6.35s/it, video=GqeRnxSuLFI, orig=53, new=82, final=123, dup=12]Processing videos:   4%|▏   | 114/2700 [14:41<3:32:01,  4.92s/it, video=GqeRnxSuLFI, orig=53, new=82, final=123, dup=12]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: XOJKiOw8Xqo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8314 | Min=0.0037 | Range=[0.0037, 0.8314]
+  🎯 Threshold: 0.5820 (70.0% of max)
+  ✅ High-Score Frames: 6/115 (5.2%)
+  📍 First 10 indices: [58, 928, 957, 986, 1015, 1044]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏   | 114/2700 [14:41<3:32:01,  4.92s/it, video=GqeRnxSuLFI, orig=53, new=82, final=123, dup=12]Processing videos:   4%|  | 114/2700 [14:45<3:32:01,  4.92s/it, video=XOJKiOw8Xqo, orig=115, new=219, final=323, dup=11]Processing videos:   4%|  | 115/2700 [14:45<3:14:01,  4.50s/it, video=XOJKiOw8Xqo, orig=115, new=219, final=323, dup=11]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: XOJKiOw8Xqo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9999 | Min=0.0005 | Range=[0.0005, 0.9999]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 3/115 (2.6%)
+  📍 First 10 indices: [754, 783, 812]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 115/2700 [14:45<3:14:01,  4.50s/it, video=XOJKiOw8Xqo, orig=115, new=219, final=323, dup=11]Processing videos:   4%|▏  | 115/2700 [14:47<3:14:01,  4.50s/it, video=XOJKiOw8Xqo, orig=115, new=120, final=229, dup=6]Processing videos:   4%|▏  | 116/2700 [14:47<2:38:41,  3.68s/it, video=XOJKiOw8Xqo, orig=115, new=120, final=229, dup=6]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: XOJKiOw8Xqo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7536 | Min=0.0818 | Range=[0.0818, 0.7536]
+  🎯 Threshold: 0.5275 (70.0% of max)
+  ✅ High-Score Frames: 8/115 (7.0%)
+  📍 First 10 indices: [493, 1305, 1334, 1363, 1972, 2958, 2987, 3016]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏  | 116/2700 [14:47<2:38:41,  3.68s/it, video=XOJKiOw8Xqo, orig=115, new=120, final=229, dup=6]Processing videos:   4%|  | 116/2700 [14:52<2:38:41,  3.68s/it, video=XOJKiOw8Xqo, orig=115, new=322, final=419, dup=18]Processing videos:   4%|  | 117/2700 [14:52<2:56:43,  4.11s/it, video=XOJKiOw8Xqo, orig=115, new=322, final=419, dup=18]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5ksVshqVuiM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2668 | Min=0.0279 | Range=[0.0279, 0.2668]
+  🎯 Threshold: 0.1867 (70.0% of max)
+  ✅ High-Score Frames: 9/77 (11.7%)
+  📍 First 10 indices: [408, 432, 456, 480, 696, 936, 1320, 1344, 1368]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|  | 117/2700 [14:52<2:56:43,  4.11s/it, video=XOJKiOw8Xqo, orig=115, new=322, final=419, dup=18]Processing videos:   4%|▏  | 117/2700 [14:55<2:56:43,  4.11s/it, video=5ksVshqVuiM, orig=77, new=172, final=224, dup=25]Processing videos:   4%|▏  | 118/2700 [14:55<2:41:07,  3.74s/it, video=5ksVshqVuiM, orig=77, new=172, final=224, dup=25]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5ksVshqVuiM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9727 | Min=0.0153 | Range=[0.0153, 0.9727]
+  🎯 Threshold: 0.6809 (70.0% of max)
+  ✅ High-Score Frames: 20/77 (26.0%)
+  📍 First 10 indices: [1008, 1032, 1056, 1080, 1104, 1128, 1344, 1368, 1416, 1440]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏  | 118/2700 [14:55<2:41:07,  3.74s/it, video=5ksVshqVuiM, orig=77, new=172, final=224, dup=25]Processing videos:   4%|▏  | 118/2700 [14:58<2:41:07,  3.74s/it, video=5ksVshqVuiM, orig=77, new=218, final=266, dup=29]Processing videos:   4%|▏  | 119/2700 [14:58<2:38:41,  3.69s/it, video=5ksVshqVuiM, orig=77, new=218, final=266, dup=29]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 5ksVshqVuiM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4345 | Min=0.0241 | Range=[0.0241, 0.4345]
+  🎯 Threshold: 0.3042 (70.0% of max)
+  ✅ High-Score Frames: 21/77 (27.3%)
+  📍 First 10 indices: [0, 24, 48, 72, 312, 336, 360, 384, 408, 432]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏  | 119/2700 [14:58<2:38:41,  3.69s/it, video=5ksVshqVuiM, orig=77, new=218, final=266, dup=29]Processing videos:   4%|▏  | 119/2700 [15:03<2:38:41,  3.69s/it, video=5ksVshqVuiM, orig=77, new=277, final=315, dup=39]Processing videos:   4%|▏  | 120/2700 [15:03<2:49:30,  3.94s/it, video=5ksVshqVuiM, orig=77, new=277, final=315, dup=39]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: yl5ZXQmrtP0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9998 | Min=0.0014 | Range=[0.0014, 0.9998]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 23/73 (31.5%)
+  📍 First 10 indices: [609, 638, 667, 696, 725, 754, 783, 812, 841, 870]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏  | 120/2700 [15:03<2:49:30,  3.94s/it, video=5ksVshqVuiM, orig=77, new=277, final=315, dup=39]Processing videos:   4%|▏  | 120/2700 [15:14<2:49:30,  3.94s/it, video=yl5ZXQmrtP0, orig=73, new=756, final=797, dup=32]Processing videos:   4%|▏  | 121/2700 [15:14<4:25:00,  6.17s/it, video=yl5ZXQmrtP0, orig=73, new=756, final=797, dup=32]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: yl5ZXQmrtP0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8388 | Min=0.0020 | Range=[0.0020, 0.8388]
+  🎯 Threshold: 0.5871 (70.0% of max)
+  ✅ High-Score Frames: 11/73 (15.1%)
+  📍 First 10 indices: [174, 348, 696, 725, 754, 783, 812, 841, 899, 1740]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   4%|▏  | 121/2700 [15:14<4:25:00,  6.17s/it, video=yl5ZXQmrtP0, orig=73, new=756, final=797, dup=32]Processing videos:   4%|▏  | 121/2700 [15:20<4:25:00,  6.17s/it, video=yl5ZXQmrtP0, orig=73, new=399, final=451, dup=21]Processing videos:   5%|▏  | 122/2700 [15:20<4:24:32,  6.16s/it, video=yl5ZXQmrtP0, orig=73, new=399, final=451, dup=21]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: yl5ZXQmrtP0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4943 | Min=0.0034 | Range=[0.0034, 0.4943]
+  🎯 Threshold: 0.3460 (70.0% of max)
+  ✅ High-Score Frames: 9/73 (12.3%)
+  📍 First 10 indices: [609, 667, 696, 725, 754, 783, 841, 870, 899]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|▏  | 122/2700 [15:20<4:24:32,  6.16s/it, video=yl5ZXQmrtP0, orig=73, new=399, final=451, dup=21]Processing videos:   5%|▏  | 122/2700 [15:25<4:24:32,  6.16s/it, video=yl5ZXQmrtP0, orig=73, new=306, final=365, dup=14]Processing videos:   5%|▏  | 123/2700 [15:25<4:07:44,  5.77s/it, video=yl5ZXQmrtP0, orig=73, new=306, final=365, dup=14]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: kRlhlCWplqk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9950 | Min=0.0102 | Range=[0.0102, 0.9950]
+  🎯 Threshold: 0.6965 (70.0% of max)
+  ✅ High-Score Frames: 53/110 (48.2%)
+  📍 First 10 indices: [60, 330, 360, 630, 660, 690, 720, 750, 960, 990]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|▏  | 123/2700 [15:25<4:07:44,  5.77s/it, video=yl5ZXQmrtP0, orig=73, new=306, final=365, dup=14]Processing videos:   5%|  | 123/2700 [15:33<4:07:44,  5.77s/it, video=kRlhlCWplqk, orig=110, new=825, final=848, dup=87]Processing videos:   5%|  | 124/2700 [15:33<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=825, final=848, dup=87]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: kRlhlCWplqk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8019 | Min=0.0109 | Range=[0.0109, 0.8019]
+  🎯 Threshold: 0.5613 (70.0% of max)
+  ✅ High-Score Frames: 29/110 (26.4%)
+  📍 First 10 indices: [180, 420, 450, 480, 600, 630, 1260, 1290, 1320, 1350]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|  | 124/2700 [15:33<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=825, final=848, dup=87]Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                        
+======================================================================
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                        💾 CHECKPOINT SAVED [125/2700]
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                        ======================================================================
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          GPU Memory: 0.00GB allocated, 0.00GB reserved
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          Videos processed: 125
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          With dense sampling: 125
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          Total frames: 84,383
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          Elapsed time: 15.65 min
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          Speed: 0.11 videos/sec
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                          ✅ Safe to restart if needed
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                        ======================================================================
+
+Processing videos:   5%|  | 124/2700 [15:38<4:32:19,  6.34s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]Processing videos:   5%|  | 125/2700 [15:38<4:22:48,  6.12s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: kRlhlCWplqk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.4426 | Min=0.0069 | Range=[0.0069, 0.4426]
+  🎯 Threshold: 0.3098 (70.0% of max)
+  ✅ High-Score Frames: 35/110 (31.8%)
+  📍 First 10 indices: [180, 420, 480, 570, 600, 630, 690, 1380, 1410, 1440]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|  | 125/2700 [15:38<4:22:48,  6.12s/it, video=kRlhlCWplqk, orig=110, new=567, final=614, dup=63]Processing videos:   5%|  | 125/2700 [15:44<4:22:48,  6.12s/it, video=kRlhlCWplqk, orig=110, new=605, final=650, dup=65]Processing videos:   5%|  | 126/2700 [15:44<4:16:35,  5.98s/it, video=kRlhlCWplqk, orig=110, new=605, final=650, dup=65]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 9jjTGpWmc5U
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8760 | Min=0.0005 | Range=[0.0005, 0.8760]
+  🎯 Threshold: 0.6132 (70.0% of max)
+  ✅ High-Score Frames: 7/117 (6.0%)
+  📍 First 10 indices: [690, 851, 874, 897, 1219, 1242, 1288]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|  | 126/2700 [15:44<4:16:35,  5.98s/it, video=kRlhlCWplqk, orig=110, new=605, final=650, dup=65]Processing videos:   5%|  | 126/2700 [15:49<4:16:35,  5.98s/it, video=9jjTGpWmc5U, orig=117, new=288, final=391, dup=14]Processing videos:   5%|  | 127/2700 [15:49<4:00:40,  5.61s/it, video=9jjTGpWmc5U, orig=117, new=288, final=391, dup=14]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 9jjTGpWmc5U
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2016 | Min=0.0011 | Range=[0.0011, 0.2016]
+  🎯 Threshold: 0.1411 (70.0% of max)
+  ✅ High-Score Frames: 3/117 (2.6%)
+  📍 First 10 indices: [1587, 1633, 1656]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|  | 127/2700 [15:49<4:00:40,  5.61s/it, video=9jjTGpWmc5U, orig=117, new=288, final=391, dup=14]Processing videos:   5%|▏  | 127/2700 [15:51<4:00:40,  5.61s/it, video=9jjTGpWmc5U, orig=117, new=120, final=231, dup=6]Processing videos:   5%|▏  | 128/2700 [15:51<3:11:09,  4.46s/it, video=9jjTGpWmc5U, orig=117, new=120, final=231, dup=6]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 9jjTGpWmc5U
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9661 | Min=0.0066 | Range=[0.0066, 0.9661]
+  🎯 Threshold: 0.6763 (70.0% of max)
+  ✅ High-Score Frames: 23/117 (19.7%)
+  📍 First 10 indices: [1633, 1656, 1771, 1794, 1817, 1840, 1863, 1978, 2001, 2024]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   5%|▏  | 128/2700 [15:51<3:11:09,  4.46s/it, video=9jjTGpWmc5U, orig=117, new=120, final=231, dup=6]

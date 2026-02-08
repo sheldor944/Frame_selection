@@ -8,23 +8,23 @@ from typing import List, Tuple, Dict
 def parse_arguments():
     parser = argparse.ArgumentParser(description='DBFP: Diffusion-Based Frame Propagation')
     
-    parser.add_argument('--dataset_name', type=str, default='longvideobench', 
+    parser.add_argument('--dataset_name', type=str, default='videomme', 
                         help='Dataset name: longvideobench or videomme')
-    parser.add_argument('--extract_feature_model', type=str, default='blip', 
+    parser.add_argument('--extract_feature_model', type=str, default='clip', 
                         help='Feature extraction model: blip/clip/sevila')
     parser.add_argument('--score_path', type=str, 
-                        default='./outscores/longvideobench/blip/scores.json',
+                        default='./outscores/videomme/clip/scores.json',
                         help='Path to input scores JSON file')
     parser.add_argument('--frame_path', type=str, 
-                        default='./outscores/longvideobench/blip/frames.json',
+                        default='./outscores/videomme/clip/frames.json',
                         help='Path to input frame IDs JSON file')
-    parser.add_argument('--max_num_frames', type=int, default=16,
+    parser.add_argument('--max_num_frames', type=int, default=32,
                         help='Maximum number of frames to select')
     parser.add_argument('--ratio', type=int, default=1,
                         help='Sampling ratio for initial frame selection')
-    parser.add_argument('--alpha', type=float, default=0.75,
+    parser.add_argument('--alpha', type=float, default=0.85,
                         help='Diffusion decay factor (0-1): controls original vs neighbor influence')
-    parser.add_argument('--diffusion_iterations', type=int, default=None,
+    parser.add_argument('--diffusion_iterations', type=int, default=1,
                         help='Number of diffusion iterations (default: log2(N))')
     parser.add_argument('--suppression_radius', type=float, default=3,
                         help='Temporal suppression radius (default: N/M)')

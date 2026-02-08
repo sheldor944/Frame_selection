@@ -1,0 +1,5 @@
+hash,filename,descriptive_name,timestamp,dataset,model,method
+4425716000b9,selected_4425716000b9.json,"DBFP_videomme_clip_k32_alpha0.85_gaussian_r[2.0,3.0,5.0]_l[1.0,1.5,2.0]_gaussian_params_ovlp2.0",2025-12-07 18:26:22,videomme,clip,gaussian
+f9f619252cb8,selected_f9f619252cb8.json,"DBFP_videomme_clip_k32_alpha0.85_gaussian_r[2.0,3.0,5.0]_l[1.0,1.5,2.0]_gaussian_params_ovlp2.0",2025-12-07 18:27:41,videomme,clip,gaussian
+13a36f17e2b0,selected_13a36f17e2b0.json,"DBFP_videomme_clip_k32_alpha0.85_gaussian_r[2.0,3.0,5.0]_l[1.0,1.5,2.0]_gaussian_params_ovlp2.0",2025-12-07 18:27:48,videomme,clip,gaussian
+3272058e361b,selected_3272058e361b.json,"DBFP_videomme_clip_k32_alpha0.85_gaussian_r[2.0,3.0,5.0]_l[1.0,1.5,2.0]_gaussian_params_ovlp2.0",2025-12-07 18:27:55,videomme,clip,gaussian

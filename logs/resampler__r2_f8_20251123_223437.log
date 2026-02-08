@@ -1,0 +1,694 @@
+
+======================================================================
+DENSE SAMPLING AROUND HIGH-SCORE FRAMES
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 1 seconds
+Dense FPS: 4.0
+Model: blip
+======================================================================
+
+Loading existing frames and scores...
+Frames file: 2700 videos
+Scores file: 2700 videos
+Processing 2700 videos (limited by --num_videos)
+
+[cuda:0] Loading blip model...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[cuda:0] Model loaded
+
+Processing videos...
+
+Dense sampling:   0%|          | 0/2700 [00:00<?, ?it/s]  Max score: 0.9921
+  Threshold (70.0% of max): 0.6945
+  Score range: [0.0000, 0.9921]
+  Found 13 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 1/2700 [00:07<5:26:55,  7.27s/it]  Max score: 0.2837
+  Threshold (70.0% of max): 0.1986
+  Score range: [0.0009, 0.2837]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 2/2700 [00:07<2:33:18,  3.41s/it]  Max score: 0.9982
+  Threshold (70.0% of max): 0.6987
+  Score range: [0.0000, 0.9982]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 3/2700 [00:11<2:26:09,  3.25s/it]  Max score: 0.9370
+  Threshold (70.0% of max): 0.6559
+  Score range: [0.1544, 0.9370]
+  Found 55 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 4/2700 [00:44<11:16:00, 15.04s/it]  Max score: 0.9236
+  Threshold (70.0% of max): 0.6465
+  Score range: [0.0033, 0.9236]
+  Found 56 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 5/2700 [01:12<14:56:41, 19.96s/it]  Max score: 0.9880
+  Threshold (70.0% of max): 0.6916
+  Score range: [0.0180, 0.9880]
+  Found 31 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 6/2700 [01:26<13:16:48, 17.75s/it]  Max score: 0.4331
+  Threshold (70.0% of max): 0.3032
+  Score range: [0.0000, 0.4331]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 7/2700 [01:26<9:03:11, 12.10s/it]   Max score: 0.9694
+  Threshold (70.0% of max): 0.6786
+  Score range: [0.0012, 0.9694]
+  Found 13 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 8/2700 [01:32<7:33:40, 10.11s/it]  Max score: 0.8941
+  Threshold (70.0% of max): 0.6259
+  Score range: [0.0007, 0.8941]
+  Found 2 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 9/2700 [01:34<5:31:55,  7.40s/it]  Max score: 0.9982
+  Threshold (70.0% of max): 0.6988
+  Score range: [0.9583, 0.9982]
+  Found 97 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 10/2700 [02:21<14:45:17, 19.75s/it]  Max score: 0.9990
+  Threshold (70.0% of max): 0.6993
+  Score range: [0.8170, 0.9990]
+  Found 97 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 11/2700 [03:02<19:40:30, 26.34s/it]  Max score: 0.9989
+  Threshold (70.0% of max): 0.6993
+  Score range: [0.8534, 0.9989]
+  Found 97 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 12/2700 [03:41<22:34:05, 30.23s/it]  Max score: 0.8713
+  Threshold (70.0% of max): 0.6099
+  Score range: [0.0004, 0.8713]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 13/2700 [03:42<15:51:10, 21.24s/it]  Max score: 0.8846
+  Threshold (70.0% of max): 0.6192
+  Score range: [0.0427, 0.8846]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 14/2700 [03:45<11:42:46, 15.70s/it]  Max score: 0.8430
+  Threshold (70.0% of max): 0.5901
+  Score range: [0.0025, 0.8430]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 15/2700 [03:48<8:48:06, 11.80s/it]   Max score: 0.9033
+  Threshold (70.0% of max): 0.6323
+  Score range: [0.0080, 0.9033]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 16/2700 [03:51<6:53:58,  9.25s/it]  Max score: 1.0000
+  Threshold (70.0% of max): 0.7000
+  Score range: [0.0165, 1.0000]
+  Found 59 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 17/2700 [04:21<11:36:09, 15.57s/it]  Max score: 0.9928
+  Threshold (70.0% of max): 0.6950
+  Score range: [0.0014, 0.9928]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 18/2700 [04:24<8:50:15, 11.86s/it]   Max score: 0.9715
+  Threshold (70.0% of max): 0.6801
+  Score range: [0.0007, 0.9715]
+  Found 5 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 19/2700 [04:28<6:52:29,  9.23s/it]  Max score: 0.9995
+  Threshold (70.0% of max): 0.6997
+  Score range: [0.0107, 0.9995]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 20/2700 [04:30<5:17:40,  7.11s/it]  Max score: 0.9365
+  Threshold (70.0% of max): 0.6555
+  Score range: [0.0008, 0.9365]
+  Found 2 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 21/2700 [04:31<3:55:29,  5.27s/it]  Max score: 0.9986
+  Threshold (70.0% of max): 0.6990
+  Score range: [0.0008, 0.9986]
+  Found 38 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 22/2700 [04:55<8:05:24, 10.88s/it]  Max score: 0.9710
+  Threshold (70.0% of max): 0.6797
+  Score range: [0.0000, 0.9710]
+  Found 13 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 23/2700 [05:00<6:53:42,  9.27s/it]  Max score: 0.2480
+  Threshold (70.0% of max): 0.1736
+  Score range: [0.0019, 0.2480]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 24/2700 [05:02<5:08:57,  6.93s/it]  Max score: 0.7925
+  Threshold (70.0% of max): 0.5548
+  Score range: [0.0008, 0.7925]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 25/2700 [05:04<4:13:14,  5.68s/it]  Max score: 0.9972
+  Threshold (70.0% of max): 0.6980
+  Score range: [0.0345, 0.9972]
+  Found 35 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 26/2700 [05:23<7:11:04,  9.67s/it]  Max score: 0.9702
+  Threshold (70.0% of max): 0.6792
+  Score range: [0.0013, 0.9702]
+  Found 21 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 27/2700 [05:35<7:43:11, 10.40s/it]  Max score: 0.2644
+  Threshold (70.0% of max): 0.1851
+  Score range: [0.0174, 0.2644]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 28/2700 [05:39<6:09:42,  8.30s/it]  Max score: 0.1364
+  Threshold (70.0% of max): 0.0955
+  Score range: [0.0002, 0.1364]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 29/2700 [05:42<5:05:04,  6.85s/it]  Max score: 0.8573
+  Threshold (70.0% of max): 0.6001
+  Score range: [0.0051, 0.8573]
+  Found 11 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 30/2700 [05:47<4:41:26,  6.32s/it]  Max score: 0.2075
+  Threshold (70.0% of max): 0.1453
+  Score range: [0.0056, 0.2075]
+  Found 8 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 31/2700 [05:50<3:55:13,  5.29s/it]  Max score: 0.2030
+  Threshold (70.0% of max): 0.1421
+  Score range: [0.0003, 0.2030]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 32/2700 [05:53<3:17:47,  4.45s/it]  Max score: 0.6818
+  Threshold (70.0% of max): 0.4773
+  Score range: [0.0041, 0.6818]
+  Found 73 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|          | 33/2700 [06:29<10:25:36, 14.07s/it]  Max score: 0.9989
+  Threshold (70.0% of max): 0.6992
+  Score range: [0.0152, 0.9989]
+  Found 19 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 34/2700 [06:40<9:35:24, 12.95s/it]   Max score: 0.9850
+  Threshold (70.0% of max): 0.6895
+  Score range: [0.0110, 0.9850]
+  Found 20 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 35/2700 [06:47<8:20:00, 11.26s/it]  Max score: 0.7428
+  Threshold (70.0% of max): 0.5199
+  Score range: [0.0371, 0.7428]
+  Found 2 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 36/2700 [06:48<6:01:06,  8.13s/it]  Max score: 0.9976
+  Threshold (70.0% of max): 0.6983
+  Score range: [0.0055, 0.9976]
+  Found 60 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 37/2700 [07:12<9:33:39, 12.93s/it]  Max score: 0.5155
+  Threshold (70.0% of max): 0.3608
+  Score range: [0.0305, 0.5155]
+  Found 8 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 38/2700 [07:15<7:21:37,  9.95s/it]  Max score: 0.9912
+  Threshold (70.0% of max): 0.6939
+  Score range: [0.0005, 0.9912]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 39/2700 [07:16<5:27:34,  7.39s/it]  Max score: 1.0000
+  Threshold (70.0% of max): 0.7000
+  Score range: [0.0027, 1.0000]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   1%|▏         | 40/2700 [07:18<4:15:19,  5.76s/it]  Max score: 1.0000
+  Threshold (70.0% of max): 0.7000
+  Score range: [0.0042, 1.0000]
+  Found 19 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 41/2700 [07:26<4:38:44,  6.29s/it]  Max score: 1.0000
+  Threshold (70.0% of max): 0.7000
+  Score range: [0.0008, 1.0000]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 42/2700 [07:29<3:52:18,  5.24s/it]  Max score: 0.8850
+  Threshold (70.0% of max): 0.6195
+  Score range: [0.0011, 0.8850]
+  Found 16 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 43/2700 [07:39<4:57:02,  6.71s/it]  Max score: 0.9964
+  Threshold (70.0% of max): 0.6975
+  Score range: [0.0009, 0.9964]
+  Found 51 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 44/2700 [08:02<8:42:31, 11.80s/it]  Max score: 0.4371
+  Threshold (70.0% of max): 0.3060
+  Score range: [0.0116, 0.4371]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 45/2700 [08:05<6:46:04,  9.18s/it]  Max score: 0.9889
+  Threshold (70.0% of max): 0.6923
+  Score range: [0.0017, 0.9889]
+  Found 48 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 46/2700 [08:21<8:06:56, 11.01s/it]  Max score: 0.9848
+  Threshold (70.0% of max): 0.6894
+  Score range: [0.0057, 0.9848]
+  Found 55 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 47/2700 [08:36<9:04:24, 12.31s/it]  Max score: 0.8771
+  Threshold (70.0% of max): 0.6140
+  Score range: [0.0003, 0.8771]
+  Found 8 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 48/2700 [08:38<6:51:55,  9.32s/it]  Max score: 0.8892
+  Threshold (70.0% of max): 0.6224
+  Score range: [0.0929, 0.8892]
+  Found 85 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 49/2700 [09:23<14:35:34, 19.82s/it]  Max score: 0.2378
+  Threshold (70.0% of max): 0.1665
+  Score range: [0.0063, 0.2378]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 50/2700 [09:23<10:15:47, 13.94s/it]  Max score: 0.9954
+  Threshold (70.0% of max): 0.6968
+  Score range: [0.0791, 0.9954]
+  Found 83 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 51/2700 [10:04<16:17:34, 22.14s/it]  Max score: 0.9990
+  Threshold (70.0% of max): 0.6993
+  Score range: [0.9681, 0.9990]
+  Found 85 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 52/2700 [10:46<20:32:04, 27.92s/it]  Max score: 0.9575
+  Threshold (70.0% of max): 0.6702
+  Score range: [0.7608, 0.9575]
+  Found 85 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 53/2700 [11:24<22:47:57, 31.01s/it]  Max score: 0.0155
+  Threshold (70.0% of max): 0.0109
+  Score range: [0.0042, 0.0155]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 54/2700 [11:25<16:15:32, 22.12s/it]  Max score: 0.9647
+  Threshold (70.0% of max): 0.6753
+  Score range: [0.0001, 0.9647]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 55/2700 [11:27<11:43:07, 15.95s/it]  Max score: 0.9948
+  Threshold (70.0% of max): 0.6963
+  Score range: [0.0021, 0.9948]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 56/2700 [11:29<8:44:17, 11.90s/it]   Max score: 0.9757
+  Threshold (70.0% of max): 0.6830
+  Score range: [0.0037, 0.9757]
+  Found 45 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 57/2700 [11:46<9:48:13, 13.35s/it]  Max score: 0.9992
+  Threshold (70.0% of max): 0.6995
+  Score range: [0.0001, 0.9992]
+  Found 41 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 58/2700 [12:03<10:37:48, 14.48s/it]  Max score: 0.9675
+  Threshold (70.0% of max): 0.6773
+  Score range: [0.0008, 0.9675]
+  Found 10 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 59/2700 [12:08<8:27:58, 11.54s/it]   Max score: 0.9681
+  Threshold (70.0% of max): 0.6777
+  Score range: [0.0000, 0.9681]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 60/2700 [12:11<6:38:31,  9.06s/it]  Max score: 0.3756
+  Threshold (70.0% of max): 0.2629
+  Score range: [0.0139, 0.3756]
+  Found 2 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 61/2700 [12:12<4:47:58,  6.55s/it]  Max score: 0.9994
+  Threshold (70.0% of max): 0.6996
+  Score range: [0.0182, 0.9994]
+  Found 22 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 62/2700 [12:16<4:13:42,  5.77s/it]  Max score: 0.9824
+  Threshold (70.0% of max): 0.6877
+  Score range: [0.0017, 0.9824]
+  Found 36 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 63/2700 [12:23<4:31:40,  6.18s/it]  Max score: 0.9959
+  Threshold (70.0% of max): 0.6971
+  Score range: [0.0008, 0.9959]
+  Found 28 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 64/2700 [12:35<5:49:06,  7.95s/it]  Max score: 0.9996
+  Threshold (70.0% of max): 0.6997
+  Score range: [0.0142, 0.9996]
+  Found 17 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 65/2700 [12:42<5:31:05,  7.54s/it]  Max score: 0.9109
+  Threshold (70.0% of max): 0.6376
+  Score range: [0.0016, 0.9109]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 66/2700 [12:44<4:25:17,  6.04s/it]  Max score: 0.4117
+  Threshold (70.0% of max): 0.2882
+  Score range: [0.0047, 0.4117]
+  Found 16 high-score frames (>= 70.0% of max)
+Dense sampling:   2%|▏         | 67/2700 [12:50<4:23:38,  6.01s/it]  Max score: 0.9997
+  Threshold (70.0% of max): 0.6998
+  Score range: [0.1007, 0.9997]
+  Found 79 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 68/2700 [13:19<9:27:32, 12.94s/it]  Max score: 0.9991
+  Threshold (70.0% of max): 0.6994
+  Score range: [0.0119, 0.9991]
+  Found 60 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 69/2700 [13:41<11:25:55, 15.64s/it]  Max score: 0.7514
+  Threshold (70.0% of max): 0.5260
+  Score range: [0.0781, 0.7514]
+  Found 22 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 70/2700 [13:46<9:06:46, 12.47s/it]   Max score: 0.9971
+  Threshold (70.0% of max): 0.6980
+  Score range: [0.0149, 0.9971]
+  Found 35 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 71/2700 [13:53<7:54:49, 10.84s/it]  Max score: 0.8069
+  Threshold (70.0% of max): 0.5648
+  Score range: [0.1571, 0.8069]
+  Found 30 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 72/2700 [14:00<7:06:14,  9.73s/it]  Max score: 0.9593
+  Threshold (70.0% of max): 0.6715
+  Score range: [0.1779, 0.9593]
+  Found 64 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 73/2700 [14:24<10:07:34, 13.88s/it]  Max score: 0.9987
+  Threshold (70.0% of max): 0.6991
+  Score range: [0.0296, 0.9987]
+  Found 61 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 74/2700 [14:47<12:03:11, 16.52s/it]  Max score: 0.2494
+  Threshold (70.0% of max): 0.1746
+  Score range: [0.0200, 0.2494]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 75/2700 [14:47<8:29:47, 11.65s/it]   Max score: 0.9962
+  Threshold (70.0% of max): 0.6974
+  Score range: [0.7299, 0.9962]
+  Found 30 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 76/2700 [14:53<7:15:04,  9.95s/it]  Max score: 0.9997
+  Threshold (70.0% of max): 0.6998
+  Score range: [0.4939, 0.9997]
+  Found 29 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 77/2700 [14:59<6:21:11,  8.72s/it]  Max score: 0.9687
+  Threshold (70.0% of max): 0.6781
+  Score range: [0.1617, 0.9687]
+  Found 24 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 78/2700 [15:04<5:38:17,  7.74s/it]  Max score: 0.8931
+  Threshold (70.0% of max): 0.6251
+  Score range: [0.0010, 0.8931]
+  Found 12 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 79/2700 [15:09<4:57:43,  6.82s/it]  Max score: 0.3090
+  Threshold (70.0% of max): 0.2163
+  Score range: [0.0012, 0.3090]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 80/2700 [15:09<3:33:52,  4.90s/it]  Max score: 0.3002
+  Threshold (70.0% of max): 0.2101
+  Score range: [0.0083, 0.3002]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 81/2700 [15:10<2:44:10,  3.76s/it]  Max score: 0.9998
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0134, 0.9998]
+  Found 20 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 82/2700 [15:14<2:45:06,  3.78s/it]  Max score: 0.5610
+  Threshold (70.0% of max): 0.3927
+  Score range: [0.0256, 0.5610]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 83/2700 [15:15<2:09:42,  2.97s/it]  Max score: 0.3318
+  Threshold (70.0% of max): 0.2322
+  Score range: [0.0085, 0.3318]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 84/2700 [15:15<1:33:43,  2.15s/it]  Max score: 0.7569
+  Threshold (70.0% of max): 0.5298
+  Score range: [0.0041, 0.7569]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 85/2700 [15:16<1:10:23,  1.62s/it]  Max score: 0.4852
+  Threshold (70.0% of max): 0.3397
+  Score range: [0.0214, 0.4852]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 86/2700 [15:17<1:05:48,  1.51s/it]  Max score: 0.7712
+  Threshold (70.0% of max): 0.5398
+  Score range: [0.0189, 0.7712]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 87/2700 [15:19<1:08:11,  1.57s/it]  Max score: 0.9978
+  Threshold (70.0% of max): 0.6984
+  Score range: [0.1389, 0.9978]
+  Found 90 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 88/2700 [15:53<8:19:16, 11.47s/it]  Max score: 0.9876
+  Threshold (70.0% of max): 0.6913
+  Score range: [0.0417, 0.9876]
+  Found 56 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 89/2700 [16:15<10:33:34, 14.56s/it]  Max score: 0.9962
+  Threshold (70.0% of max): 0.6974
+  Score range: [0.0676, 0.9962]
+  Found 84 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 90/2700 [16:48<14:29:39, 19.99s/it]  Max score: 0.9998
+  Threshold (70.0% of max): 0.6998
+  Score range: [0.0096, 0.9998]
+  Found 45 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 91/2700 [17:05<13:55:20, 19.21s/it]  Max score: 0.2861
+  Threshold (70.0% of max): 0.2003
+  Score range: [0.0046, 0.2861]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 92/2700 [17:07<10:05:41, 13.93s/it]  Max score: 0.8257
+  Threshold (70.0% of max): 0.5780
+  Score range: [0.0387, 0.8257]
+  Found 17 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 93/2700 [17:13<8:25:23, 11.63s/it]   Max score: 0.9723
+  Threshold (70.0% of max): 0.6806
+  Score range: [0.0006, 0.9723]
+  Found 25 high-score frames (>= 70.0% of max)
+Dense sampling:   3%|▎         | 94/2700 [17:22<7:47:55, 10.77s/it]  Max score: 0.9995
+  Threshold (70.0% of max): 0.6997
+  Score range: [0.0034, 0.9995]
+  Found 23 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 95/2700 [17:30<7:16:10, 10.05s/it]  Max score: 0.9945
+  Threshold (70.0% of max): 0.6962
+  Score range: [0.0004, 0.9945]
+  Found 10 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 96/2700 [17:33<5:47:24,  8.00s/it]  Max score: 0.9970
+  Threshold (70.0% of max): 0.6979
+  Score range: [0.0004, 0.9970]
+  Found 36 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 97/2700 [17:52<8:05:26, 11.19s/it]  Max score: 0.9774
+  Threshold (70.0% of max): 0.6842
+  Score range: [0.0000, 0.9774]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 98/2700 [17:55<6:24:14,  8.86s/it]  Max score: 0.9998
+  Threshold (70.0% of max): 0.6998
+  Score range: [0.0003, 0.9998]
+  Found 82 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 99/2700 [18:37<13:31:53, 18.73s/it]  Max score: 0.6297
+  Threshold (70.0% of max): 0.4408
+  Score range: [0.0092, 0.6297]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 100/2700 [18:38<9:33:22, 13.23s/it]  Max score: 0.2592
+  Threshold (70.0% of max): 0.1814
+  Score range: [0.0080, 0.2592]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▎         | 101/2700 [18:40<7:08:48,  9.90s/it]  Max score: 1.0000
+  Threshold (70.0% of max): 0.7000
+  Score range: [0.0002, 1.0000]
+  Found 9 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 102/2700 [18:43<5:37:10,  7.79s/it]  Max score: 0.2868
+  Threshold (70.0% of max): 0.2008
+  Score range: [0.0015, 0.2868]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 103/2700 [18:44<4:08:32,  5.74s/it]  Max score: 0.9998
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0128, 0.9998]
+  Found 62 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 104/2700 [19:04<7:17:54, 10.12s/it]  Max score: 0.9722
+  Threshold (70.0% of max): 0.6806
+  Score range: [0.0675, 0.9722]
+  Found 59 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 105/2700 [19:23<9:10:18, 12.72s/it]  Max score: 0.9641
+  Threshold (70.0% of max): 0.6749
+  Score range: [0.0151, 0.9641]
+  Found 12 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 106/2700 [19:28<7:30:48, 10.43s/it]  Max score: 0.9999
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0001, 0.9999]
+  Found 17 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 107/2700 [19:35<6:53:59,  9.58s/it]  Max score: 0.8872
+  Threshold (70.0% of max): 0.6211
+  Score range: [0.0013, 0.8872]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 108/2700 [19:37<5:10:54,  7.20s/it]  Max score: 0.9848
+  Threshold (70.0% of max): 0.6893
+  Score range: [0.0179, 0.9848]
+  Found 30 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 109/2700 [19:48<5:58:39,  8.31s/it]  Max score: 0.9998
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0050, 0.9998]
+  Found 23 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 110/2700 [19:57<6:02:07,  8.39s/it]  Max score: 0.9996
+  Threshold (70.0% of max): 0.6997
+  Score range: [0.0082, 0.9996]
+  Found 28 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 111/2700 [20:07<6:25:18,  8.93s/it]  Max score: 0.9931
+  Threshold (70.0% of max): 0.6952
+  Score range: [0.0006, 0.9931]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 112/2700 [20:08<4:45:53,  6.63s/it]  Max score: 0.5458
+  Threshold (70.0% of max): 0.3820
+  Score range: [0.0451, 0.5458]
+  Found 8 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 113/2700 [20:09<3:36:45,  5.03s/it]  Max score: 0.4284
+  Threshold (70.0% of max): 0.2999
+  Score range: [0.0039, 0.4284]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 114/2700 [20:10<2:43:07,  3.78s/it]  Max score: 0.8314
+  Threshold (70.0% of max): 0.5820
+  Score range: [0.0037, 0.8314]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 115/2700 [20:13<2:25:42,  3.38s/it]  Max score: 0.9999
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0005, 0.9999]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 116/2700 [20:14<2:01:51,  2.83s/it]  Max score: 0.7536
+  Threshold (70.0% of max): 0.5275
+  Score range: [0.0818, 0.7536]
+  Found 8 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 117/2700 [20:18<2:15:59,  3.16s/it]  Max score: 0.2668
+  Threshold (70.0% of max): 0.1867
+  Score range: [0.0279, 0.2668]
+  Found 9 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 118/2700 [20:20<2:00:52,  2.81s/it]  Max score: 0.9727
+  Threshold (70.0% of max): 0.6809
+  Score range: [0.0153, 0.9727]
+  Found 20 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 119/2700 [20:23<2:07:47,  2.97s/it]  Max score: 0.4345
+  Threshold (70.0% of max): 0.3042
+  Score range: [0.0241, 0.4345]
+  Found 21 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 120/2700 [20:27<2:16:37,  3.18s/it]  Max score: 0.9998
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0014, 0.9998]
+  Found 23 high-score frames (>= 70.0% of max)
+Dense sampling:   4%|▍         | 121/2700 [20:38<3:51:21,  5.38s/it]  Max score: 0.8388
+  Threshold (70.0% of max): 0.5871
+  Score range: [0.0020, 0.8388]
+  Found 11 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 122/2700 [20:43<3:53:31,  5.43s/it]  Max score: 0.4943
+  Threshold (70.0% of max): 0.3460
+  Score range: [0.0034, 0.4943]
+  Found 9 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 123/2700 [20:47<3:36:57,  5.05s/it]  Max score: 0.9950
+  Threshold (70.0% of max): 0.6965
+  Score range: [0.0102, 0.9950]
+  Found 53 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 124/2700 [20:58<4:56:11,  6.90s/it]  Max score: 0.8019
+  Threshold (70.0% of max): 0.5613
+  Score range: [0.0109, 0.8019]
+  Found 29 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 125/2700 [21:05<4:48:00,  6.71s/it]  Max score: 0.4426
+  Threshold (70.0% of max): 0.3098
+  Score range: [0.0069, 0.4426]
+  Found 35 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 126/2700 [21:12<4:54:11,  6.86s/it]  Max score: 0.8760
+  Threshold (70.0% of max): 0.6132
+  Score range: [0.0005, 0.8760]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 127/2700 [21:15<4:02:13,  5.65s/it]  Max score: 0.2016
+  Threshold (70.0% of max): 0.1411
+  Score range: [0.0011, 0.2016]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 128/2700 [21:16<3:07:50,  4.38s/it]  Max score: 0.9661
+  Threshold (70.0% of max): 0.6763
+  Score range: [0.0066, 0.9661]
+  Found 23 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 129/2700 [21:27<4:27:43,  6.25s/it]  Max score: 0.5943
+  Threshold (70.0% of max): 0.4160
+  Score range: [0.0136, 0.5943]
+  Found 4 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 130/2700 [21:29<3:29:16,  4.89s/it]  Max score: 0.9818
+  Threshold (70.0% of max): 0.6872
+  Score range: [0.1868, 0.9818]
+  Found 75 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 131/2700 [21:59<8:57:05, 12.54s/it]  Max score: 0.4279
+  Threshold (70.0% of max): 0.2996
+  Score range: [0.0044, 0.4279]
+  Found 5 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 132/2700 [22:01<6:43:06,  9.42s/it]  Max score: 0.9600
+  Threshold (70.0% of max): 0.6720
+  Score range: [0.0018, 0.9600]
+  Found 24 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 133/2700 [22:12<6:58:49,  9.79s/it]  Max score: 0.9994
+  Threshold (70.0% of max): 0.6996
+  Score range: [0.0004, 0.9994]
+  Found 34 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▍         | 134/2700 [22:26<7:59:59, 11.22s/it]  Max score: 0.9994
+  Threshold (70.0% of max): 0.6996
+  Score range: [0.0001, 0.9994]
+  Found 34 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 135/2700 [22:41<8:42:38, 12.23s/it]  Max score: 0.1942
+  Threshold (70.0% of max): 0.1359
+  Score range: [0.0183, 0.1942]
+  Found 7 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 136/2700 [22:44<6:41:37,  9.40s/it]  Max score: 0.9715
+  Threshold (70.0% of max): 0.6801
+  Score range: [0.0002, 0.9715]
+  Found 19 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 137/2700 [22:51<6:09:23,  8.65s/it]  Max score: 0.6305
+  Threshold (70.0% of max): 0.4413
+  Score range: [0.0034, 0.6305]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 138/2700 [22:51<4:23:44,  6.18s/it]  Max score: 0.1184
+  Threshold (70.0% of max): 0.0829
+  Score range: [0.0045, 0.1184]
+  Found 3 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 139/2700 [22:52<3:13:38,  4.54s/it]  Max score: 0.7236
+  Threshold (70.0% of max): 0.5065
+  Score range: [0.2257, 0.7236]
+  Found 14 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 140/2700 [22:57<3:22:02,  4.74s/it]  Max score: 0.9492
+  Threshold (70.0% of max): 0.6645
+  Score range: [0.1160, 0.9492]
+  Found 21 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 141/2700 [23:04<3:57:25,  5.57s/it]  Max score: 0.9970
+  Threshold (70.0% of max): 0.6979
+  Score range: [0.0246, 0.9970]
+  Found 88 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 142/2700 [23:24<6:53:22,  9.70s/it]  Max score: 0.9829
+  Threshold (70.0% of max): 0.6881
+  Score range: [0.1676, 0.9829]
+  Found 32 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 143/2700 [23:32<6:37:43,  9.33s/it]  Max score: 0.9999
+  Threshold (70.0% of max): 0.6999
+  Score range: [0.0059, 0.9999]
+  Found 77 high-score frames (>= 70.0% of max)
+Dense sampling:   5%|▌         | 143/2700 [23:38<7:02:38,  9.92s/it]
+Traceback (most recent call last):
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 621, in <module>
+    main()
+    ~~~~^^
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 617, in main
+    process_dense_sampling(args)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 534, in process_dense_sampling
+    new_scores = scorer.compute_scores(new_frames_data, question)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 237, in compute_scores
+    scores = self._compute_blip_scores(pil_images, query)
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 297, in _compute_blip_scores
+    outputs = self.model(**inputs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip.py", line 1268, in forward
+    question_embeds = self.text_encoder(
+        input_ids=input_ids,
+    ...<3 lines>...
+        **kwargs,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip_text.py", line 809, in forward
+    encoder_outputs = self.encoder(
+        embedding_output,
+    ...<9 lines>...
+        cache_position=cache_position,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip_text.py", line 460, in forward
+    layer_outputs = layer_module(
+        hidden_states,
+    ...<6 lines>...
+        cache_position,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip_text.py", line 381, in forward
+    cross_attention_outputs = self.crossattention(
+        attention_output,
+    ...<5 lines>...
+        cache_position=cache_position,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip_text.py", line 297, in forward
+    self_outputs = self.self(
+        hidden_states,
+    ...<5 lines>...
+        cache_position=cache_position,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip_text.py", line 220, in forward
+    attention_scores = attention_scores / math.sqrt(self.attention_head_size)
+                       ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+torch.AcceleratorError: CUDA error: unknown error
+Search for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

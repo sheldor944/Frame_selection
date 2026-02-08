@@ -1,0 +1,123 @@
+
+======================================================================
+DENSE SAMPLING AROUND HIGH-SCORE FRAMES
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 8.0
+Model: blip
+======================================================================
+
+Loading existing frames and scores...
+Frames file: 2700 videos
+Scores file: 2700 videos
+Processing 2700 videos (limited by --num_videos)
+
+[cuda:0] Loading blip model...
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[cuda:0] Model loaded
+
+Processing videos...
+
+Dense sampling:   0%|          | 0/2700 [00:00<?, ?it/s]  Max score: 0.9921
+  Threshold (70.0% of max): 0.6945
+  Score range: [0.0000, 0.9921]
+  Found 13 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 1/2700 [00:11<8:19:23, 11.10s/it]  Max score: 0.2837
+  Threshold (70.0% of max): 0.1986
+  Score range: [0.0009, 0.2837]
+  Found 1 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 2/2700 [00:11<3:48:59,  5.09s/it]  Max score: 0.9982
+  Threshold (70.0% of max): 0.6987
+  Score range: [0.0000, 0.9982]
+  Found 6 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 3/2700 [00:16<3:42:15,  4.94s/it]  Max score: 0.9370
+  Threshold (70.0% of max): 0.6559
+  Score range: [0.1544, 0.9370]
+  Found 55 high-score frames (>= 70.0% of max)
+Dense sampling:   0%|          | 3/2700 [00:24<6:09:25,  8.22s/it]
+Traceback (most recent call last):
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 741, in <module>
+    main()
+    ~~~~^^
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 737, in main
+    process_dense_sampling(args)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 654, in process_dense_sampling
+    new_scores = scorer.compute_scores(new_frames_data, question)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 331, in compute_scores
+    scores = self._compute_blip_scores_batch(pil_images, query)
+  File "/home/train01/aks/Frame_selection/re_sampler.py", line 410, in _compute_blip_scores_batch
+    outputs = self.model(**inputs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip.py", line 1258, in forward
+    vision_outputs = self.vision_model(
+        pixel_values=pixel_values,
+        interpolate_pos_encoding=interpolate_pos_encoding,
+        **kwargs,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/utils/generic.py", line 1064, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip.py", line 524, in forward
+    encoder_outputs: BaseModelOutput = self.encoder(
+                                       ~~~~~~~~~~~~^
+        inputs_embeds=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip.py", line 483, in forward
+    hidden_states = encoder_layer(
+        hidden_states,
+        attention_mask=attention_mask,
+        **kwargs,
+    )
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip.py", line 405, in forward
+    hidden_states, _ = self.self_attn(
+                       ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        head_mask=attention_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/train01/aks/Frame_selection/venv/lib/python3.13/site-packages/transformers/models/blip/modeling_blip.py", line 347, in forward
+    attention_scores = attention_scores * self.scale
+                       ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 8.54 GiB. GPU 0 has a total capacity of 23.56 GiB of which 8.11 GiB is free. Including non-PyTorch memory, this process has 15.44 GiB memory in use. Of the allocated memory 15.07 GiB is allocated by PyTorch, and 73.09 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[W1125 07:59:08.464893729 AllocatorConfig.cpp:28] Warning: PYTORCH_CUDA_ALLOC_CONF is deprecated, use PYTORCH_ALLOC_CONF instead (function operator())

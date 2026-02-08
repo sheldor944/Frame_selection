@@ -1,0 +1,23 @@
+Category,Subcategory,Top 90%,Top 95%,Top 99%
+Domain,Artistic Performance,9.59,6.74,1.45
+Domain,Film & Television,8.26,3.69,0.59
+Domain,Knowledge,10.27,6.89,2.07
+Domain,Life Record,8.49,3.62,2.16
+Domain,Multilingual,11.17,10.26,0.64
+Domain,Sports Competition,15.52,6.55,2.29
+Duration,long,11.66,5.69,2.05
+Duration,medium,10.04,6.47,1.30
+Duration,short,9.52,5.05,2.05
+Overall,All,10.40,5.74,1.80
+Task Type,Action Reasoning,8.36,3.58,1.30
+Task Type,Action Recognition,10.09,5.73,2.37
+Task Type,Attribute Perception,12.40,7.60,2.19
+Task Type,Counting Problem,10.36,6.43,1.63
+Task Type,Information Synopsis,8.93,4.55,1.46
+Task Type,OCR Problems,10.95,6.51,0.70
+Task Type,Object Reasoning,10.98,5.76,1.48
+Task Type,Object Recognition,9.36,5.38,2.31
+Task Type,Spatial Perception,8.80,6.42,3.25
+Task Type,Spatial Reasoning,8.02,3.87,0.99
+Task Type,Temporal Perception,12.46,7.21,0.66
+Task Type,Temporal Reasoning,15.31,7.96,2.81

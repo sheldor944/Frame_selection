@@ -1,0 +1,55 @@
+hello miraj 
+
+======================================================================
+⚡ ULTRA-FAST DENSE SAMPLING WITH CHECKPOINTS
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 8.0
+Model: blip
+Batch size: 32
+FP16: True
+Workers: 16
+Checkpoint every: 25 videos
+Resume mode: True
+======================================================================
+
+Loading existing frames and scores...
+✅ Frames file: 2700 videos
+✅ Scores file: 2700 videos
+Loading questions from: ./datasets/videomme/include_frame_idx.json
+✅ Loaded 2700 questions
+
+🎯 Processing 2700 videos (limited by --num_videos)
+
+Video folder: /home/train01/.cache/huggingface/custom_video_qa_cache/data/data
+
+🔍 Checking for existing checkpoint...
+✅ RESUMING from video 25
+   Already processed: 25 videos
+   Remaining: 2675 videos
+
+
+======================================================================
+[cuda:1] Loading blip model...
+======================================================================
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Model loaded successfully
+======================================================================
+
+======================================================================
+Starting video processing...
+======================================================================
+
+Processing videos:   1%|▋                                                                     | 25/2700 [00:00<?, ?it/s]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sUDY-SMREtA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9972 | Min=0.0345 | Range=[0.0345, 0.9972]
+  🎯 Threshold: 0.6980 (70.0% of max)
+  ✅ High-Score Frames: 35/79 (44.3%)
+  📍 First 10 indices: [23, 46, 69, 92, 115, 138, 161, 299, 322, 345]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:   1%|▋                                                                     | 25/2700 [00:00<?, ?it/s]

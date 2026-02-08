@@ -1,0 +1,2927 @@
+================================================================================
+FRAME SELECTION ALGORITHM EVALUATION REPORT
+================================================================================
+
+SUMMARY
+--------------------------------------------------------------------------------
+Number of algorithms evaluated: 72
+Total videos processed: 300
+
+OVERALL RANKINGS (by Mean SCBI)
+--------------------------------------------------------------------------------
+1. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+   SCBI: 0.2229
+   Score Quality: 0.2624
+   Coverage: 0.1833
+   Diversity: 0.1991
+   Efficiency: 0.5986
+   Balance: 0.0858
+
+2. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+   SCBI: 0.2161
+   Score Quality: 0.2622
+   Coverage: 0.1700
+   Diversity: 0.1996
+   Efficiency: 0.5952
+   Balance: 0.0793
+
+3. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+   SCBI: 0.2154
+   Score Quality: 0.2574
+   Coverage: 0.1733
+   Diversity: 0.2324
+   Efficiency: 0.5984
+   Balance: 0.0894
+
+4. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+   SCBI: 0.2149
+   Score Quality: 0.2565
+   Coverage: 0.1733
+   Diversity: 0.2278
+   Efficiency: 0.5886
+   Balance: 0.0868
+
+5. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+   SCBI: 0.2127
+   Score Quality: 0.2754
+   Coverage: 0.1500
+   Diversity: 0.2229
+   Efficiency: 0.6244
+   Balance: 0.0781
+
+6. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+   SCBI: 0.2122
+   Score Quality: 0.2578
+   Coverage: 0.1667
+   Diversity: 0.2035
+   Efficiency: 0.6119
+   Balance: 0.0791
+
+7. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+   SCBI: 0.2104
+   Score Quality: 0.2509
+   Coverage: 0.1700
+   Diversity: 0.1959
+   Efficiency: 0.5753
+   Balance: 0.0791
+
+8. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+   SCBI: 0.2090
+   Score Quality: 0.2713
+   Coverage: 0.1467
+   Diversity: 0.1957
+   Efficiency: 0.6146
+   Balance: 0.0737
+
+9. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+   SCBI: 0.2087
+   Score Quality: 0.2541
+   Coverage: 0.1633
+   Diversity: 0.1941
+   Efficiency: 0.6016
+   Balance: 0.0724
+
+10. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+   SCBI: 0.2082
+   Score Quality: 0.2632
+   Coverage: 0.1533
+   Diversity: 0.1940
+   Efficiency: 0.6151
+   Balance: 0.0805
+
+11. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+   SCBI: 0.2081
+   Score Quality: 0.2762
+   Coverage: 0.1400
+   Diversity: 0.2246
+   Efficiency: 0.6275
+   Balance: 0.0719
+
+12. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+   SCBI: 0.2074
+   Score Quality: 0.2649
+   Coverage: 0.1500
+   Diversity: 0.1996
+   Efficiency: 0.5979
+   Balance: 0.0687
+
+13. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+   SCBI: 0.2074
+   Score Quality: 0.2714
+   Coverage: 0.1433
+   Diversity: 0.1961
+   Efficiency: 0.6179
+   Balance: 0.0698
+
+14. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+   SCBI: 0.2065
+   Score Quality: 0.2697
+   Coverage: 0.1433
+   Diversity: 0.2275
+   Efficiency: 0.6247
+   Balance: 0.0705
+
+15. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+   SCBI: 0.2064
+   Score Quality: 0.2662
+   Coverage: 0.1467
+   Diversity: 0.1960
+   Efficiency: 0.5979
+   Balance: 0.0673
+
+16. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+   SCBI: 0.2063
+   Score Quality: 0.2659
+   Coverage: 0.1467
+   Diversity: 0.1969
+   Efficiency: 0.6112
+   Balance: 0.0792
+
+17. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+   SCBI: 0.2058
+   Score Quality: 0.2616
+   Coverage: 0.1500
+   Diversity: 0.1933
+   Efficiency: 0.6015
+   Balance: 0.0693
+
+18. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+   SCBI: 0.2051
+   Score Quality: 0.2570
+   Coverage: 0.1533
+   Diversity: 0.2036
+   Efficiency: 0.6084
+   Balance: 0.0732
+
+19. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+   SCBI: 0.2051
+   Score Quality: 0.2502
+   Coverage: 0.1600
+   Diversity: 0.1910
+   Efficiency: 0.5859
+   Balance: 0.0713
+
+20. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+   SCBI: 0.2049
+   Score Quality: 0.2732
+   Coverage: 0.1367
+   Diversity: 0.2149
+   Efficiency: 0.6175
+   Balance: 0.0729
+
+21. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+   SCBI: 0.2046
+   Score Quality: 0.2592
+   Coverage: 0.1500
+   Diversity: 0.1924
+   Efficiency: 0.6158
+   Balance: 0.0692
+
+22. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+   SCBI: 0.2039
+   Score Quality: 0.2745
+   Coverage: 0.1333
+   Diversity: 0.2126
+   Efficiency: 0.6139
+   Balance: 0.0622
+
+23. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+   SCBI: 0.2035
+   Score Quality: 0.2670
+   Coverage: 0.1400
+   Diversity: 0.1972
+   Efficiency: 0.6013
+   Balance: 0.0654
+
+24. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+   SCBI: 0.2032
+   Score Quality: 0.2532
+   Coverage: 0.1533
+   Diversity: 0.1903
+   Efficiency: 0.6024
+   Balance: 0.0741
+
+25. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+   SCBI: 0.2031
+   Score Quality: 0.2728
+   Coverage: 0.1333
+   Diversity: 0.2020
+   Efficiency: 0.6179
+   Balance: 0.0682
+
+26. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+   SCBI: 0.2030
+   Score Quality: 0.2694
+   Coverage: 0.1367
+   Diversity: 0.2001
+   Efficiency: 0.6145
+   Balance: 0.0699
+
+27. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+   SCBI: 0.2019
+   Score Quality: 0.2605
+   Coverage: 0.1433
+   Diversity: 0.2027
+   Efficiency: 0.6090
+   Balance: 0.0668
+
+28. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+   SCBI: 0.2017
+   Score Quality: 0.2634
+   Coverage: 0.1400
+   Diversity: 0.2034
+   Efficiency: 0.6047
+   Balance: 0.0645
+
+29. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+   SCBI: 0.2013
+   Score Quality: 0.2493
+   Coverage: 0.1533
+   Diversity: 0.2172
+   Efficiency: 0.5817
+   Balance: 0.0720
+
+30. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+   SCBI: 0.2012
+   Score Quality: 0.2491
+   Coverage: 0.1533
+   Diversity: 0.1961
+   Efficiency: 0.5753
+   Balance: 0.0693
+
+31. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+   SCBI: 0.2005
+   Score Quality: 0.2510
+   Coverage: 0.1500
+   Diversity: 0.1905
+   Efficiency: 0.5922
+   Balance: 0.0676
+
+32. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+   SCBI: 0.2005
+   Score Quality: 0.2677
+   Coverage: 0.1333
+   Diversity: 0.2352
+   Efficiency: 0.6145
+   Balance: 0.0680
+
+33. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+   SCBI: 0.2005
+   Score Quality: 0.2543
+   Coverage: 0.1467
+   Diversity: 0.2022
+   Efficiency: 0.6148
+   Balance: 0.0658
+
+34. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+   SCBI: 0.2002
+   Score Quality: 0.2605
+   Coverage: 0.1400
+   Diversity: 0.1980
+   Efficiency: 0.5843
+   Balance: 0.0623
+
+35. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+   SCBI: 0.2002
+   Score Quality: 0.2637
+   Coverage: 0.1367
+   Diversity: 0.1980
+   Efficiency: 0.5980
+   Balance: 0.0635
+
+36. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+   SCBI: 0.1998
+   Score Quality: 0.2695
+   Coverage: 0.1300
+   Diversity: 0.2343
+   Efficiency: 0.6176
+   Balance: 0.0676
+
+37. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+   SCBI: 0.1997
+   Score Quality: 0.2695
+   Coverage: 0.1300
+   Diversity: 0.1976
+   Efficiency: 0.6145
+   Balance: 0.0677
+
+38. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+   SCBI: 0.1994
+   Score Quality: 0.2655
+   Coverage: 0.1333
+   Diversity: 0.1983
+   Efficiency: 0.5981
+   Balance: 0.0638
+
+39. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+   SCBI: 0.1992
+   Score Quality: 0.2717
+   Coverage: 0.1267
+   Diversity: 0.2138
+   Efficiency: 0.6143
+   Balance: 0.0599
+
+40. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+   SCBI: 0.1992
+   Score Quality: 0.2716
+   Coverage: 0.1267
+   Diversity: 0.2175
+   Efficiency: 0.6143
+   Balance: 0.0580
+
+41. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+   SCBI: 0.1988
+   Score Quality: 0.2610
+   Coverage: 0.1367
+   Diversity: 0.1965
+   Efficiency: 0.5877
+   Balance: 0.0591
+
+42. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+   SCBI: 0.1983
+   Score Quality: 0.2467
+   Coverage: 0.1500
+   Diversity: 0.2198
+   Efficiency: 0.5752
+   Balance: 0.0749
+
+43. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+   SCBI: 0.1982
+   Score Quality: 0.2430
+   Coverage: 0.1533
+   Diversity: 0.2171
+   Efficiency: 0.5885
+   Balance: 0.0766
+
+44. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+   SCBI: 0.1981
+   Score Quality: 0.2661
+   Coverage: 0.1300
+   Diversity: 0.2104
+   Efficiency: 0.6219
+   Balance: 0.0675
+
+45. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+   SCBI: 0.1980
+   Score Quality: 0.2428
+   Coverage: 0.1533
+   Diversity: 0.1859
+   Efficiency: 0.5727
+   Balance: 0.0708
+
+46. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+   SCBI: 0.1978
+   Score Quality: 0.2623
+   Coverage: 0.1333
+   Diversity: 0.1977
+   Efficiency: 0.5913
+   Balance: 0.0698
+
+47. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+   SCBI: 0.1978
+   Score Quality: 0.2489
+   Coverage: 0.1467
+   Diversity: 0.1966
+   Efficiency: 0.5921
+   Balance: 0.0721
+
+48. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+   SCBI: 0.1972
+   Score Quality: 0.2610
+   Coverage: 0.1333
+   Diversity: 0.2011
+   Efficiency: 0.5877
+   Balance: 0.0610
+
+49. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+   SCBI: 0.1971
+   Score Quality: 0.2708
+   Coverage: 0.1233
+   Diversity: 0.2133
+   Efficiency: 0.6144
+   Balance: 0.0565
+
+50. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+   SCBI: 0.1963
+   Score Quality: 0.2626
+   Coverage: 0.1300
+   Diversity: 0.2039
+   Efficiency: 0.6180
+   Balance: 0.0618
+
+51. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+   SCBI: 0.1961
+   Score Quality: 0.2621
+   Coverage: 0.1300
+   Diversity: 0.1913
+   Efficiency: 0.6182
+   Balance: 0.0597
+
+52. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+   SCBI: 0.1951
+   Score Quality: 0.2636
+   Coverage: 0.1267
+   Diversity: 0.2167
+   Efficiency: 0.6182
+   Balance: 0.0613
+
+53. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+   SCBI: 0.1950
+   Score Quality: 0.2767
+   Coverage: 0.1133
+   Diversity: 0.2235
+   Efficiency: 0.6174
+   Balance: 0.0591
+
+54. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+   SCBI: 0.1947
+   Score Quality: 0.2760
+   Coverage: 0.1133
+   Diversity: 0.2135
+   Efficiency: 0.6176
+   Balance: 0.0574
+
+55. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+   SCBI: 0.1941
+   Score Quality: 0.2681
+   Coverage: 0.1200
+   Diversity: 0.2277
+   Efficiency: 0.6209
+   Balance: 0.0622
+
+56. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+   SCBI: 0.1938
+   Score Quality: 0.2542
+   Coverage: 0.1333
+   Diversity: 0.1949
+   Efficiency: 0.6189
+   Balance: 0.0638
+
+57. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+   SCBI: 0.1937
+   Score Quality: 0.2506
+   Coverage: 0.1367
+   Diversity: 0.1992
+   Efficiency: 0.5889
+   Balance: 0.0584
+
+58. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+   SCBI: 0.1936
+   Score Quality: 0.2539
+   Coverage: 0.1333
+   Diversity: 0.2067
+   Efficiency: 0.5850
+   Balance: 0.0634
+
+59. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+   SCBI: 0.1929
+   Score Quality: 0.2625
+   Coverage: 0.1233
+   Diversity: 0.2051
+   Efficiency: 0.5877
+   Balance: 0.0567
+
+60. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+   SCBI: 0.1923
+   Score Quality: 0.2646
+   Coverage: 0.1200
+   Diversity: 0.2226
+   Efficiency: 0.6185
+   Balance: 0.0597
+
+61. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+   SCBI: 0.1923
+   Score Quality: 0.2546
+   Coverage: 0.1300
+   Diversity: 0.1932
+   Efficiency: 0.5950
+   Balance: 0.0597
+
+62. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+   SCBI: 0.1917
+   Score Quality: 0.2600
+   Coverage: 0.1233
+   Diversity: 0.2022
+   Efficiency: 0.5877
+   Balance: 0.0538
+
+63. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+   SCBI: 0.1915
+   Score Quality: 0.2563
+   Coverage: 0.1267
+   Diversity: 0.1931
+   Efficiency: 0.5992
+   Balance: 0.0526
+
+64. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+   SCBI: 0.1913
+   Score Quality: 0.2527
+   Coverage: 0.1300
+   Diversity: 0.1954
+   Efficiency: 0.5987
+   Balance: 0.0606
+
+65. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+   SCBI: 0.1908
+   Score Quality: 0.2649
+   Coverage: 0.1167
+   Diversity: 0.2146
+   Efficiency: 0.6214
+   Balance: 0.0622
+
+66. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+   SCBI: 0.1901
+   Score Quality: 0.2468
+   Coverage: 0.1333
+   Diversity: 0.1852
+   Efficiency: 0.5951
+   Balance: 0.0579
+
+67. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+   SCBI: 0.1900
+   Score Quality: 0.2601
+   Coverage: 0.1200
+   Diversity: 0.1863
+   Efficiency: 0.5981
+   Balance: 0.0550
+
+68. selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+   SCBI: 0.1897
+   Score Quality: 0.2594
+   Coverage: 0.1200
+   Diversity: 0.2057
+   Efficiency: 0.5809
+   Balance: 0.0552
+
+69. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+   SCBI: 0.1889
+   Score Quality: 0.2511
+   Coverage: 0.1267
+   Diversity: 0.2116
+   Efficiency: 0.6063
+   Balance: 0.0654
+
+70. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+   SCBI: 0.1872
+   Score Quality: 0.2444
+   Coverage: 0.1300
+   Diversity: 0.2017
+   Efficiency: 0.5889
+   Balance: 0.0652
+
+71. selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+   SCBI: 0.1858
+   Score Quality: 0.2584
+   Coverage: 0.1133
+   Diversity: 0.1947
+   Efficiency: 0.5948
+   Balance: 0.0507
+
+72. selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+   SCBI: 0.1851
+   Score Quality: 0.2401
+   Coverage: 0.1300
+   Diversity: 0.2129
+   Efficiency: 0.5749
+   Balance: 0.0615
+
+
+================================================================================
+DETAILED ALGORITHM ANALYSIS
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2229
+  Median: 0.0633
+  Std:    0.2747
+  Min:    0.0000
+  Max:    0.9913
+
+Component Metrics (Mean):
+  Score Quality: 0.2624
+  Coverage:      0.1833
+  Diversity:     0.1991
+  Efficiency:    0.5986
+  Balance:       0.0858
+
+Top 5 Videos (by SCBI):
+  1. Video 382: SCBI=0.9913 (S=0.983, C=1.000)
+  2. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9631 (S=0.926, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2161
+  Median: 0.0633
+  Std:    0.2697
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2622
+  Coverage:      0.1700
+  Diversity:     0.1996
+  Efficiency:    0.5952
+  Balance:       0.0793
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 382: SCBI=0.9913 (S=0.983, C=1.000)
+  3. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 500: SCBI=0.9631 (S=0.926, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2154
+  Median: 0.0587
+  Std:    0.2737
+  Min:    0.0000
+  Max:    0.9928
+
+Component Metrics (Mean):
+  Score Quality: 0.2574
+  Coverage:      0.1733
+  Diversity:     0.2324
+  Efficiency:    0.5984
+  Balance:       0.0894
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9928 (S=0.986, C=1.000)
+  2. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  3. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  4. Video 362: SCBI=0.9377 (S=0.875, C=1.000)
+  5. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2149
+  Median: 0.0587
+  Std:    0.2714
+  Min:    0.0000
+  Max:    0.9925
+
+Component Metrics (Mean):
+  Score Quality: 0.2565
+  Coverage:      0.1733
+  Diversity:     0.2278
+  Efficiency:    0.5886
+  Balance:       0.0868
+
+Top 5 Videos (by SCBI):
+  1. Video 382: SCBI=0.9925 (S=0.985, C=1.000)
+  2. Video 532: SCBI=0.9923 (S=0.985, C=1.000)
+  3. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  4. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2127
+  Median: 0.0672
+  Std:    0.2663
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2754
+  Coverage:      0.1500
+  Diversity:     0.2229
+  Efficiency:    0.6244
+  Balance:       0.0781
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 211: SCBI=0.9961 (S=0.992, C=1.000)
+  3. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 500: SCBI=0.9737 (S=0.947, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2122
+  Median: 0.0540
+  Std:    0.2691
+  Min:    0.0000
+  Max:    0.9917
+
+Component Metrics (Mean):
+  Score Quality: 0.2578
+  Coverage:      0.1667
+  Diversity:     0.2035
+  Efficiency:    0.6119
+  Balance:       0.0791
+
+Top 5 Videos (by SCBI):
+  1. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  2. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+  5. Video 219: SCBI=0.9227 (S=0.845, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2104
+  Median: 0.0463
+  Std:    0.2689
+  Min:    0.0000
+  Max:    0.9950
+
+Component Metrics (Mean):
+  Score Quality: 0.2509
+  Coverage:      0.1700
+  Diversity:     0.1959
+  Efficiency:    0.5753
+  Balance:       0.0791
+
+Top 5 Videos (by SCBI):
+  1. Video 346: SCBI=0.9950 (S=0.990, C=1.000)
+  2. Video 532: SCBI=0.9942 (S=0.988, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 219: SCBI=0.9227 (S=0.845, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2090
+  Median: 0.0613
+  Std:    0.2643
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2713
+  Coverage:      0.1467
+  Diversity:     0.1957
+  Efficiency:    0.6146
+  Balance:       0.0737
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  4. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  5. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2087
+  Median: 0.0516
+  Std:    0.2626
+  Min:    0.0000
+  Max:    0.9951
+
+Component Metrics (Mean):
+  Score Quality: 0.2541
+  Coverage:      0.1633
+  Diversity:     0.1941
+  Efficiency:    0.6016
+  Balance:       0.0724
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  2. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9631 (S=0.926, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2082
+  Median: 0.0560
+  Std:    0.2698
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2632
+  Coverage:      0.1533
+  Diversity:     0.1940
+  Efficiency:    0.6151
+  Balance:       0.0805
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9996 (S=0.999, C=1.000)
+  3. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  4. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  5. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2081
+  Median: 0.0745
+  Std:    0.2602
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2762
+  Coverage:      0.1400
+  Diversity:     0.2246
+  Efficiency:    0.6275
+  Balance:       0.0719
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 500: SCBI=0.9737 (S=0.947, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2074
+  Median: 0.0657
+  Std:    0.2598
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2649
+  Coverage:      0.1500
+  Diversity:     0.1996
+  Efficiency:    0.5979
+  Balance:       0.0687
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2074
+  Median: 0.0622
+  Std:    0.2601
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2714
+  Coverage:      0.1433
+  Diversity:     0.1961
+  Efficiency:    0.6179
+  Balance:       0.0698
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2065
+  Median: 0.0695
+  Std:    0.2585
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2697
+  Coverage:      0.1433
+  Diversity:     0.2275
+  Efficiency:    0.6247
+  Balance:       0.0705
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  3. Video 382: SCBI=0.9916 (S=0.983, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2064
+  Median: 0.0657
+  Std:    0.2588
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2662
+  Coverage:      0.1467
+  Diversity:     0.1960
+  Efficiency:    0.5979
+  Balance:       0.0673
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 466: SCBI=0.9785 (S=0.957, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2063
+  Median: 0.0550
+  Std:    0.2696
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2659
+  Coverage:      0.1467
+  Diversity:     0.1969
+  Efficiency:    0.6112
+  Balance:       0.0792
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9996 (S=0.999, C=1.000)
+  3. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  4. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  5. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2058
+  Median: 0.0540
+  Std:    0.2606
+  Min:    0.0000
+  Max:    0.9951
+
+Component Metrics (Mean):
+  Score Quality: 0.2616
+  Coverage:      0.1500
+  Diversity:     0.1933
+  Efficiency:    0.6015
+  Balance:       0.0693
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  2. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9631 (S=0.926, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2051
+  Median: 0.0540
+  Std:    0.2643
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2570
+  Coverage:      0.1533
+  Diversity:     0.2036
+  Efficiency:    0.6084
+  Balance:       0.0732
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2051
+  Median: 0.0550
+  Std:    0.2602
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2502
+  Coverage:      0.1600
+  Diversity:     0.1910
+  Efficiency:    0.5859
+  Balance:       0.0713
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 382: SCBI=0.9913 (S=0.983, C=1.000)
+  3. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  4. Video 219: SCBI=0.9227 (S=0.845, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2049
+  Median: 0.0616
+  Std:    0.2610
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2732
+  Coverage:      0.1367
+  Diversity:     0.2149
+  Efficiency:    0.6175
+  Balance:       0.0729
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  3. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  4. Video 382: SCBI=0.9916 (S=0.983, C=1.000)
+  5. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2046
+  Median: 0.0551
+  Std:    0.2562
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2592
+  Coverage:      0.1500
+  Diversity:     0.1924
+  Efficiency:    0.6158
+  Balance:       0.0692
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  3. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 678: SCBI=0.9054 (S=0.811, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2039
+  Median: 0.0616
+  Std:    0.2534
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2745
+  Coverage:      0.1333
+  Diversity:     0.2126
+  Efficiency:    0.6139
+  Balance:       0.0622
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2035
+  Median: 0.0654
+  Std:    0.2569
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2670
+  Coverage:      0.1400
+  Diversity:     0.1972
+  Efficiency:    0.6013
+  Balance:       0.0654
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 466: SCBI=0.9785 (S=0.957, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2032
+  Median: 0.0438
+  Std:    0.2640
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2532
+  Coverage:      0.1533
+  Diversity:     0.1903
+  Efficiency:    0.6024
+  Balance:       0.0741
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2031
+  Median: 0.0622
+  Std:    0.2586
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2728
+  Coverage:      0.1333
+  Diversity:     0.2020
+  Efficiency:    0.6179
+  Balance:       0.0682
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2030
+  Median: 0.0575
+  Std:    0.2605
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2694
+  Coverage:      0.1367
+  Diversity:     0.2001
+  Efficiency:    0.6145
+  Balance:       0.0699
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 346: SCBI=0.9823 (S=0.965, C=1.000)
+  5. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2019
+  Median: 0.0575
+  Std:    0.2586
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2605
+  Coverage:      0.1433
+  Diversity:     0.2027
+  Efficiency:    0.6090
+  Balance:       0.0668
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2017
+  Median: 0.0575
+  Std:    0.2550
+  Min:    0.0000
+  Max:    0.9951
+
+Component Metrics (Mean):
+  Score Quality: 0.2634
+  Coverage:      0.1400
+  Diversity:     0.2034
+  Efficiency:    0.6047
+  Balance:       0.0645
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  2. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  3. Video 500: SCBI=0.9631 (S=0.926, C=1.000)
+  4. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2013
+  Median: 0.0538
+  Std:    0.2600
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2493
+  Coverage:      0.1533
+  Diversity:     0.2172
+  Efficiency:    0.5817
+  Balance:       0.0720
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 532: SCBI=0.9942 (S=0.988, C=1.000)
+  3. Video 382: SCBI=0.9925 (S=0.985, C=1.000)
+  4. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2012
+  Median: 0.0463
+  Std:    0.2600
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2491
+  Coverage:      0.1533
+  Diversity:     0.1961
+  Efficiency:    0.5753
+  Balance:       0.0693
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 532: SCBI=0.9942 (S=0.988, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 219: SCBI=0.9227 (S=0.845, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2005
+  Median: 0.0475
+  Std:    0.2562
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2510
+  Coverage:      0.1500
+  Diversity:     0.1905
+  Efficiency:    0.5922
+  Balance:       0.0676
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 346: SCBI=0.9890 (S=0.978, C=1.000)
+  3. Video 466: SCBI=0.9785 (S=0.957, C=1.000)
+  4. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2005
+  Median: 0.0540
+  Std:    0.2561
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2677
+  Coverage:      0.1333
+  Diversity:     0.2352
+  Efficiency:    0.6145
+  Balance:       0.0680
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 346: SCBI=0.9823 (S=0.965, C=1.000)
+  3. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  4. Video 40: SCBI=0.8893 (S=0.779, C=1.000)
+  5. Video 390: SCBI=0.8877 (S=0.775, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2005
+  Median: 0.0438
+  Std:    0.2559
+  Min:    0.0000
+  Max:    0.9951
+
+Component Metrics (Mean):
+  Score Quality: 0.2543
+  Coverage:      0.1467
+  Diversity:     0.2022
+  Efficiency:    0.6148
+  Balance:       0.0658
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  2. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  3. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2002
+  Median: 0.0575
+  Std:    0.2525
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2605
+  Coverage:      0.1400
+  Diversity:     0.1980
+  Efficiency:    0.5843
+  Balance:       0.0623
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9784 (S=0.957, C=1.000)
+  5. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.2002
+  Median: 0.0613
+  Std:    0.2543
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2637
+  Coverage:      0.1367
+  Diversity:     0.1980
+  Efficiency:    0.5980
+  Balance:       0.0635
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 466: SCBI=0.9785 (S=0.957, C=1.000)
+  5. Video 500: SCBI=0.9731 (S=0.946, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1998
+  Median: 0.0564
+  Std:    0.2549
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2695
+  Coverage:      0.1300
+  Diversity:     0.2343
+  Efficiency:    0.6176
+  Balance:       0.0676
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 346: SCBI=0.9823 (S=0.965, C=1.000)
+  3. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  4. Video 40: SCBI=0.8893 (S=0.779, C=1.000)
+  5. Video 390: SCBI=0.8877 (S=0.775, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1997
+  Median: 0.0575
+  Std:    0.2579
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2695
+  Coverage:      0.1300
+  Diversity:     0.1976
+  Efficiency:    0.6145
+  Balance:       0.0677
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1994
+  Median: 0.0659
+  Std:    0.2541
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2655
+  Coverage:      0.1333
+  Diversity:     0.1983
+  Efficiency:    0.5981
+  Balance:       0.0638
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 466: SCBI=0.9785 (S=0.957, C=1.000)
+  5. Video 500: SCBI=0.9731 (S=0.946, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1992
+  Median: 0.0616
+  Std:    0.2503
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2717
+  Coverage:      0.1267
+  Diversity:     0.2138
+  Efficiency:    0.6143
+  Balance:       0.0599
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 390: SCBI=0.8850 (S=0.770, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1992
+  Median: 0.0654
+  Std:    0.2478
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2716
+  Coverage:      0.1267
+  Diversity:     0.2175
+  Efficiency:    0.6143
+  Balance:       0.0580
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  3. Video 346: SCBI=0.9823 (S=0.965, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 390: SCBI=0.8850 (S=0.770, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1988
+  Median: 0.0575
+  Std:    0.2502
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2610
+  Coverage:      0.1367
+  Diversity:     0.1965
+  Efficiency:    0.5877
+  Balance:       0.0591
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9784 (S=0.957, C=1.000)
+  5. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1983
+  Median: 0.0504
+  Std:    0.2607
+  Min:    0.0000
+  Max:    0.9923
+
+Component Metrics (Mean):
+  Score Quality: 0.2467
+  Coverage:      0.1500
+  Diversity:     0.2198
+  Efficiency:    0.5752
+  Balance:       0.0749
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9923 (S=0.985, C=1.000)
+  2. Video 382: SCBI=0.9918 (S=0.984, C=1.000)
+  3. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 93: SCBI=0.9076 (S=0.815, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1982
+  Median: 0.0416
+  Std:    0.2626
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2430
+  Coverage:      0.1533
+  Diversity:     0.2171
+  Efficiency:    0.5885
+  Balance:       0.0766
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 490: SCBI=0.9906 (S=0.981, C=1.000)
+  3. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  4. Video 563: SCBI=0.9436 (S=0.887, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1981
+  Median: 0.0692
+  Std:    0.2545
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2661
+  Coverage:      0.1300
+  Diversity:     0.2104
+  Efficiency:    0.6219
+  Balance:       0.0675
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 490: SCBI=0.9933 (S=0.987, C=1.000)
+  3. Video 110: SCBI=0.9932 (S=0.986, C=1.000)
+  4. Video 382: SCBI=0.9916 (S=0.983, C=1.000)
+  5. Video 466: SCBI=0.9855 (S=0.971, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1980
+  Median: 0.0383
+  Std:    0.2603
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2428
+  Coverage:      0.1533
+  Diversity:     0.1859
+  Efficiency:    0.5727
+  Balance:       0.0708
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 346: SCBI=0.9950 (S=0.990, C=1.000)
+  3. Video 532: SCBI=0.9942 (S=0.988, C=1.000)
+  4. Video 500: SCBI=0.9689 (S=0.938, C=1.000)
+  5. Video 219: SCBI=0.9227 (S=0.845, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1978
+  Median: 0.0540
+  Std:    0.2607
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2623
+  Coverage:      0.1333
+  Diversity:     0.1977
+  Efficiency:    0.5913
+  Balance:       0.0698
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9996 (S=0.999, C=1.000)
+  3. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1978
+  Median: 0.0409
+  Std:    0.2596
+  Min:    0.0000
+  Max:    0.9920
+
+Component Metrics (Mean):
+  Score Quality: 0.2489
+  Coverage:      0.1467
+  Diversity:     0.1966
+  Efficiency:    0.5921
+  Balance:       0.0721
+
+Top 5 Videos (by SCBI):
+  1. Video 382: SCBI=0.9920 (S=0.984, C=1.000)
+  2. Video 346: SCBI=0.9890 (S=0.978, C=1.000)
+  3. Video 500: SCBI=0.9520 (S=0.904, C=1.000)
+  4. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1972
+  Median: 0.0575
+  Std:    0.2510
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2610
+  Coverage:      0.1333
+  Diversity:     0.2011
+  Efficiency:    0.5877
+  Balance:       0.0610
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9784 (S=0.957, C=1.000)
+  5. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1971
+  Median: 0.0647
+  Std:    0.2467
+  Min:    0.0000
+  Max:    0.9973
+
+Component Metrics (Mean):
+  Score Quality: 0.2708
+  Coverage:      0.1233
+  Diversity:     0.2133
+  Efficiency:    0.6144
+  Balance:       0.0565
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9973 (S=0.995, C=1.000)
+  2. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  3. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 390: SCBI=0.8850 (S=0.770, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1963
+  Median: 0.0516
+  Std:    0.2522
+  Min:    0.0000
+  Max:    0.9951
+
+Component Metrics (Mean):
+  Score Quality: 0.2626
+  Coverage:      0.1300
+  Diversity:     0.2039
+  Efficiency:    0.6180
+  Balance:       0.0618
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  2. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  3. Video 500: SCBI=0.9740 (S=0.948, C=1.000)
+  4. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1961
+  Median: 0.0475
+  Std:    0.2522
+  Min:    0.0000
+  Max:    0.9951
+
+Component Metrics (Mean):
+  Score Quality: 0.2621
+  Coverage:      0.1300
+  Diversity:     0.1913
+  Efficiency:    0.6182
+  Balance:       0.0597
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9951 (S=0.990, C=1.000)
+  2. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 500: SCBI=0.9740 (S=0.948, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1951
+  Median: 0.0475
+  Std:    0.2522
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2636
+  Coverage:      0.1267
+  Diversity:     0.2167
+  Efficiency:    0.6182
+  Balance:       0.0613
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  3. Video 382: SCBI=0.9916 (S=0.983, C=1.000)
+  4. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1950
+  Median: 0.0609
+  Std:    0.2480
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2767
+  Coverage:      0.1133
+  Diversity:     0.2235
+  Efficiency:    0.6174
+  Balance:       0.0591
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9973 (S=0.995, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1947
+  Median: 0.0609
+  Std:    0.2473
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2760
+  Coverage:      0.1133
+  Diversity:     0.2135
+  Efficiency:    0.6176
+  Balance:       0.0574
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9973 (S=0.995, C=1.000)
+  3. Video 490: SCBI=0.9901 (S=0.980, C=1.000)
+  4. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1941
+  Median: 0.0540
+  Std:    0.2495
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2681
+  Coverage:      0.1200
+  Diversity:     0.2277
+  Efficiency:    0.6209
+  Balance:       0.0622
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  3. Video 346: SCBI=0.9894 (S=0.979, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 40: SCBI=0.8893 (S=0.779, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1938
+  Median: 0.0515
+  Std:    0.2504
+  Min:    0.0000
+  Max:    0.9933
+
+Component Metrics (Mean):
+  Score Quality: 0.2542
+  Coverage:      0.1333
+  Diversity:     0.1949
+  Efficiency:    0.6189
+  Balance:       0.0638
+
+Top 5 Videos (by SCBI):
+  1. Video 490: SCBI=0.9933 (S=0.987, C=1.000)
+  2. Video 382: SCBI=0.9917 (S=0.983, C=1.000)
+  3. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 390: SCBI=0.9008 (S=0.802, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1937
+  Median: 0.0505
+  Std:    0.2484
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2506
+  Coverage:      0.1367
+  Diversity:     0.1992
+  Efficiency:    0.5889
+  Balance:       0.0584
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 346: SCBI=0.9950 (S=0.990, C=1.000)
+  3. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1936
+  Median: 0.0537
+  Std:    0.2513
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2539
+  Coverage:      0.1333
+  Diversity:     0.2067
+  Efficiency:    0.5850
+  Balance:       0.0634
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9996 (S=0.999, C=1.000)
+  3. Video 346: SCBI=0.9950 (S=0.990, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1929
+  Median: 0.0555
+  Std:    0.2443
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2625
+  Coverage:      0.1233
+  Diversity:     0.2051
+  Efficiency:    0.5877
+  Balance:       0.0567
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  3. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+  4. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+  5. Video 817: SCBI=0.8276 (S=0.655, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1923
+  Median: 0.0566
+  Std:    0.2480
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2646
+  Coverage:      0.1200
+  Diversity:     0.2226
+  Efficiency:    0.6185
+  Balance:       0.0597
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 466: SCBI=0.9855 (S=0.971, C=1.000)
+  3. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  4. Video 143: SCBI=0.9558 (S=0.912, C=1.000)
+  5. Video 362: SCBI=0.9377 (S=0.875, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1923
+  Median: 0.0539
+  Std:    0.2493
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2546
+  Coverage:      0.1300
+  Diversity:     0.1932
+  Efficiency:    0.5950
+  Balance:       0.0597
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9996 (S=0.999, C=1.000)
+  3. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  4. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  5. Video 500: SCBI=0.9731 (S=0.946, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1917
+  Median: 0.0545
+  Std:    0.2418
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2600
+  Coverage:      0.1233
+  Diversity:     0.2022
+  Efficiency:    0.5877
+  Balance:       0.0538
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  3. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+  4. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+  5. Video 316: SCBI=0.8004 (S=0.601, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1915
+  Median: 0.0539
+  Std:    0.2426
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2563
+  Coverage:      0.1267
+  Diversity:     0.1931
+  Efficiency:    0.5992
+  Balance:       0.0526
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  3. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  4. Video 390: SCBI=0.8877 (S=0.775, C=1.000)
+  5. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1913
+  Median: 0.0520
+  Std:    0.2482
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2527
+  Coverage:      0.1300
+  Diversity:     0.1954
+  Efficiency:    0.5987
+  Balance:       0.0606
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 466: SCBI=0.9785 (S=0.957, C=1.000)
+  3. Video 500: SCBI=0.9780 (S=0.956, C=1.000)
+  4. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1908
+  Median: 0.0539
+  Std:    0.2506
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2649
+  Coverage:      0.1167
+  Diversity:     0.2146
+  Efficiency:    0.6214
+  Balance:       0.0622
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 110: SCBI=0.9932 (S=0.986, C=1.000)
+  3. Video 382: SCBI=0.9916 (S=0.983, C=1.000)
+  4. Video 466: SCBI=0.9855 (S=0.971, C=1.000)
+  5. Video 362: SCBI=0.9381 (S=0.876, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1901
+  Median: 0.0415
+  Std:    0.2482
+  Min:    0.0000
+  Max:    0.9957
+
+Component Metrics (Mean):
+  Score Quality: 0.2468
+  Coverage:      0.1333
+  Diversity:     0.1852
+  Efficiency:    0.5951
+  Balance:       0.0579
+
+Top 5 Videos (by SCBI):
+  1. Video 532: SCBI=0.9957 (S=0.991, C=1.000)
+  2. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  3. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  4. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+  5. Video 110: SCBI=0.8742 (S=0.748, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1900
+  Median: 0.0505
+  Std:    0.2464
+  Min:    0.0000
+  Max:    0.9922
+
+Component Metrics (Mean):
+  Score Quality: 0.2601
+  Coverage:      0.1200
+  Diversity:     0.1863
+  Efficiency:    0.5981
+  Balance:       0.0550
+
+Top 5 Videos (by SCBI):
+  1. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  2. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  3. Video 500: SCBI=0.9742 (S=0.948, C=1.000)
+  4. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  5. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1897
+  Median: 0.0540
+  Std:    0.2438
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2594
+  Coverage:      0.1200
+  Diversity:     0.2057
+  Efficiency:    0.5809
+  Balance:       0.0552
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9996 (S=0.999, C=1.000)
+  3. Video 93: SCBI=0.9822 (S=0.964, C=1.000)
+  4. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+  5. Video 817: SCBI=0.8276 (S=0.655, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1889
+  Median: 0.0515
+  Std:    0.2539
+  Min:    0.0000
+  Max:    1.0000
+
+Component Metrics (Mean):
+  Score Quality: 0.2511
+  Coverage:      0.1267
+  Diversity:     0.2116
+  Efficiency:    0.6063
+  Balance:       0.0654
+
+Top 5 Videos (by SCBI):
+  1. Video 40: SCBI=1.0000 (S=1.000, C=1.000)
+  2. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  3. Video 372: SCBI=0.9796 (S=0.959, C=1.000)
+  4. Video 563: SCBI=0.9436 (S=0.887, C=1.000)
+  5. Video 362: SCBI=0.9377 (S=0.875, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1872
+  Median: 0.0348
+  Std:    0.2520
+  Min:    0.0000
+  Max:    0.9976
+
+Component Metrics (Mean):
+  Score Quality: 0.2444
+  Coverage:      0.1300
+  Diversity:     0.2017
+  Efficiency:    0.5889
+  Balance:       0.0652
+
+Top 5 Videos (by SCBI):
+  1. Video 689: SCBI=0.9976 (S=0.995, C=1.000)
+  2. Video 382: SCBI=0.9920 (S=0.984, C=1.000)
+  3. Video 500: SCBI=0.9649 (S=0.930, C=1.000)
+  4. Video 219: SCBI=0.9263 (S=0.853, C=1.000)
+  5. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1858
+  Median: 0.0505
+  Std:    0.2403
+  Min:    0.0000
+  Max:    0.9922
+
+Component Metrics (Mean):
+  Score Quality: 0.2584
+  Coverage:      0.1133
+  Diversity:     0.1947
+  Efficiency:    0.5948
+  Balance:       0.0507
+
+Top 5 Videos (by SCBI):
+  1. Video 382: SCBI=0.9922 (S=0.984, C=1.000)
+  2. Video 500: SCBI=0.9742 (S=0.948, C=1.000)
+  3. Video 831: SCBI=0.9209 (S=0.842, C=1.000)
+  4. Video 86: SCBI=0.8929 (S=0.786, C=1.000)
+  5. Video 198: SCBI=0.8612 (S=0.722, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+Algorithm: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+--------------------------------------------------------------------------------
+SCBI Statistics:
+  Mean:   0.1851
+  Median: 0.0438
+  Std:    0.2477
+  Min:    0.0000
+  Max:    0.9993
+
+Component Metrics (Mean):
+  Score Quality: 0.2401
+  Coverage:      0.1300
+  Diversity:     0.2129
+  Efficiency:    0.5749
+  Balance:       0.0615
+
+Top 5 Videos (by SCBI):
+  1. Video 19: SCBI=0.9993 (S=0.999, C=1.000)
+  2. Video 532: SCBI=0.9937 (S=0.987, C=1.000)
+  3. Video 382: SCBI=0.9918 (S=0.984, C=1.000)
+  4. Video 93: SCBI=0.9076 (S=0.815, C=1.000)
+  5. Video 110: SCBI=0.8738 (S=0.748, C=1.000)
+
+Bottom 5 Videos (by SCBI):
+  1. Video 770: SCBI=0.0000 (S=0.000, C=0.000)
+  2. Video 884: SCBI=0.0000 (S=0.000, C=0.000)
+  3. Video 748: SCBI=0.0000 (S=0.000, C=0.000)
+  4. Video 559: SCBI=0.0000 (S=0.000, C=0.000)
+  5. Video 877: SCBI=0.0000 (S=0.000, C=0.000)
+
+================================================================================
+
+METRIC INTERPRETATIONS
+--------------------------------------------------------------------------------
+1. SCBI (Score-Coverage Balanced Index):
+   Combined metric balancing score quality and temporal coverage.
+   Higher is better. Range: [0, 1]
+
+2. Score Quality (S):
+   Ratio of selected frame scores to optimal top-M scores.
+   Measures how well high-quality frames are captured.
+   Higher is better. Range: [0, 1]
+
+3. Coverage (C):
+   Measures temporal distribution uniformity.
+   Higher means more evenly distributed frames across video.
+   Higher is better. Range: [0, 1]
+
+4. Diversity (D):
+   Variance in selected frame scores (normalized).
+   Higher means more diverse quality selection.
+   Context-dependent: not always better. Range: [0, 1]
+
+5. Efficiency (E):
+   Compression ratio (frames selected vs available).
+   Higher means fewer frames selected (more compression).
+   Higher is better for efficiency. Range: [0, 1]
+
+6. Balance (B):
+   Harmonic mean of Score Quality and Coverage.
+   Penalizes algorithms that excel in only one dimension.
+   Higher is better. Range: [0, 1]
+

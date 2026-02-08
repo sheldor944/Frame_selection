@@ -1,0 +1,1170 @@
+2025-12-02 15:48:36,462 [INFO] Logging initialized. Log file: log/evaluation_log.txt
+2025-12-02 15:48:36,462 [INFO] ================================================================================
+2025-12-02 15:48:36,462 [INFO] STARTING FRAME SELECTION EVALUATION
+2025-12-02 15:48:36,462 [INFO] ================================================================================
+2025-12-02 15:48:36,462 [INFO] Loading dense frames from: ./output_dense_sampling_new/videomme/blip/frames_dense_r2_f2_ram.json
+2025-12-02 15:48:36,856 [INFO] Loading dense scores from: ./output_dense_sampling_new/videomme/blip/scores_dense_r2_f2_ram.json
+2025-12-02 15:48:38,252 [INFO] Loaded 2700 videos with dense frames
+2025-12-02 15:48:38,252 [INFO] Found 72 JSON files in ALL_DATA/vmme_300_16_8_paramtune
+2025-12-02 15:48:38,253 [INFO] Found 72 algorithm files to evaluate
+2025-12-02 15:48:38,253 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+2025-12-02 15:48:38,257 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:38,258 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:38,258 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:38,259 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:38,260 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:38,284 [WARNING] Total videos with zero SCBI: 121 (showing first 10)
+2025-12-02 15:48:38,284 [INFO] Valid videos: 179/300
+2025-12-02 15:48:39,743 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+2025-12-02 15:48:39,743 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+2025-12-02 15:48:39,745 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:39,745 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:39,746 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:39,747 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:39,747 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:39,765 [WARNING] Total videos with zero SCBI: 119 (showing first 10)
+2025-12-02 15:48:39,765 [INFO] Valid videos: 181/300
+2025-12-02 15:48:40,956 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+2025-12-02 15:48:40,956 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+2025-12-02 15:48:40,957 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:48:40,958 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:40,958 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:40,958 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:40,958 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:40,959 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:40,959 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:40,959 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:40,959 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:40,959 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:40,959 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:40,978 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:48:40,978 [INFO] Valid videos: 180/300
+2025-12-02 15:48:42,162 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+2025-12-02 15:48:42,162 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+2025-12-02 15:48:42,163 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:42,164 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:42,164 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:42,164 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:42,165 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:42,165 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:42,165 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:42,165 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:42,165 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:42,165 [WARNING] Video 520: Zero SCBI score
+2025-12-02 15:48:42,166 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:42,187 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:48:42,187 [INFO] Valid videos: 180/300
+2025-12-02 15:48:43,369 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+2025-12-02 15:48:43,370 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+2025-12-02 15:48:43,371 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:43,371 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:43,372 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:43,373 [WARNING] Video 520: Zero SCBI score
+2025-12-02 15:48:43,373 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:43,391 [WARNING] Total videos with zero SCBI: 124 (showing first 10)
+2025-12-02 15:48:43,391 [INFO] Valid videos: 176/300
+2025-12-02 15:48:44,705 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+2025-12-02 15:48:44,705 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+2025-12-02 15:48:44,707 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:44,707 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:44,707 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:44,707 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:44,708 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:44,708 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:44,708 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:44,708 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:44,708 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:44,709 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:44,709 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:44,727 [WARNING] Total videos with zero SCBI: 124 (showing first 10)
+2025-12-02 15:48:44,727 [INFO] Valid videos: 176/300
+2025-12-02 15:48:45,904 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+2025-12-02 15:48:45,904 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+2025-12-02 15:48:45,906 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:45,906 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:45,906 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:45,907 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:45,907 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:45,907 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:45,907 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:45,907 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:45,907 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:45,908 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:45,908 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:45,926 [WARNING] Total videos with zero SCBI: 118 (showing first 10)
+2025-12-02 15:48:45,926 [INFO] Valid videos: 182/300
+2025-12-02 15:48:47,102 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+2025-12-02 15:48:47,102 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+2025-12-02 15:48:47,103 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:47,104 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:47,104 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:47,104 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:47,105 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:47,105 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:47,105 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:47,105 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:47,105 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:47,105 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:47,106 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:47,124 [WARNING] Total videos with zero SCBI: 119 (showing first 10)
+2025-12-02 15:48:47,124 [INFO] Valid videos: 181/300
+2025-12-02 15:48:48,306 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+2025-12-02 15:48:48,306 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+2025-12-02 15:48:48,307 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:48:48,308 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:48,308 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:48,308 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:48,308 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:48,308 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:48,309 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:48,309 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:48,309 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:48,309 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:48,309 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:48,327 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:48:48,327 [INFO] Valid videos: 183/300
+2025-12-02 15:48:49,508 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+2025-12-02 15:48:49,508 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+2025-12-02 15:48:49,509 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:49,510 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:49,510 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:49,510 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:49,510 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:49,510 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:49,510 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:49,510 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:49,511 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:49,511 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:49,511 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:49,529 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:48:49,529 [INFO] Valid videos: 183/300
+2025-12-02 15:48:50,874 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+2025-12-02 15:48:50,874 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+2025-12-02 15:48:50,876 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:50,876 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:50,876 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:50,876 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:50,877 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:50,877 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:50,877 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:50,877 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:50,877 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:50,877 [WARNING] Video 520: Zero SCBI score
+2025-12-02 15:48:50,878 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:50,896 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:48:50,896 [INFO] Valid videos: 180/300
+2025-12-02 15:48:52,073 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+2025-12-02 15:48:52,073 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+2025-12-02 15:48:52,074 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:52,075 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:52,075 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:52,075 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:52,075 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:52,076 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:52,076 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:52,076 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:52,076 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:52,076 [WARNING] Video 520: Zero SCBI score
+2025-12-02 15:48:52,076 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:52,095 [WARNING] Total videos with zero SCBI: 122 (showing first 10)
+2025-12-02 15:48:52,095 [INFO] Valid videos: 178/300
+2025-12-02 15:48:53,269 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+2025-12-02 15:48:53,269 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+2025-12-02 15:48:53,271 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:53,271 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:53,271 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:53,271 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:53,272 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:53,272 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:53,272 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:53,272 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:53,273 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:53,273 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:53,273 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:48:53,290 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:48:53,290 [INFO] Valid videos: 188/300
+2025-12-02 15:48:54,469 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+2025-12-02 15:48:54,469 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+2025-12-02 15:48:54,470 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:54,471 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:54,471 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:54,471 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:54,471 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:54,472 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:54,472 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:54,472 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:54,472 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:54,472 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:54,472 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:48:54,490 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:48:54,490 [INFO] Valid videos: 188/300
+2025-12-02 15:48:55,823 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+2025-12-02 15:48:55,823 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+2025-12-02 15:48:55,824 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:48:55,825 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:55,825 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:55,825 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:55,825 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:55,826 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:55,826 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:55,826 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:55,826 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:55,826 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:55,826 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:48:55,844 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:48:55,844 [INFO] Valid videos: 189/300
+2025-12-02 15:48:57,027 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+2025-12-02 15:48:57,027 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+2025-12-02 15:48:57,029 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:57,030 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:57,030 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:57,030 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:57,030 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:57,030 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:57,030 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:57,031 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:57,031 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:57,031 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:57,031 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:48:57,049 [WARNING] Total videos with zero SCBI: 114 (showing first 10)
+2025-12-02 15:48:57,049 [INFO] Valid videos: 186/300
+2025-12-02 15:48:58,232 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+2025-12-02 15:48:58,232 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+2025-12-02 15:48:58,234 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:58,234 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:58,235 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:58,235 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:58,235 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:58,235 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:58,235 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:58,235 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:58,236 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:58,236 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:58,236 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:48:58,254 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:48:58,254 [INFO] Valid videos: 183/300
+2025-12-02 15:48:59,432 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+2025-12-02 15:48:59,432 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+2025-12-02 15:48:59,433 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:48:59,434 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:48:59,434 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:48:59,434 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:48:59,435 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:48:59,435 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:48:59,435 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:48:59,435 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:48:59,435 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:48:59,436 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:48:59,436 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:48:59,454 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:48:59,454 [INFO] Valid videos: 180/300
+2025-12-02 15:49:00,632 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+2025-12-02 15:49:00,633 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+2025-12-02 15:49:00,634 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:49:00,634 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:00,634 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:00,635 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:00,635 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:00,635 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:00,635 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:00,636 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:00,636 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:00,636 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:00,636 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:00,654 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:00,654 [INFO] Valid videos: 189/300
+2025-12-02 15:49:02,004 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+2025-12-02 15:49:02,004 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+2025-12-02 15:49:02,006 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:49:02,006 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:02,006 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:02,006 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:02,007 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:02,007 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:02,007 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:02,008 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:02,008 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:02,008 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:02,008 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:02,026 [WARNING] Total videos with zero SCBI: 110 (showing first 10)
+2025-12-02 15:49:02,026 [INFO] Valid videos: 190/300
+2025-12-02 15:49:03,207 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+2025-12-02 15:49:03,207 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+2025-12-02 15:49:03,208 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:03,209 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:03,209 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:03,209 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:03,209 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:03,209 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:03,210 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:03,210 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:03,210 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:03,210 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:03,210 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:03,228 [WARNING] Total videos with zero SCBI: 110 (showing first 10)
+2025-12-02 15:49:03,228 [INFO] Valid videos: 190/300
+2025-12-02 15:49:04,430 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+2025-12-02 15:49:04,430 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+2025-12-02 15:49:04,431 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:49:04,432 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:04,432 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:04,432 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:04,432 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:04,432 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:04,433 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:04,433 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:04,433 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:04,433 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:04,434 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:04,455 [WARNING] Total videos with zero SCBI: 109 (showing first 10)
+2025-12-02 15:49:04,455 [INFO] Valid videos: 191/300
+2025-12-02 15:49:05,633 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+2025-12-02 15:49:05,633 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+2025-12-02 15:49:05,635 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:05,635 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:05,635 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:05,635 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:05,636 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:05,636 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:05,636 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:05,637 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:05,637 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:05,637 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:05,637 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:05,655 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:05,655 [INFO] Valid videos: 189/300
+2025-12-02 15:49:06,841 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+2025-12-02 15:49:06,841 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+2025-12-02 15:49:06,842 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:06,843 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:06,843 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:06,843 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:06,843 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:06,844 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:06,844 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:06,844 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:06,844 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:06,844 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:06,844 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:06,862 [WARNING] Total videos with zero SCBI: 115 (showing first 10)
+2025-12-02 15:49:06,862 [INFO] Valid videos: 185/300
+2025-12-02 15:49:08,216 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+2025-12-02 15:49:08,216 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+2025-12-02 15:49:08,218 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:08,218 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:08,219 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:08,220 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:08,220 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:08,241 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:49:08,241 [INFO] Valid videos: 180/300
+2025-12-02 15:49:09,432 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+2025-12-02 15:49:09,432 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+2025-12-02 15:49:09,433 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:09,434 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:09,434 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:09,434 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:09,434 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:09,434 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:09,435 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:09,435 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:09,435 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:09,435 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:09,435 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:09,453 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:49:09,453 [INFO] Valid videos: 180/300
+2025-12-02 15:49:10,635 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+2025-12-02 15:49:10,635 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+2025-12-02 15:49:10,637 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:10,637 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:10,638 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:10,639 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:10,657 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:49:10,657 [INFO] Valid videos: 180/300
+2025-12-02 15:49:11,846 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+2025-12-02 15:49:11,847 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+2025-12-02 15:49:11,848 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:11,848 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:11,849 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:11,850 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:11,850 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:11,868 [WARNING] Total videos with zero SCBI: 118 (showing first 10)
+2025-12-02 15:49:11,868 [INFO] Valid videos: 182/300
+2025-12-02 15:49:13,195 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+2025-12-02 15:49:13,195 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+2025-12-02 15:49:13,196 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:13,197 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:13,197 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:13,197 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:13,197 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:13,198 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:13,198 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:13,198 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:13,198 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:13,198 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:13,198 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:13,216 [WARNING] Total videos with zero SCBI: 118 (showing first 10)
+2025-12-02 15:49:13,216 [INFO] Valid videos: 182/300
+2025-12-02 15:49:14,403 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+2025-12-02 15:49:14,403 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+2025-12-02 15:49:14,404 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:14,405 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:14,405 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:14,405 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:14,406 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:14,425 [WARNING] Total videos with zero SCBI: 124 (showing first 10)
+2025-12-02 15:49:14,425 [INFO] Valid videos: 176/300
+2025-12-02 15:49:15,611 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+2025-12-02 15:49:15,611 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+2025-12-02 15:49:15,612 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:15,613 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:15,613 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:15,613 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:15,613 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:15,613 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:15,614 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:15,614 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:15,614 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:15,614 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:15,614 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:15,632 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:49:15,632 [INFO] Valid videos: 183/300
+2025-12-02 15:49:16,815 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+2025-12-02 15:49:16,815 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+2025-12-02 15:49:16,817 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:16,817 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:16,818 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:16,819 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:16,819 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:16,837 [WARNING] Total videos with zero SCBI: 116 (showing first 10)
+2025-12-02 15:49:16,837 [INFO] Valid videos: 184/300
+2025-12-02 15:49:18,025 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+2025-12-02 15:49:18,025 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+2025-12-02 15:49:18,026 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:18,027 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:18,027 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:18,027 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:18,028 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:18,028 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:18,028 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:18,028 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:18,028 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:18,028 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:18,029 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:18,047 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:49:18,047 [INFO] Valid videos: 183/300
+2025-12-02 15:49:19,406 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+2025-12-02 15:49:19,406 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+2025-12-02 15:49:19,408 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:19,408 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:19,409 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:19,410 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:19,410 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:19,428 [WARNING] Total videos with zero SCBI: 115 (showing first 10)
+2025-12-02 15:49:19,428 [INFO] Valid videos: 185/300
+2025-12-02 15:49:20,610 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+2025-12-02 15:49:20,610 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+2025-12-02 15:49:20,612 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:20,612 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:20,612 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:20,612 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:20,613 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:20,613 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:20,613 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:20,613 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:20,613 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:20,614 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:20,614 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:20,632 [WARNING] Total videos with zero SCBI: 116 (showing first 10)
+2025-12-02 15:49:20,632 [INFO] Valid videos: 184/300
+2025-12-02 15:49:21,817 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+2025-12-02 15:49:21,817 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+2025-12-02 15:49:21,818 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:21,819 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:21,819 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:21,819 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:21,819 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:21,820 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:21,820 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:21,820 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:21,820 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:21,820 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:21,820 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:21,839 [WARNING] Total videos with zero SCBI: 118 (showing first 10)
+2025-12-02 15:49:21,839 [INFO] Valid videos: 182/300
+2025-12-02 15:49:23,024 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+2025-12-02 15:49:23,024 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+2025-12-02 15:49:23,026 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:23,026 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:23,026 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:23,027 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:23,027 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:23,027 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:23,027 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:23,027 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:23,028 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:23,028 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:23,028 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:23,045 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:23,045 [INFO] Valid videos: 188/300
+2025-12-02 15:49:24,231 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+2025-12-02 15:49:24,231 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+2025-12-02 15:49:24,232 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:24,232 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:24,233 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:24,233 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:24,233 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:24,233 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:24,233 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:24,234 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:24,234 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:24,234 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:24,234 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:24,252 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:24,252 [INFO] Valid videos: 189/300
+2025-12-02 15:49:25,615 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+2025-12-02 15:49:25,615 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+2025-12-02 15:49:25,617 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:25,617 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:25,617 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:25,618 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:25,618 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:25,618 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:25,618 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:25,618 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:25,619 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:25,619 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:25,619 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:25,637 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:25,637 [INFO] Valid videos: 188/300
+2025-12-02 15:49:26,826 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+2025-12-02 15:49:26,826 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+2025-12-02 15:49:26,827 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:26,828 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:26,828 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:26,828 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:26,829 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:26,829 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:26,829 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:26,829 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:26,829 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:26,829 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:26,830 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:26,847 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:26,847 [INFO] Valid videos: 189/300
+2025-12-02 15:49:28,031 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+2025-12-02 15:49:28,031 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+2025-12-02 15:49:28,032 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:28,033 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:28,033 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:28,033 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:28,033 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:28,033 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:28,034 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:28,034 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:28,034 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:28,034 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:28,034 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:28,052 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:28,052 [INFO] Valid videos: 188/300
+2025-12-02 15:49:29,236 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+2025-12-02 15:49:29,236 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+2025-12-02 15:49:29,238 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:29,238 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:29,238 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:29,238 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:29,239 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:29,239 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:29,239 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:29,239 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:29,240 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:29,240 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:29,240 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:29,262 [WARNING] Total videos with zero SCBI: 114 (showing first 10)
+2025-12-02 15:49:29,262 [INFO] Valid videos: 186/300
+2025-12-02 15:49:30,590 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+2025-12-02 15:49:30,590 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+2025-12-02 15:49:30,592 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:30,592 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:30,592 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:30,592 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:30,593 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:30,593 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:30,593 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:30,594 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:30,594 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:30,594 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:30,594 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:30,612 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:30,612 [INFO] Valid videos: 189/300
+2025-12-02 15:49:31,796 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+2025-12-02 15:49:31,796 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+2025-12-02 15:49:31,798 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:31,798 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:31,798 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:31,798 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:31,799 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:31,799 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:31,799 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:31,800 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:31,800 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:31,800 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:31,800 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:31,818 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:31,818 [INFO] Valid videos: 188/300
+2025-12-02 15:49:33,026 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+2025-12-02 15:49:33,026 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+2025-12-02 15:49:33,027 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:33,028 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:33,028 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:33,028 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:33,029 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:33,029 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:33,029 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:33,029 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:33,029 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:33,029 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:33,030 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:33,048 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:33,048 [INFO] Valid videos: 188/300
+2025-12-02 15:49:34,231 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+2025-12-02 15:49:34,231 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+2025-12-02 15:49:34,233 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:49:34,233 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:34,233 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:34,234 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:34,234 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:34,234 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:34,234 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:34,235 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:34,235 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:34,235 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:34,235 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:34,253 [WARNING] Total videos with zero SCBI: 108 (showing first 10)
+2025-12-02 15:49:34,253 [INFO] Valid videos: 192/300
+2025-12-02 15:49:35,441 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+2025-12-02 15:49:35,441 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+2025-12-02 15:49:35,442 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:35,443 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:35,443 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:35,443 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:35,444 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:35,444 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:35,444 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:35,444 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:35,444 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:35,444 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:35,445 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:35,463 [WARNING] Total videos with zero SCBI: 110 (showing first 10)
+2025-12-02 15:49:35,463 [INFO] Valid videos: 190/300
+2025-12-02 15:49:36,826 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+2025-12-02 15:49:36,826 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+2025-12-02 15:49:36,827 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:36,828 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:36,828 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:36,828 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:36,829 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:36,829 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:36,829 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:36,829 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:36,830 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:36,830 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:36,830 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:49:36,848 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:36,848 [INFO] Valid videos: 188/300
+2025-12-02 15:49:38,035 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+2025-12-02 15:49:38,035 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+2025-12-02 15:49:38,037 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:38,037 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:38,038 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:38,039 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:38,039 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:38,057 [WARNING] Total videos with zero SCBI: 121 (showing first 10)
+2025-12-02 15:49:38,057 [INFO] Valid videos: 179/300
+2025-12-02 15:49:39,238 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+2025-12-02 15:49:39,238 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+2025-12-02 15:49:39,239 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:39,240 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:39,240 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:39,240 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:39,241 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:39,241 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:39,241 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:39,241 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:39,241 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:39,241 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:39,242 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:39,260 [WARNING] Total videos with zero SCBI: 120 (showing first 10)
+2025-12-02 15:49:39,260 [INFO] Valid videos: 180/300
+2025-12-02 15:49:40,448 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+2025-12-02 15:49:40,448 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+2025-12-02 15:49:40,449 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:40,450 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:40,450 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:40,450 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:40,451 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:40,451 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:40,451 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:40,451 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:40,451 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:40,451 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:40,452 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:40,470 [WARNING] Total videos with zero SCBI: 122 (showing first 10)
+2025-12-02 15:49:40,470 [INFO] Valid videos: 178/300
+2025-12-02 15:49:41,655 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+2025-12-02 15:49:41,655 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+2025-12-02 15:49:41,657 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:41,657 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:41,657 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:41,657 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:41,658 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:41,658 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:41,658 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:41,658 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:41,658 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:41,659 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:41,659 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:41,676 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:49:41,676 [INFO] Valid videos: 183/300
+2025-12-02 15:49:43,036 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+2025-12-02 15:49:43,036 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+2025-12-02 15:49:43,037 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:43,038 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:43,038 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:43,038 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:43,038 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:43,038 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:43,038 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:43,039 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:43,039 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:43,039 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:43,039 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:43,057 [WARNING] Total videos with zero SCBI: 124 (showing first 10)
+2025-12-02 15:49:43,058 [INFO] Valid videos: 176/300
+2025-12-02 15:49:44,245 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+2025-12-02 15:49:44,245 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+2025-12-02 15:49:44,246 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:44,247 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:44,247 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:44,247 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:44,247 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:44,247 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:44,248 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:44,248 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:44,248 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:44,248 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:44,248 [WARNING] Video 520: Zero SCBI score
+2025-12-02 15:49:44,266 [WARNING] Total videos with zero SCBI: 125 (showing first 10)
+2025-12-02 15:49:44,266 [INFO] Valid videos: 175/300
+2025-12-02 15:49:45,449 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+2025-12-02 15:49:45,449 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+2025-12-02 15:49:45,451 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:45,451 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:45,452 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:45,453 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:45,453 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:45,471 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:49:45,471 [INFO] Valid videos: 183/300
+2025-12-02 15:49:46,652 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+2025-12-02 15:49:46,652 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+2025-12-02 15:49:46,654 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:46,654 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:46,654 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:46,655 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:46,655 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:46,655 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:46,655 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:46,655 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:46,655 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:46,656 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:46,656 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:46,674 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:49:46,674 [INFO] Valid videos: 183/300
+2025-12-02 15:49:48,013 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+2025-12-02 15:49:48,013 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+2025-12-02 15:49:48,015 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:48,015 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:48,015 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:48,015 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:48,016 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:48,016 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:48,016 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:48,016 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:48,016 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:48,017 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:48,017 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:48,035 [WARNING] Total videos with zero SCBI: 119 (showing first 10)
+2025-12-02 15:49:48,035 [INFO] Valid videos: 181/300
+2025-12-02 15:49:49,218 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+2025-12-02 15:49:49,218 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+2025-12-02 15:49:49,219 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:49,220 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:49,220 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:49,220 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:49,221 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:49,221 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:49,221 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:49,221 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:49,221 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:49,222 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:49,222 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:49,240 [WARNING] Total videos with zero SCBI: 116 (showing first 10)
+2025-12-02 15:49:49,240 [INFO] Valid videos: 184/300
+2025-12-02 15:49:50,420 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+2025-12-02 15:49:50,420 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+2025-12-02 15:49:50,425 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:50,425 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:50,426 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:50,426 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:50,426 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:50,426 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:50,426 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:50,426 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:50,427 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:50,427 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:50,427 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:50,445 [WARNING] Total videos with zero SCBI: 117 (showing first 10)
+2025-12-02 15:49:50,445 [INFO] Valid videos: 183/300
+2025-12-02 15:49:51,631 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+2025-12-02 15:49:51,631 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+2025-12-02 15:49:51,633 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:51,633 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:51,633 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:51,633 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:51,634 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:51,634 [WARNING] Video 575: Zero SCBI score
+2025-12-02 15:49:51,634 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:51,634 [WARNING] Video 474: Zero SCBI score
+2025-12-02 15:49:51,634 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:51,634 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:51,635 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:51,652 [WARNING] Total videos with zero SCBI: 121 (showing first 10)
+2025-12-02 15:49:51,653 [INFO] Valid videos: 179/300
+2025-12-02 15:49:52,838 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+2025-12-02 15:49:52,838 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+2025-12-02 15:49:52,839 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:52,840 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:52,840 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:52,840 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:52,840 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:52,840 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:52,841 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:52,841 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:52,841 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:52,841 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:52,841 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:52,859 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:52,859 [INFO] Valid videos: 189/300
+2025-12-02 15:49:54,210 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+2025-12-02 15:49:54,210 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+2025-12-02 15:49:54,211 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:54,212 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:54,212 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:54,212 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:54,212 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:54,213 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:54,213 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:54,213 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:54,213 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:54,213 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:54,214 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:54,231 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:49:54,232 [INFO] Valid videos: 188/300
+2025-12-02 15:49:55,415 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+2025-12-02 15:49:55,415 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+2025-12-02 15:49:55,416 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:55,417 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:55,417 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:55,417 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:55,418 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:55,418 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:55,418 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:55,418 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:55,418 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:55,418 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:55,419 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:55,437 [WARNING] Total videos with zero SCBI: 113 (showing first 10)
+2025-12-02 15:49:55,437 [INFO] Valid videos: 187/300
+2025-12-02 15:49:56,622 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+2025-12-02 15:49:56,622 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+2025-12-02 15:49:56,623 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:56,624 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:56,624 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:56,624 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:56,624 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:56,625 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:56,625 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:56,625 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:56,625 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:56,625 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:56,625 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:56,643 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:49:56,643 [INFO] Valid videos: 189/300
+2025-12-02 15:49:57,832 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+2025-12-02 15:49:57,832 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+2025-12-02 15:49:57,837 [INFO] Video 112: Using nearest-neighbor matching (found 11 matches)
+2025-12-02 15:49:57,838 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:57,838 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:57,838 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:57,838 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:57,839 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:57,839 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:57,839 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:57,839 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:57,839 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:57,840 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:57,858 [WARNING] Total videos with zero SCBI: 113 (showing first 10)
+2025-12-02 15:49:57,858 [INFO] Valid videos: 187/300
+2025-12-02 15:49:59,040 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+2025-12-02 15:49:59,040 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+2025-12-02 15:49:59,041 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:49:59,042 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:49:59,042 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:49:59,042 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:49:59,042 [WARNING] Video 33: Zero SCBI score
+2025-12-02 15:49:59,042 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:49:59,043 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:49:59,043 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:49:59,043 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:49:59,043 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:49:59,043 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:49:59,061 [WARNING] Total videos with zero SCBI: 116 (showing first 10)
+2025-12-02 15:49:59,061 [INFO] Valid videos: 184/300
+2025-12-02 15:50:00,411 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+2025-12-02 15:50:00,411 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+2025-12-02 15:50:00,412 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:50:00,413 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:50:00,413 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:50:00,413 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:50:00,414 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:50:00,414 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:50:00,414 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:50:00,414 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:50:00,414 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:50:00,415 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:50:00,415 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:50:00,433 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:50:00,433 [INFO] Valid videos: 189/300
+2025-12-02 15:50:01,619 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+2025-12-02 15:50:01,619 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+2025-12-02 15:50:01,621 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:50:01,622 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:50:01,622 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:50:01,622 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:50:01,622 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:50:01,622 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:50:01,622 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:50:01,623 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:50:01,623 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:50:01,623 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:50:01,624 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:50:01,641 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:50:01,641 [INFO] Valid videos: 188/300
+2025-12-02 15:50:02,826 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+2025-12-02 15:50:02,826 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+2025-12-02 15:50:02,827 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:50:02,828 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:50:02,828 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:50:02,828 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:50:02,828 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:50:02,829 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:50:02,829 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:50:02,829 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:50:02,829 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:50:02,829 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:50:02,830 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:50:02,848 [WARNING] Total videos with zero SCBI: 112 (showing first 10)
+2025-12-02 15:50:02,848 [INFO] Valid videos: 188/300
+2025-12-02 15:50:04,035 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+2025-12-02 15:50:04,035 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+2025-12-02 15:50:04,036 [INFO] Video 112: Using nearest-neighbor matching (found 9 matches)
+2025-12-02 15:50:04,037 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:50:04,037 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:50:04,037 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:50:04,037 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:50:04,038 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:50:04,038 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:50:04,038 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:50:04,038 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:50:04,038 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:50:04,039 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:50:04,056 [WARNING] Total videos with zero SCBI: 109 (showing first 10)
+2025-12-02 15:50:04,056 [INFO] Valid videos: 191/300
+2025-12-02 15:50:05,244 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+2025-12-02 15:50:05,244 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+2025-12-02 15:50:05,411 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:50:05,412 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:50:05,412 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:50:05,412 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:50:05,413 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:50:05,413 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:50:05,413 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:50:05,414 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:50:05,414 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:50:05,414 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:50:05,414 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:50:05,432 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:50:05,432 [INFO] Valid videos: 189/300
+2025-12-02 15:50:06,621 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+2025-12-02 15:50:06,621 [INFO] Evaluating: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+2025-12-02 15:50:06,623 [INFO] Video 112: Using nearest-neighbor matching (found 10 matches)
+2025-12-02 15:50:06,623 [WARNING] Video 769: Zero SCBI score
+2025-12-02 15:50:06,623 [WARNING] Video 875: Zero SCBI score
+2025-12-02 15:50:06,623 [WARNING] Video 688: Zero SCBI score
+2025-12-02 15:50:06,624 [WARNING] Video 735: Zero SCBI score
+2025-12-02 15:50:06,624 [WARNING] Video 719: Zero SCBI score
+2025-12-02 15:50:06,624 [WARNING] Video 877: Zero SCBI score
+2025-12-02 15:50:06,624 [WARNING] Video 617: Zero SCBI score
+2025-12-02 15:50:06,625 [WARNING] Video 834: Zero SCBI score
+2025-12-02 15:50:06,625 [WARNING] Video 289: Zero SCBI score
+2025-12-02 15:50:06,625 [WARNING] Video 802: Zero SCBI score
+2025-12-02 15:50:06,643 [WARNING] Total videos with zero SCBI: 111 (showing first 10)
+2025-12-02 15:50:06,643 [INFO] Valid videos: 189/300
+2025-12-02 15:50:07,827 [INFO] Saved plots for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3 in plot/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+2025-12-02 15:50:07,827 [INFO] Successfully evaluated 72 algorithms
+2025-12-02 15:50:07,827 [INFO] Generating algorithm comparison plots...
+2025-12-02 15:50:18,663 [INFO] Saved comparison plots in plot/comparisons
+2025-12-02 15:50:18,664 [INFO] Saving results...
+2025-12-02 15:50:18,669 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+2025-12-02 15:50:18,673 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+2025-12-02 15:50:18,678 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+2025-12-02 15:50:18,682 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+2025-12-02 15:50:18,686 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+2025-12-02 15:50:18,690 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+2025-12-02 15:50:18,694 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+2025-12-02 15:50:18,698 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+2025-12-02 15:50:18,703 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+2025-12-02 15:50:18,707 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+2025-12-02 15:50:18,711 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+2025-12-02 15:50:18,715 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+2025-12-02 15:50:18,719 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+2025-12-02 15:50:18,723 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+2025-12-02 15:50:18,728 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+2025-12-02 15:50:18,732 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+2025-12-02 15:50:18,736 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+2025-12-02 15:50:18,740 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+2025-12-02 15:50:18,744 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+2025-12-02 15:50:18,749 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+2025-12-02 15:50:18,753 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+2025-12-02 15:50:18,757 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+2025-12-02 15:50:18,761 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+2025-12-02 15:50:18,765 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+2025-12-02 15:50:18,770 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+2025-12-02 15:50:18,774 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+2025-12-02 15:50:18,778 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+2025-12-02 15:50:18,782 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+2025-12-02 15:50:18,786 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+2025-12-02 15:50:18,791 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+2025-12-02 15:50:18,795 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+2025-12-02 15:50:18,799 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+2025-12-02 15:50:18,803 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+2025-12-02 15:50:18,807 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+2025-12-02 15:50:18,811 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+2025-12-02 15:50:18,816 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+2025-12-02 15:50:18,820 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+2025-12-02 15:50:18,824 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+2025-12-02 15:50:18,828 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+2025-12-02 15:50:18,833 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+2025-12-02 15:50:18,837 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+2025-12-02 15:50:18,841 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+2025-12-02 15:50:18,845 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+2025-12-02 15:50:18,850 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+2025-12-02 15:50:18,854 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+2025-12-02 15:50:18,858 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+2025-12-02 15:50:18,862 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+2025-12-02 15:50:18,866 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+2025-12-02 15:50:18,871 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+2025-12-02 15:50:18,875 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+2025-12-02 15:50:18,879 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+2025-12-02 15:50:18,883 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+2025-12-02 15:50:18,887 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+2025-12-02 15:50:18,892 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+2025-12-02 15:50:18,896 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+2025-12-02 15:50:18,900 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+2025-12-02 15:50:18,904 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+2025-12-02 15:50:18,908 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+2025-12-02 15:50:18,913 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+2025-12-02 15:50:18,917 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+2025-12-02 15:50:18,921 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+2025-12-02 15:50:18,925 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+2025-12-02 15:50:18,930 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+2025-12-02 15:50:18,934 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+2025-12-02 15:50:18,938 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+2025-12-02 15:50:18,942 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+2025-12-02 15:50:18,946 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+2025-12-02 15:50:18,951 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+2025-12-02 15:50:18,955 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+2025-12-02 15:50:18,959 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+2025-12-02 15:50:18,963 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+2025-12-02 15:50:18,967 [INFO] Saved detailed results for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+2025-12-02 15:50:18,975 [INFO] Saved summary comparison to plot/results
+2025-12-02 15:50:20,391 [INFO] Saved statistical comparisons to plot/results
+2025-12-02 15:50:20,391 [INFO] Generating evaluation report...
+2025-12-02 15:50:20,402 [INFO] Generated text report: plot/evaluation_report.txt
+2025-12-02 15:50:20,402 [INFO] Evaluation pipeline completed successfully

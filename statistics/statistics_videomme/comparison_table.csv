@@ -1,0 +1,67 @@
+Category,Subcategory,Percentile,Mean Coverage (%),Count
+Overall,All,Top 90%,10.40,2700
+Overall,All,Top 95%,5.74,2700
+Overall,All,Top 99%,1.80,2700
+Duration,short,Top 90%,9.52,900
+Duration,short,Top 95%,5.05,900
+Duration,short,Top 99%,2.05,900
+Duration,medium,Top 90%,10.04,900
+Duration,medium,Top 95%,6.47,900
+Duration,medium,Top 99%,1.30,900
+Duration,long,Top 90%,11.66,900
+Duration,long,Top 95%,5.69,900
+Duration,long,Top 99%,2.05,900
+Domain,Knowledge,Top 90%,10.27,810
+Domain,Knowledge,Top 95%,6.89,810
+Domain,Knowledge,Top 99%,2.07,810
+Domain,Film & Television,Top 90%,8.26,360
+Domain,Film & Television,Top 95%,3.69,360
+Domain,Film & Television,Top 99%,0.59,360
+Domain,Sports Competition,Top 90%,15.52,450
+Domain,Sports Competition,Top 95%,6.55,450
+Domain,Sports Competition,Top 99%,2.29,450
+Domain,Artistic Performance,Top 90%,9.59,360
+Domain,Artistic Performance,Top 95%,6.74,360
+Domain,Artistic Performance,Top 99%,1.45,360
+Domain,Life Record,Top 90%,8.49,630
+Domain,Life Record,Top 95%,3.62,630
+Domain,Life Record,Top 99%,2.16,630
+Domain,Multilingual,Top 90%,11.17,90
+Domain,Multilingual,Top 95%,10.26,90
+Domain,Multilingual,Top 99%,0.64,90
+Task Type,Counting Problem,Top 90%,10.36,268
+Task Type,Counting Problem,Top 95%,6.43,268
+Task Type,Counting Problem,Top 99%,1.63,268
+Task Type,Information Synopsis,Top 90%,8.93,323
+Task Type,Information Synopsis,Top 95%,4.55,323
+Task Type,Information Synopsis,Top 99%,1.46,323
+Task Type,Object Recognition,Top 90%,9.36,354
+Task Type,Object Recognition,Top 95%,5.38,354
+Task Type,Object Recognition,Top 99%,2.31,354
+Task Type,Action Reasoning,Top 90%,8.36,285
+Task Type,Action Reasoning,Top 95%,3.58,285
+Task Type,Action Reasoning,Top 99%,1.30,285
+Task Type,Object Reasoning,Top 90%,10.98,454
+Task Type,Object Reasoning,Top 95%,5.76,454
+Task Type,Object Reasoning,Top 99%,1.48,454
+Task Type,Temporal Perception,Top 90%,12.46,55
+Task Type,Temporal Perception,Top 95%,7.21,55
+Task Type,Temporal Perception,Top 99%,0.66,55
+Task Type,Attribute Perception,Top 90%,12.40,222
+Task Type,Attribute Perception,Top 95%,7.60,222
+Task Type,Attribute Perception,Top 99%,2.19,222
+Task Type,Temporal Reasoning,Top 90%,15.31,177
+Task Type,Temporal Reasoning,Top 95%,7.96,177
+Task Type,Temporal Reasoning,Top 99%,2.81,177
+Task Type,Action Recognition,Top 90%,10.09,313
+Task Type,Action Recognition,Top 95%,5.73,313
+Task Type,Action Recognition,Top 99%,2.37,313
+Task Type,OCR Problems,Top 90%,10.95,139
+Task Type,OCR Problems,Top 95%,6.51,139
+Task Type,OCR Problems,Top 99%,0.70,139
+Task Type,Spatial Perception,Top 90%,8.80,54
+Task Type,Spatial Perception,Top 95%,6.42,54
+Task Type,Spatial Perception,Top 99%,3.25,54
+Task Type,Spatial Reasoning,Top 90%,8.02,56
+Task Type,Spatial Reasoning,Top 95%,3.87,56
+Task Type,Spatial Reasoning,Top 99%,0.99,56

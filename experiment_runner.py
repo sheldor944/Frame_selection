@@ -3,19 +3,20 @@ import subprocess
 from itertools import product
 
 # Your DBFP script name
-SCRIPT = "diffusion1.py"
+SCRIPT = "optimized_diffusion.py"
 
 # Fixed parameters (change if needed)
-DATASET = "longvideobench"
+DATASET = "videomme"
 FEATURE = "blip"
-SCORE_PATH = "./outscores/longvideobench/blip/scores.json"
-FRAME_PATH = "./outscores/longvideobench/blip/frames.json"
-OUTPUT_DIR = "./all_dbfp_runs_longvideobench"
+SCORE_PATH = f"./outscores/{DATASET}/{FEATURE}/scores.json"
+FRAME_PATH = f"./outscores/{DATASET}/{FEATURE}/frames.json"
+OUTPUT_DIR = f"./all_dbfp_runs_{DATASET}_based_on_alpha_radius_32_64_optimized"
+
 
 # Parameter sweeps
-max_frames_list = [8, 16]
-alpha_list = [ 0.75]
-supp_radius_list = [1, 2, 3]
+max_frames_list = [32, 64]
+alpha_list = [ .85 ]
+supp_radius_list = [   2 ,3  ]
 edge_weight_list = [ "temporal", "score_diff"]
 
 # Create output dir
@@ -31,7 +32,7 @@ def run_one(m, a, r, e):
     output_path = os.path.join(OUTPUT_DIR, output_name)
 
     cmd = [
-        "python", SCRIPT,
+        "python3", SCRIPT,
         "--dataset_name", DATASET,
         "--extract_feature_model", FEATURE,
         "--score_path", SCORE_PATH,

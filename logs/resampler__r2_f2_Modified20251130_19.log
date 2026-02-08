@@ -1,0 +1,545 @@
+hello miraj 
+
+======================================================================
+⚡ ULTRA-FAST RAM-BASED DENSE SAMPLING
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 2.0
+Model: blip
+Batch size: 256
+FP16: True
+Workers: 32
+Checkpoint every: 20 videos
+Resume mode: True
+Mode: RAM-BASED (10x faster)
+======================================================================
+
+Loading existing frames and scores...
+✅ Frames file: 2700 videos
+✅ Scores file: 2700 videos
+Loading questions from: ./datasets/videomme/include_frame_idx.json
+✅ Loaded 2700 questions
+
+🎯 Processing 2700 videos (limited by --num_videos)
+
+Video folder: /home/train01/.cache/huggingface/custom_video_qa_cache/data/data
+
+🔍 Checking for existing checkpoint...
+✅ RESUMING from video 2240
+   Already processed: 2240 videos
+   Remaining: 460 videos
+
+
+======================================================================
+[cuda:0] Loading blip model...
+======================================================================
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Model loaded successfully
+======================================================================
+
+======================================================================
+Starting video processing...
+======================================================================
+
+Processing videos:  83%|████████████████████████████████████████████████████████▍           | 2240/2700 [00:00<?, ?it/s]Processing videos:  83%|█████████████████████████████▊      | 2240/2700 [00:00<?, ?it/s, video=4qYqPmIO0v0, status=INIT]Processing videos:  83%|█████████████████████████████▊      | 2240/2700 [00:00<?, ?it/s, video=4qYqPmIO0v0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 4qYqPmIO0v0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9971 | Min=0.0032 | Range=[0.0032, 0.9971]
+  🎯 Threshold: 0.6980 (70.0% of max)
+  ✅ High-Score Frames: 478/3369 (14.2%)
+  📍 First 10 indices: [174, 203, 232, 261, 348, 406, 435, 1943, 1972, 2001]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████████████▊      | 2240/2700 [00:00<?, ?it/s, video=4qYqPmIO0v0, status=INIT]Processing videos:  83%|████████████████▌   | 2240/2700 [00:00<?, ?it/s, video=4qYqPmIO0v0, status=PROCESSING, high=478]Processing videos:  83%|████████████████▌   | 2240/2700 [00:00<?, ?it/s, video=4qYqPmIO0v0, status=PROCESSING, high=478]  📦 Processing 4,780 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 3
+     • Batch 1/3 (33%) - 2,000/4,780 frames
+     • Batch 2/3 (67%) - 4,000/4,780 frames
+     • Batch 3/3 (100%) - 4,780/4,780 frames
+  ✅ Done: 4,780 frames in 88.3s (54 fps)
+Processing videos:  83%|▊| 2240/2700 [01:29<?, ?it/s, video=4qYqPmIO0v0, orig=3369, new=4780, final=7671, dup=478, time=Processing videos:  83%|▊| 2241/2700 [01:29<11:24:30, 89.48s/it, video=4qYqPmIO0v0, orig=3369, new=4780, final=7671, dupProcessing videos:  83%|████████████████████▊    | 2241/2700 [01:29<11:24:30, 89.48s/it, video=mDxrdWZOTpM, status=INIT]Processing videos:  83%|████████████████████▊    | 2241/2700 [01:29<11:24:30, 89.48s/it, video=mDxrdWZOTpM, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: mDxrdWZOTpM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7713 | Min=0.0044 | Range=[0.0044, 0.7713]
+  🎯 Threshold: 0.5399 (70.0% of max)
+  ✅ High-Score Frames: 205/3350 (6.1%)
+  📍 First 10 indices: [1500, 3350, 5125, 5550, 5575, 8300, 8850, 8875, 12650, 12750]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|████████████████████▊    | 2241/2700 [01:32<11:24:30, 89.48s/it, video=mDxrdWZOTpM, status=INIT]Processing videos:  83%|███████▍ | 2241/2700 [01:32<11:24:30, 89.48s/it, video=mDxrdWZOTpM, status=PROCESSING, high=205]Processing videos:  83%|███████▍ | 2241/2700 [01:32<11:24:30, 89.48s/it, video=mDxrdWZOTpM, status=PROCESSING, high=205]  📦 Processing 1,974 frames in RAM...
+     • Batch size: 1,974 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 1,974/1,974 frames
+  ✅ Done: 1,974 frames in 34.7s (57 fps)
+Processing videos:  83%|▊| 2241/2700 [02:08<11:24:30, 89.48s/it, video=mDxrdWZOTpM, orig=3350, new=1974, final=4990, dupProcessing videos:  83%|▊| 2242/2700 [02:08<7:35:53, 59.72s/it, video=mDxrdWZOTpM, orig=3350, new=1974, final=4990, dup=Processing videos:  83%|█████████████████████▌    | 2242/2700 [02:08<7:35:53, 59.72s/it, video=mDxrdWZOTpM, status=INIT]Processing videos:  83%|█████████████████████▌    | 2242/2700 [02:08<7:35:53, 59.72s/it, video=mDxrdWZOTpM, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: mDxrdWZOTpM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9997 | Min=0.0000 | Range=[0.0000, 0.9997]
+  🎯 Threshold: 0.6998 (70.0% of max)
+  ✅ High-Score Frames: 859/3350 (25.6%)
+  📍 First 10 indices: [725, 975, 1075, 1125, 1150, 1175, 1800, 3025, 3050, 3075]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▌    | 2242/2700 [02:08<7:35:53, 59.72s/it, video=mDxrdWZOTpM, status=INIT]Processing videos:  83%|████████▎ | 2242/2700 [02:08<7:35:53, 59.72s/it, video=mDxrdWZOTpM, status=PROCESSING, high=859]Processing videos:  83%|████████▎ | 2242/2700 [02:08<7:35:53, 59.72s/it, video=mDxrdWZOTpM, status=PROCESSING, high=859]  📦 Processing 8,070 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 5
+     • Batch 1/5 (20%) - 2,000/8,070 frames
+     • Batch 2/5 (40%) - 4,000/8,070 frames
+     • Batch 3/5 (60%) - 6,000/8,070 frames
+     • Batch 4/5 (80%) - 8,000/8,070 frames
+     • Batch 5/5 (100%) - 8,070/8,070 frames
+  ✅ Done: 8,070 frames in 136.6s (59 fps)
+Processing videos:  83%|▊| 2242/2700 [04:25<7:35:53, 59.72s/it, video=mDxrdWZOTpM, orig=3350, new=8070, final=10222, dupProcessing videos:  83%|▊| 2243/2700 [04:25<12:05:07, 95.20s/it, video=mDxrdWZOTpM, orig=3350, new=8070, final=10222, duProcessing videos:  83%|████████████████████▊    | 2243/2700 [04:25<12:05:07, 95.20s/it, video=mDxrdWZOTpM, status=INIT]Processing videos:  83%|████████████████████▊    | 2243/2700 [04:25<12:05:07, 95.20s/it, video=mDxrdWZOTpM, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: mDxrdWZOTpM
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9988 | Min=0.0000 | Range=[0.0000, 0.9988]
+  🎯 Threshold: 0.6991 (70.0% of max)
+  ✅ High-Score Frames: 126/3350 (3.8%)
+  📍 First 10 indices: [775, 28125, 37850, 38825, 38850, 40150, 40575, 40725, 40750, 42325]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|████████████████████▊    | 2243/2700 [04:26<12:05:07, 95.20s/it, video=mDxrdWZOTpM, status=INIT]Processing videos:  83%|███████▍ | 2243/2700 [04:26<12:05:07, 95.20s/it, video=mDxrdWZOTpM, status=PROCESSING, high=126]Processing videos:  83%|███████▍ | 2243/2700 [04:26<12:05:07, 95.20s/it, video=mDxrdWZOTpM, status=PROCESSING, high=126]  📦 Processing 1,225 frames in RAM...
+     • Batch size: 1,225 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 1,225/1,225 frames
+  ✅ Done: 1,225 frames in 24.2s (51 fps)
+Processing videos:  83%|▊| 2243/2700 [04:51<12:05:07, 95.20s/it, video=mDxrdWZOTpM, orig=3350, new=1225, final=4358, dupProcessing videos:  83%|▊| 2244/2700 [04:51<8:33:43, 67.60s/it, video=mDxrdWZOTpM, orig=3350, new=1225, final=4358, dup=Processing videos:  83%|█████████████████████▌    | 2244/2700 [04:51<8:33:43, 67.60s/it, video=EeTmrsVW8qE, status=INIT]Processing videos:  83%|█████████████████████▌    | 2244/2700 [04:51<8:33:43, 67.60s/it, video=EeTmrsVW8qE, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: EeTmrsVW8qE
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9372 | Min=0.0003 | Range=[0.0003, 0.9372]
+  🎯 Threshold: 0.6560 (70.0% of max)
+  ✅ High-Score Frames: 110/3474 (3.2%)
+  📍 First 10 indices: [4000, 4025, 4050, 12675, 24975, 25000, 25025, 25050, 25075, 26375]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▌    | 2244/2700 [04:51<8:33:43, 67.60s/it, video=EeTmrsVW8qE, status=INIT]Processing videos:  83%|████████▎ | 2244/2700 [04:51<8:33:43, 67.60s/it, video=EeTmrsVW8qE, status=PROCESSING, high=110]Processing videos:  83%|████████▎ | 2244/2700 [04:51<8:33:43, 67.60s/it, video=EeTmrsVW8qE, status=PROCESSING, high=110]  📦 Processing 1,069 frames in RAM...
+     • Batch size: 1,069 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 1,069/1,069 frames
+  ✅ Done: 1,069 frames in 20.0s (53 fps)
+Processing videos:  83%|▊| 2244/2700 [05:12<8:33:43, 67.60s/it, video=EeTmrsVW8qE, orig=3474, new=1069, final=4354, dup=Processing videos:  83%|▊| 2245/2700 [05:12<6:26:13, 50.93s/it, video=EeTmrsVW8qE, orig=3474, new=1069, final=4354, dup=Processing videos:  83%|█████████████████████▌    | 2245/2700 [05:12<6:26:13, 50.93s/it, video=EeTmrsVW8qE, status=INIT]Processing videos:  83%|█████████████████████▌    | 2245/2700 [05:12<6:26:13, 50.93s/it, video=EeTmrsVW8qE, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: EeTmrsVW8qE
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9866 | Min=0.0002 | Range=[0.0002, 0.9866]
+  🎯 Threshold: 0.6906 (70.0% of max)
+  ✅ High-Score Frames: 453/3474 (13.0%)
+  📍 First 10 indices: [2000, 5150, 5175, 10000, 10500, 10525, 10550, 10575, 10600, 10625]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▌    | 2245/2700 [05:12<6:26:13, 50.93s/it, video=EeTmrsVW8qE, status=INIT]Processing videos:  83%|████████▎ | 2245/2700 [05:12<6:26:13, 50.93s/it, video=EeTmrsVW8qE, status=PROCESSING, high=453]Processing videos:  83%|████████▎ | 2245/2700 [05:12<6:26:13, 50.93s/it, video=EeTmrsVW8qE, status=PROCESSING, high=453]  📦 Processing 4,215 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 3
+     • Batch 1/3 (33%) - 2,000/4,215 frames
+     • Batch 2/3 (67%) - 4,000/4,215 frames
+     • Batch 3/3 (100%) - 4,215/4,215 frames
+  ✅ Done: 4,215 frames in 69.2s (61 fps)
+Processing videos:  83%|▊| 2245/2700 [06:23<6:26:13, 50.93s/it, video=EeTmrsVW8qE, orig=3474, new=4215, final=7098, dup=Processing videos:  83%|▊| 2246/2700 [06:23<7:16:06, 57.63s/it, video=EeTmrsVW8qE, orig=3474, new=4215, final=7098, dup=Processing videos:  83%|█████████████████████▋    | 2246/2700 [06:23<7:16:06, 57.63s/it, video=EeTmrsVW8qE, status=INIT]Processing videos:  83%|█████████████████████▋    | 2246/2700 [06:23<7:16:06, 57.63s/it, video=EeTmrsVW8qE, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: EeTmrsVW8qE
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8309 | Min=0.0112 | Range=[0.0112, 0.8309]
+  🎯 Threshold: 0.5816 (70.0% of max)
+  ✅ High-Score Frames: 42/3474 (1.2%)
+  📍 First 10 indices: [4000, 4250, 4325, 5200, 5225, 10025, 10050, 10075, 10100, 10125]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2246/2700 [06:23<7:16:06, 57.63s/it, video=EeTmrsVW8qE, status=INIT]Processing videos:  83%|█████████▏ | 2246/2700 [06:23<7:16:06, 57.63s/it, video=EeTmrsVW8qE, status=PROCESSING, high=42]Processing videos:  83%|█████████▏ | 2246/2700 [06:23<7:16:06, 57.63s/it, video=EeTmrsVW8qE, status=PROCESSING, high=42]  📦 Processing 406 frames in RAM...
+     • Batch size: 406 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 406/406 frames
+  ✅ Done: 406 frames in 8.3s (49 fps)
+Processing videos:  83%|▊| 2246/2700 [06:32<7:16:06, 57.63s/it, video=EeTmrsVW8qE, orig=3474, new=406, final=3810, dup=7Processing videos:  83%|▊| 2247/2700 [06:32<5:16:24, 41.91s/it, video=EeTmrsVW8qE, orig=3474, new=406, final=3810, dup=7Processing videos:  83%|█████████████████████▋    | 2247/2700 [06:32<5:16:24, 41.91s/it, video=sxrx7oCrb3A, status=INIT]Processing videos:  83%|█████████████████████▋    | 2247/2700 [06:32<5:16:24, 41.91s/it, video=sxrx7oCrb3A, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sxrx7oCrb3A
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9640 | Min=0.0002 | Range=[0.0002, 0.9640]
+  🎯 Threshold: 0.6748 (70.0% of max)
+  ✅ High-Score Frames: 41/3660 (1.1%)
+  📍 First 10 indices: [29, 348, 667, 725, 754, 1682, 5365, 6699, 17806, 31552]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2247/2700 [06:34<5:16:24, 41.91s/it, video=sxrx7oCrb3A, status=INIT]Processing videos:  83%|█████████▏ | 2247/2700 [06:34<5:16:24, 41.91s/it, video=sxrx7oCrb3A, status=PROCESSING, high=41]Processing videos:  83%|█████████▏ | 2247/2700 [06:34<5:16:24, 41.91s/it, video=sxrx7oCrb3A, status=PROCESSING, high=41]  📦 Processing 408 frames in RAM...
+     • Batch size: 408 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 408/408 frames
+  ✅ Done: 408 frames in 9.7s (42 fps)
+Processing videos:  83%|▊| 2247/2700 [06:45<5:16:24, 41.91s/it, video=sxrx7oCrb3A, orig=3660, new=408, final=4026, dup=4Processing videos:  83%|▊| 2248/2700 [06:45<4:04:56, 32.51s/it, video=sxrx7oCrb3A, orig=3660, new=408, final=4026, dup=4Processing videos:  83%|█████████████████████▋    | 2248/2700 [06:45<4:04:56, 32.51s/it, video=sxrx7oCrb3A, status=INIT]Processing videos:  83%|█████████████████████▋    | 2248/2700 [06:45<4:04:56, 32.51s/it, video=sxrx7oCrb3A, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sxrx7oCrb3A
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9954 | Min=0.0001 | Range=[0.0001, 0.9954]
+  🎯 Threshold: 0.6968 (70.0% of max)
+  ✅ High-Score Frames: 101/3660 (2.8%)
+  📍 First 10 indices: [29, 290, 348, 667, 725, 14761, 16733, 32567, 41151, 44921]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2248/2700 [06:45<4:04:56, 32.51s/it, video=sxrx7oCrb3A, status=INIT]Processing videos:  83%|████████▎ | 2248/2700 [06:45<4:04:56, 32.51s/it, video=sxrx7oCrb3A, status=PROCESSING, high=101]Processing videos:  83%|████████▎ | 2248/2700 [06:45<4:04:56, 32.51s/it, video=sxrx7oCrb3A, status=PROCESSING, high=101]  📦 Processing 1,008 frames in RAM...
+     • Batch size: 1,008 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 1,008/1,008 frames
+  ✅ Done: 1,008 frames in 20.4s (49 fps)
+Processing videos:  83%|▊| 2248/2700 [07:06<4:04:56, 32.51s/it, video=sxrx7oCrb3A, orig=3660, new=1008, final=4566, dup=Processing videos:  83%|▊| 2249/2700 [07:06<3:38:38, 29.09s/it, video=sxrx7oCrb3A, orig=3660, new=1008, final=4566, dup=Processing videos:  83%|█████████████████████▋    | 2249/2700 [07:06<3:38:38, 29.09s/it, video=sxrx7oCrb3A, status=INIT]Processing videos:  83%|█████████████████████▋    | 2249/2700 [07:06<3:38:38, 29.09s/it, video=sxrx7oCrb3A, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sxrx7oCrb3A
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9976 | Min=0.0001 | Range=[0.0001, 0.9976]
+  🎯 Threshold: 0.6983 (70.0% of max)
+  ✅ High-Score Frames: 908/3660 (24.8%)
+  📍 First 10 indices: [29, 58, 174, 203, 232, 290, 348, 638, 667, 696]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2249/2700 [07:06<3:38:38, 29.09s/it, video=sxrx7oCrb3A, status=INIT]Processing videos:  83%|████████▎ | 2249/2700 [07:06<3:38:38, 29.09s/it, video=sxrx7oCrb3A, status=PROCESSING, high=908]Processing videos:  83%|████████▎ | 2249/2700 [07:06<3:38:38, 29.09s/it, video=sxrx7oCrb3A, status=PROCESSING, high=908]  📦 Processing 9,071 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 5
+     • Batch 1/5 (20%) - 2,000/9,071 frames
+     • Batch 2/5 (40%) - 4,000/9,071 frames
+     • Batch 3/5 (60%) - 6,000/9,071 frames
+     • Batch 4/5 (80%) - 8,000/9,071 frames
+     • Batch 5/5 (100%) - 9,071/9,071 frames
+  ✅ Done: 9,071 frames in 157.4s (58 fps)
+Processing videos:  83%|▊| 2249/2700 [09:45<3:38:38, 29.09s/it, video=sxrx7oCrb3A, orig=3660, new=9071, final=11822, dupProcessing videos:  83%|▊| 2250/2700 [09:45<8:38:52, 69.18s/it, video=sxrx7oCrb3A, orig=3660, new=9071, final=11822, dupProcessing videos:  83%|█████████████████████▋    | 2250/2700 [09:45<8:38:52, 69.18s/it, video=-yWE13LbFd4, status=INIT]Processing videos:  83%|█████████████████████▋    | 2250/2700 [09:45<8:38:52, 69.18s/it, video=-yWE13LbFd4, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: -yWE13LbFd4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9956 | Min=0.0006 | Range=[0.0006, 0.9956]
+  🎯 Threshold: 0.6969 (70.0% of max)
+  ✅ High-Score Frames: 1103/2085 (52.9%)
+  📍 First 10 indices: [1350, 1380, 1410, 1440, 1470, 1500, 1530, 1560, 1590, 1740]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2250/2700 [09:46<8:38:52, 69.18s/it, video=-yWE13LbFd4, status=INIT]Processing videos:  83%|███████▌ | 2250/2700 [09:46<8:38:52, 69.18s/it, video=-yWE13LbFd4, status=PROCESSING, high=1103]Processing videos:  83%|███████▌ | 2250/2700 [09:46<8:38:52, 69.18s/it, video=-yWE13LbFd4, status=PROCESSING, high=1103]  📦 Processing 3,203 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/3,203 frames
+     • Batch 2/2 (100%) - 3,203/3,203 frames
+  ✅ Done: 3,203 frames in 73.8s (43 fps)
+Processing videos:  83%|▊| 2250/2700 [11:01<8:38:52, 69.18s/it, video=-yWE13LbFd4, orig=2085, new=3203, final=3644, dup=Processing videos:  83%|▊| 2251/2700 [11:01<8:52:35, 71.17s/it, video=-yWE13LbFd4, orig=2085, new=3203, final=3644, dup=Processing videos:  83%|█████████████████████▋    | 2251/2700 [11:01<8:52:35, 71.17s/it, video=-yWE13LbFd4, status=INIT]Processing videos:  83%|█████████████████████▋    | 2251/2700 [11:01<8:52:35, 71.17s/it, video=-yWE13LbFd4, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: -yWE13LbFd4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9993 | Min=0.0021 | Range=[0.0021, 0.9993]
+  🎯 Threshold: 0.6995 (70.0% of max)
+  ✅ High-Score Frames: 1930/2085 (92.6%)
+  📍 First 10 indices: [150, 300, 330, 360, 390, 420, 450, 480, 510, 630]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2251/2700 [11:01<8:52:35, 71.17s/it, video=-yWE13LbFd4, status=INIT]Processing videos:  83%|███████▌ | 2251/2700 [11:01<8:52:35, 71.17s/it, video=-yWE13LbFd4, status=PROCESSING, high=1930]Processing videos:  83%|███████▌ | 2251/2700 [11:01<8:52:35, 71.17s/it, video=-yWE13LbFd4, status=PROCESSING, high=1930]  📦 Processing 4,108 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 3
+     • Batch 1/3 (33%) - 2,000/4,108 frames
+     • Batch 2/3 (67%) - 4,000/4,108 frames
+     • Batch 3/3 (100%) - 4,108/4,108 frames
+  ✅ Done: 4,108 frames in 89.7s (46 fps)
+Processing videos:  83%|▊| 2251/2700 [12:31<8:52:35, 71.17s/it, video=-yWE13LbFd4, orig=2085, new=4108, final=4134, dup=Processing videos:  83%|▊| 2252/2700 [12:31<9:35:06, 77.02s/it, video=-yWE13LbFd4, orig=2085, new=4108, final=4134, dup=Processing videos:  83%|█████████████████████▋    | 2252/2700 [12:31<9:35:06, 77.02s/it, video=-yWE13LbFd4, status=INIT]Processing videos:  83%|█████████████████████▋    | 2252/2700 [12:31<9:35:06, 77.02s/it, video=-yWE13LbFd4, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: -yWE13LbFd4
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9957 | Min=0.0057 | Range=[0.0057, 0.9957]
+  🎯 Threshold: 0.6970 (70.0% of max)
+  ✅ High-Score Frames: 1934/2085 (92.8%)
+  📍 First 10 indices: [150, 330, 360, 390, 420, 450, 480, 510, 630, 660]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2252/2700 [12:31<9:35:06, 77.02s/it, video=-yWE13LbFd4, status=INIT]Processing videos:  83%|███████▌ | 2252/2700 [12:31<9:35:06, 77.02s/it, video=-yWE13LbFd4, status=PROCESSING, high=1934]Processing videos:  83%|███████▌ | 2252/2700 [12:31<9:35:06, 77.02s/it, video=-yWE13LbFd4, status=PROCESSING, high=1934]  📦 Processing 4,122 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 3
+     • Batch 1/3 (33%) - 2,000/4,122 frames
+     • Batch 2/3 (67%) - 4,000/4,122 frames
+     • Batch 3/3 (100%) - 4,122/4,122 frames
+  ✅ Done: 4,122 frames in 87.9s (47 fps)
+Processing videos:  83%|▊| 2252/2700 [14:00<9:35:06, 77.02s/it, video=-yWE13LbFd4, orig=2085, new=4122, final=4140, dup=Processing videos:  83%|▊| 2253/2700 [14:00<9:59:56, 80.53s/it, video=-yWE13LbFd4, orig=2085, new=4122, final=4140, dup=Processing videos:  83%|█████████████████████▋    | 2253/2700 [14:00<9:59:56, 80.53s/it, video=bFuVjFacj_E, status=INIT]Processing videos:  83%|█████████████████████▋    | 2253/2700 [14:00<9:59:56, 80.53s/it, video=bFuVjFacj_E, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: bFuVjFacj_E
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8430 | Min=0.0043 | Range=[0.0043, 0.8430]
+  🎯 Threshold: 0.5901 (70.0% of max)
+  ✅ High-Score Frames: 80/2264 (3.5%)
+  📍 First 10 indices: [989, 1012, 1035, 1058, 1541, 1564, 1587, 1610, 2162, 2185]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2253/2700 [14:00<9:59:56, 80.53s/it, video=bFuVjFacj_E, status=INIT]Processing videos:  83%|█████████▏ | 2253/2700 [14:00<9:59:56, 80.53s/it, video=bFuVjFacj_E, status=PROCESSING, high=80]Processing videos:  83%|█████████▏ | 2253/2700 [14:00<9:59:56, 80.53s/it, video=bFuVjFacj_E, status=PROCESSING, high=80]  📦 Processing 800 frames in RAM...
+     • Batch size: 800 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 800/800 frames
+  ✅ Done: 800 frames in 15.4s (52 fps)
+Processing videos:  83%|▊| 2253/2700 [14:16<9:59:56, 80.53s/it, video=bFuVjFacj_E, orig=2264, new=800, final=2984, dup=8Processing videos:  83%|▊| 2254/2700 [14:16<7:34:08, 61.10s/it, video=bFuVjFacj_E, orig=2264, new=800, final=2984, dup=8Processing videos:  83%|█████████████████████▋    | 2254/2700 [14:16<7:34:08, 61.10s/it, video=bFuVjFacj_E, status=INIT]Processing videos:  83%|█████████████████████▋    | 2254/2700 [14:16<7:34:08, 61.10s/it, video=bFuVjFacj_E, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: bFuVjFacj_E
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9984 | Min=0.0014 | Range=[0.0014, 0.9984]
+  🎯 Threshold: 0.6989 (70.0% of max)
+  ✅ High-Score Frames: 504/2264 (22.3%)
+  📍 First 10 indices: [69, 92, 276, 644, 667, 690, 874, 1058, 1610, 1633]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  83%|█████████████████████▋    | 2254/2700 [14:16<7:34:08, 61.10s/it, video=bFuVjFacj_E, status=INIT]Processing videos:  83%|████████▎ | 2254/2700 [14:16<7:34:08, 61.10s/it, video=bFuVjFacj_E, status=PROCESSING, high=504]Processing videos:  83%|████████▎ | 2254/2700 [14:16<7:34:08, 61.10s/it, video=bFuVjFacj_E, status=PROCESSING, high=504]  📦 Processing 5,040 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 3
+     • Batch 1/3 (33%) - 2,000/5,040 frames
+     • Batch 2/3 (67%) - 4,000/5,040 frames
+     • Batch 3/3 (100%) - 5,040/5,040 frames
+  ✅ Done: 5,040 frames in 83.9s (60 fps)
+Processing videos:  83%|▊| 2254/2700 [15:41<7:34:08, 61.10s/it, video=bFuVjFacj_E, orig=2264, new=5040, final=6800, dup=Processing videos:  84%|▊| 2255/2700 [15:41<8:26:05, 68.24s/it, video=bFuVjFacj_E, orig=2264, new=5040, final=6800, dup=Processing videos:  84%|█████████████████████▋    | 2255/2700 [15:41<8:26:05, 68.24s/it, video=bFuVjFacj_E, status=INIT]Processing videos:  84%|█████████████████████▋    | 2255/2700 [15:41<8:26:05, 68.24s/it, video=bFuVjFacj_E, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: bFuVjFacj_E
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9996 | Min=0.0001 | Range=[0.0001, 0.9996]
+  🎯 Threshold: 0.6997 (70.0% of max)
+  ✅ High-Score Frames: 347/2264 (15.3%)
+  📍 First 10 indices: [69, 92, 828, 2116, 2139, 2208, 2323, 2346, 2369, 2415]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▋    | 2255/2700 [15:41<8:26:05, 68.24s/it, video=bFuVjFacj_E, status=INIT]Processing videos:  84%|████████▎ | 2255/2700 [15:41<8:26:05, 68.24s/it, video=bFuVjFacj_E, status=PROCESSING, high=347]Processing videos:  84%|████████▎ | 2255/2700 [15:41<8:26:05, 68.24s/it, video=bFuVjFacj_E, status=PROCESSING, high=347]  📦 Processing 3,470 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/3,470 frames
+     • Batch 2/2 (100%) - 3,470/3,470 frames
+  ✅ Done: 3,470 frames in 55.4s (63 fps)
+Processing videos:  84%|▊| 2255/2700 [16:37<8:26:05, 68.24s/it, video=bFuVjFacj_E, orig=2264, new=3470, final=5387, dup=Processing videos:  84%|▊| 2256/2700 [16:37<7:57:56, 64.59s/it, video=bFuVjFacj_E, orig=2264, new=3470, final=5387, dup=Processing videos:  84%|█████████████████████▋    | 2256/2700 [16:37<7:57:56, 64.59s/it, video=RwdvZLz-aSk, status=INIT]Processing videos:  84%|█████████████████████▋    | 2256/2700 [16:37<7:57:56, 64.59s/it, video=RwdvZLz-aSk, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: RwdvZLz-aSk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7213 | Min=0.0360 | Range=[0.0360, 0.7213]
+  🎯 Threshold: 0.5049 (70.0% of max)
+  ✅ High-Score Frames: 260/2092 (12.4%)
+  📍 First 10 indices: [300, 500, 700, 1375, 2075, 2450, 2475, 2500, 2525, 2550]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▋    | 2256/2700 [16:37<7:57:56, 64.59s/it, video=RwdvZLz-aSk, status=INIT]Processing videos:  84%|████████▎ | 2256/2700 [16:37<7:57:56, 64.59s/it, video=RwdvZLz-aSk, status=PROCESSING, high=260]Processing videos:  84%|████████▎ | 2256/2700 [16:37<7:57:56, 64.59s/it, video=RwdvZLz-aSk, status=PROCESSING, high=260]  📦 Processing 2,537 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/2,537 frames
+     • Batch 2/2 (100%) - 2,537/2,537 frames
+  ✅ Done: 2,537 frames in 45.2s (56 fps)
+Processing videos:  84%|▊| 2256/2700 [17:23<7:57:56, 64.59s/it, video=RwdvZLz-aSk, orig=2092, new=2537, final=4172, dup=Processing videos:  84%|▊| 2257/2700 [17:23<7:15:48, 59.03s/it, video=RwdvZLz-aSk, orig=2092, new=2537, final=4172, dup=Processing videos:  84%|█████████████████████▋    | 2257/2700 [17:23<7:15:48, 59.03s/it, video=RwdvZLz-aSk, status=INIT]Processing videos:  84%|█████████████████████▋    | 2257/2700 [17:23<7:15:48, 59.03s/it, video=RwdvZLz-aSk, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: RwdvZLz-aSk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9982 | Min=0.0008 | Range=[0.0008, 0.9982]
+  🎯 Threshold: 0.6987 (70.0% of max)
+  ✅ High-Score Frames: 136/2092 (6.5%)
+  📍 First 10 indices: [550, 725, 775, 800, 925, 975, 1000, 1200, 2700, 3350]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▋    | 2257/2700 [17:23<7:15:48, 59.03s/it, video=RwdvZLz-aSk, status=INIT]Processing videos:  84%|████████▎ | 2257/2700 [17:23<7:15:48, 59.03s/it, video=RwdvZLz-aSk, status=PROCESSING, high=136]Processing videos:  84%|████████▎ | 2257/2700 [17:23<7:15:48, 59.03s/it, video=RwdvZLz-aSk, status=PROCESSING, high=136]  📦 Processing 1,330 frames in RAM...
+     • Batch size: 1,330 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 1,330/1,330 frames
+  ✅ Done: 1,330 frames in 23.4s (57 fps)
+Processing videos:  84%|▊| 2257/2700 [17:47<7:15:48, 59.03s/it, video=RwdvZLz-aSk, orig=2092, new=1330, final=3180, dup=Processing videos:  84%|▊| 2258/2700 [17:47<5:58:09, 48.62s/it, video=RwdvZLz-aSk, orig=2092, new=1330, final=3180, dup=Processing videos:  84%|█████████████████████▋    | 2258/2700 [17:47<5:58:09, 48.62s/it, video=RwdvZLz-aSk, status=INIT]Processing videos:  84%|█████████████████████▋    | 2258/2700 [17:47<5:58:09, 48.62s/it, video=RwdvZLz-aSk, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: RwdvZLz-aSk
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.8871 | Min=0.0007 | Range=[0.0007, 0.8871]
+  🎯 Threshold: 0.6210 (70.0% of max)
+  ✅ High-Score Frames: 39/2092 (1.9%)
+  📍 First 10 indices: [800, 2075, 2100, 2575, 4950, 7450, 7475, 8925, 8950, 8975]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▋    | 2258/2700 [17:47<5:58:09, 48.62s/it, video=RwdvZLz-aSk, status=INIT]Processing videos:  84%|█████████▏ | 2258/2700 [17:47<5:58:09, 48.62s/it, video=RwdvZLz-aSk, status=PROCESSING, high=39]Processing videos:  84%|█████████▏ | 2258/2700 [17:47<5:58:09, 48.62s/it, video=RwdvZLz-aSk, status=PROCESSING, high=39]  📦 Processing 383 frames in RAM...
+     • Batch size: 383 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 383/383 frames
+  ✅ Done: 383 frames in 7.5s (51 fps)
+Processing videos:  84%|▊| 2258/2700 [17:55<5:58:09, 48.62s/it, video=RwdvZLz-aSk, orig=2092, new=383, final=2404, dup=7Processing videos:  84%|▊| 2259/2700 [17:55<4:27:49, 36.44s/it, video=RwdvZLz-aSk, orig=2092, new=383, final=2404, dup=7Processing videos:  84%|█████████████████████▊    | 2259/2700 [17:55<4:27:49, 36.44s/it, video=0k2ey_okQ4E, status=INIT]Processing videos:  84%|█████████████████████▊    | 2259/2700 [17:55<4:27:49, 36.44s/it, video=0k2ey_okQ4E, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 0k2ey_okQ4E
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9997 | Min=0.0004 | Range=[0.0004, 0.9997]
+  🎯 Threshold: 0.6998 (70.0% of max)
+  ✅ High-Score Frames: 465/2962 (15.7%)
+  📍 First 10 indices: [464, 522, 1247, 1276, 1537, 1566, 1595, 1624, 1653, 1827]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2259/2700 [17:56<4:27:49, 36.44s/it, video=0k2ey_okQ4E, status=INIT]Processing videos:  84%|████████▎ | 2259/2700 [17:56<4:27:49, 36.44s/it, video=0k2ey_okQ4E, status=PROCESSING, high=465]Processing videos:  84%|████████▎ | 2259/2700 [17:56<4:27:49, 36.44s/it, video=0k2ey_okQ4E, status=PROCESSING, high=465]  📦 Processing 4,650 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 3
+     • Batch 1/3 (33%) - 2,000/4,650 frames
+     • Batch 2/3 (67%) - 4,000/4,650 frames
+     • Batch 3/3 (100%) - 4,650/4,650 frames
+  ✅ Done: 4,650 frames in 79.5s (58 fps)
+Processing videos:  84%|▊| 2259/2700 [19:17<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                        
+══════════════════════════════════════════════════════════════════════
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                        💾 CHECKPOINT SAVED [2260/2700]
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                        ══════════════════════════════════════════════════════════════════════
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                          Progress: 83.7%
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                          Videos: 2260 processed | 0 skipped
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                          Frames: 4,220,905 total
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                          Time: 19.3min | Speed: 0.017 vid/s | ETA: 426min
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                          GPU: 0.43GB / 0.46GB
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=                                                                                                                        ══════════════════════════════════════════════════════════════════════
+
+Processing videos:  84%|▊| 2259/2700 [19:20<4:27:49, 36.44s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=Processing videos:  84%|▊| 2260/2700 [19:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, orig=2962, new=4650, final=7147, dup=Processing videos:  84%|█████████████████████▊    | 2260/2700 [19:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, status=INIT]Processing videos:  84%|█████████████████████▊    | 2260/2700 [19:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 0k2ey_okQ4E
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9984 | Min=0.0001 | Range=[0.0001, 0.9984]
+  🎯 Threshold: 0.6989 (70.0% of max)
+  ✅ High-Score Frames: 338/2962 (11.4%)
+  📍 First 10 indices: [1247, 1363, 1653, 1943, 2436, 2726, 2929, 2958, 2987, 3016]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2260/2700 [19:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, status=INIT]Processing videos:  84%|████████▎ | 2260/2700 [19:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, status=PROCESSING, high=338]Processing videos:  84%|████████▎ | 2260/2700 [19:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, status=PROCESSING, high=338]  📦 Processing 3,380 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/3,380 frames
+     • Batch 2/2 (100%) - 3,380/3,380 frames
+  ✅ Done: 3,380 frames in 58.7s (58 fps)
+Processing videos:  84%|▊| 2260/2700 [20:20<6:13:42, 50.96s/it, video=0k2ey_okQ4E, orig=2962, new=3380, final=6004, dup=Processing videos:  84%|▊| 2261/2700 [20:20<6:31:37, 53.53s/it, video=0k2ey_okQ4E, orig=2962, new=3380, final=6004, dup=Processing videos:  84%|█████████████████████▊    | 2261/2700 [20:20<6:31:37, 53.53s/it, video=0k2ey_okQ4E, status=INIT]Processing videos:  84%|█████████████████████▊    | 2261/2700 [20:20<6:31:37, 53.53s/it, video=0k2ey_okQ4E, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: 0k2ey_okQ4E
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9976 | Min=0.0002 | Range=[0.0002, 0.9976]
+  🎯 Threshold: 0.6983 (70.0% of max)
+  ✅ High-Score Frames: 1103/2962 (37.2%)
+  📍 First 10 indices: [87, 145, 812, 841, 870, 1247, 1334, 1363, 1653, 1740]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2261/2700 [20:20<6:31:37, 53.53s/it, video=0k2ey_okQ4E, status=INIT]Processing videos:  84%|███████▌ | 2261/2700 [20:20<6:31:37, 53.53s/it, video=0k2ey_okQ4E, status=PROCESSING, high=1103]Processing videos:  84%|███████▌ | 2261/2700 [20:20<6:31:37, 53.53s/it, video=0k2ey_okQ4E, status=PROCESSING, high=1103]  📦 Processing 11,030 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 6
+     • Batch 1/6 (17%) - 2,000/11,030 frames
+     • Batch 2/6 (33%) - 4,000/11,030 frames
+     • Batch 3/6 (50%) - 6,000/11,030 frames
+     • Batch 4/6 (67%) - 8,000/11,030 frames
+     • Batch 5/6 (83%) - 10,000/11,030 frames
+     • Batch 6/6 (100%) - 11,030/11,030 frames
+  ✅ Done: 11,030 frames in 186.1s (59 fps)
+Processing videos:  84%|▊| 2261/2700 [23:26<6:31:37, 53.53s/it, video=0k2ey_okQ4E, orig=2962, new=11030, final=12889, duProcessing videos:  84%|▊| 2262/2700 [23:26<11:22:39, 93.51s/it, video=0k2ey_okQ4E, orig=2962, new=11030, final=12889, dProcessing videos:  84%|████████████████████▉    | 2262/2700 [23:26<11:22:39, 93.51s/it, video=HGv87QeBYnc, status=INIT]Processing videos:  84%|████████████████████▉    | 2262/2700 [23:26<11:22:39, 93.51s/it, video=HGv87QeBYnc, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: HGv87QeBYnc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7405 | Min=0.0067 | Range=[0.0067, 0.7405]
+  🎯 Threshold: 0.5183 (70.0% of max)
+  ✅ High-Score Frames: 90/1822 (4.9%)
+  📍 First 10 indices: [750, 900, 1560, 1740, 2010, 2130, 2700, 3000, 3030, 3660]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|████████████████████▉    | 2262/2700 [23:27<11:22:39, 93.51s/it, video=HGv87QeBYnc, status=INIT]Processing videos:  84%|████████▍ | 2262/2700 [23:27<11:22:39, 93.51s/it, video=HGv87QeBYnc, status=PROCESSING, high=90]Processing videos:  84%|████████▍ | 2262/2700 [23:27<11:22:39, 93.51s/it, video=HGv87QeBYnc, status=PROCESSING, high=90]  📦 Processing 682 frames in RAM...
+     • Batch size: 682 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 682/682 frames
+  ✅ Done: 682 frames in 15.8s (43 fps)
+Processing videos:  84%|▊| 2262/2700 [23:43<11:22:39, 93.51s/it, video=HGv87QeBYnc, orig=1822, new=682, final=2129, dup=Processing videos:  84%|▊| 2263/2700 [23:43<8:33:29, 70.50s/it, video=HGv87QeBYnc, orig=1822, new=682, final=2129, dup=3Processing videos:  84%|█████████████████████▊    | 2263/2700 [23:43<8:33:29, 70.50s/it, video=HGv87QeBYnc, status=INIT]Processing videos:  84%|█████████████████████▊    | 2263/2700 [23:43<8:33:29, 70.50s/it, video=HGv87QeBYnc, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: HGv87QeBYnc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9987 | Min=0.2309 | Range=[0.2309, 0.9987]
+  🎯 Threshold: 0.6991 (70.0% of max)
+  ✅ High-Score Frames: 1785/1822 (98.0%)
+  📍 First 10 indices: [0, 30, 60, 90, 120, 150, 180, 210, 240, 330]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2263/2700 [23:43<8:33:29, 70.50s/it, video=HGv87QeBYnc, status=INIT]Processing videos:  84%|███████▌ | 2263/2700 [23:43<8:33:29, 70.50s/it, video=HGv87QeBYnc, status=PROCESSING, high=1785]Processing videos:  84%|███████▌ | 2263/2700 [23:43<8:33:29, 70.50s/it, video=HGv87QeBYnc, status=PROCESSING, high=1785]  📦 Processing 3,645 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/3,645 frames
+     • Batch 2/2 (100%) - 3,645/3,645 frames
+  ✅ Done: 3,645 frames in 70.6s (52 fps)
+Processing videos:  84%|▊| 2263/2700 [24:55<8:33:29, 70.50s/it, video=HGv87QeBYnc, orig=1822, new=3645, final=3645, dup=Processing videos:  84%|▊| 2264/2700 [24:55<8:34:05, 70.75s/it, video=HGv87QeBYnc, orig=1822, new=3645, final=3645, dup=Processing videos:  84%|█████████████████████▊    | 2264/2700 [24:55<8:34:05, 70.75s/it, video=HGv87QeBYnc, status=INIT]Processing videos:  84%|█████████████████████▊    | 2264/2700 [24:55<8:34:05, 70.75s/it, video=HGv87QeBYnc, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: HGv87QeBYnc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9993 | Min=0.0037 | Range=[0.0037, 0.9993]
+  🎯 Threshold: 0.6995 (70.0% of max)
+  ✅ High-Score Frames: 1396/1822 (76.6%)
+  📍 First 10 indices: [120, 150, 180, 210, 240, 330, 360, 390, 570, 600]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2264/2700 [24:55<8:34:05, 70.75s/it, video=HGv87QeBYnc, status=INIT]Processing videos:  84%|███████▌ | 2264/2700 [24:55<8:34:05, 70.75s/it, video=HGv87QeBYnc, status=PROCESSING, high=1396]Processing videos:  84%|███████▌ | 2264/2700 [24:55<8:34:05, 70.75s/it, video=HGv87QeBYnc, status=PROCESSING, high=1396]  📦 Processing 3,457 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 2
+     • Batch 1/2 (50%) - 2,000/3,457 frames
+     • Batch 2/2 (100%) - 3,457/3,457 frames
+  ✅ Done: 3,457 frames in 69.2s (50 fps)
+Processing videos:  84%|▊| 2264/2700 [26:04<8:34:05, 70.75s/it, video=HGv87QeBYnc, orig=1822, new=3457, final=3534, dup=Processing videos:  84%|▊| 2265/2700 [26:04<8:30:56, 70.48s/it, video=HGv87QeBYnc, orig=1822, new=3457, final=3534, dup=Processing videos:  84%|█████████████████████▊    | 2265/2700 [26:04<8:30:56, 70.48s/it, video=i1p5PAgNvR0, status=INIT]Processing videos:  84%|█████████████████████▊    | 2265/2700 [26:04<8:30:56, 70.48s/it, video=i1p5PAgNvR0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: i1p5PAgNvR0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5738 | Min=0.0073 | Range=[0.0073, 0.5738]
+  🎯 Threshold: 0.4017 (70.0% of max)
+  ✅ High-Score Frames: 3/1915 (0.2%)
+  📍 First 10 indices: [50, 75, 47650]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2265/2700 [26:06<8:30:56, 70.48s/it, video=i1p5PAgNvR0, status=INIT]Processing videos:  84%|██████████  | 2265/2700 [26:06<8:30:56, 70.48s/it, video=i1p5PAgNvR0, status=PROCESSING, high=3]Processing videos:  84%|██████████  | 2265/2700 [26:06<8:30:56, 70.48s/it, video=i1p5PAgNvR0, status=PROCESSING, high=3]  📦 Processing 30 frames in RAM...
+     • Batch size: 30 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 30/30 frames
+  ✅ Done: 30 frames in 0.8s (38 fps)
+Processing videos:  84%|▊| 2265/2700 [26:07<8:30:56, 70.48s/it, video=i1p5PAgNvR0, orig=1915, new=30, final=1939, dup=6,Processing videos:  84%|▊| 2266/2700 [26:07<6:02:01, 50.05s/it, video=i1p5PAgNvR0, orig=1915, new=30, final=1939, dup=6,Processing videos:  84%|█████████████████████▊    | 2266/2700 [26:07<6:02:01, 50.05s/it, video=i1p5PAgNvR0, status=INIT]Processing videos:  84%|█████████████████████▊    | 2266/2700 [26:07<6:02:01, 50.05s/it, video=i1p5PAgNvR0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: i1p5PAgNvR0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9999 | Min=0.0106 | Range=[0.0106, 0.9999]
+  🎯 Threshold: 0.6999 (70.0% of max)
+  ✅ High-Score Frames: 1200/1915 (62.7%)
+  📍 First 10 indices: [25, 50, 75, 300, 325, 350, 375, 400, 425, 450]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2266/2700 [26:07<6:02:01, 50.05s/it, video=i1p5PAgNvR0, status=INIT]Processing videos:  84%|███████▌ | 2266/2700 [26:07<6:02:01, 50.05s/it, video=i1p5PAgNvR0, status=PROCESSING, high=1200]Processing videos:  84%|███████▌ | 2266/2700 [26:07<6:02:01, 50.05s/it, video=i1p5PAgNvR0, status=PROCESSING, high=1200]  📦 Processing 11,076 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 6
+     • Batch 1/6 (17%) - 2,000/11,076 frames
+     • Batch 2/6 (33%) - 4,000/11,076 frames
+     • Batch 3/6 (50%) - 6,000/11,076 frames
+     • Batch 4/6 (67%) - 8,000/11,076 frames
+     • Batch 5/6 (83%) - 10,000/11,076 frames
+     • Batch 6/6 (100%) - 11,076/11,076 frames
+  ✅ Done: 11,076 frames in 183.9s (60 fps)
+Processing videos:  84%|▊| 2266/2700 [29:12<6:02:01, 50.05s/it, video=i1p5PAgNvR0, orig=1915, new=11076, final=11506, duProcessing videos:  84%|▊| 2267/2700 [29:12<10:53:13, 90.52s/it, video=i1p5PAgNvR0, orig=1915, new=11076, final=11506, dProcessing videos:  84%|████████████████████▉    | 2267/2700 [29:12<10:53:13, 90.52s/it, video=i1p5PAgNvR0, status=INIT]Processing videos:  84%|████████████████████▉    | 2267/2700 [29:12<10:53:13, 90.52s/it, video=i1p5PAgNvR0, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: i1p5PAgNvR0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9991 | Min=0.0090 | Range=[0.0090, 0.9991]
+  🎯 Threshold: 0.6993 (70.0% of max)
+  ✅ High-Score Frames: 644/1915 (33.6%)
+  📍 First 10 indices: [25, 50, 75, 300, 325, 350, 375, 525, 550, 575]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|████████████████████▉    | 2267/2700 [29:12<10:53:13, 90.52s/it, video=i1p5PAgNvR0, status=INIT]Processing videos:  84%|███████▌ | 2267/2700 [29:12<10:53:13, 90.52s/it, video=i1p5PAgNvR0, status=PROCESSING, high=644]Processing videos:  84%|███████▌ | 2267/2700 [29:12<10:53:13, 90.52s/it, video=i1p5PAgNvR0, status=PROCESSING, high=644]  📦 Processing 6,114 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 4
+     • Batch 1/4 (25%) - 2,000/6,114 frames
+     • Batch 2/4 (50%) - 4,000/6,114 frames
+     • Batch 3/4 (75%) - 6,000/6,114 frames
+     • Batch 4/4 (100%) - 6,114/6,114 frames
+  ✅ Done: 6,114 frames in 108.3s (56 fps)
+Processing videos:  84%|▊| 2267/2700 [31:01<10:53:13, 90.52s/it, video=i1p5PAgNvR0, orig=1915, new=6114, final=7059, dupProcessing videos:  84%|▊| 2268/2700 [31:01<11:31:35, 96.05s/it, video=i1p5PAgNvR0, orig=1915, new=6114, final=7059, dupProcessing videos:  84%|█████████████████████    | 2268/2700 [31:01<11:31:35, 96.05s/it, video=jdQ-20JEmgc, status=INIT]Processing videos:  84%|█████████████████████    | 2268/2700 [31:01<11:31:35, 96.05s/it, video=jdQ-20JEmgc, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: jdQ-20JEmgc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.7858 | Min=0.0032 | Range=[0.0032, 0.7858]
+  🎯 Threshold: 0.5501 (70.0% of max)
+  ✅ High-Score Frames: 60/2850 (2.1%)
+  📍 First 10 indices: [3496, 3519, 3542, 5106, 5129, 5244, 5267, 5290, 5313, 9890]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████    | 2268/2700 [31:02<11:31:35, 96.05s/it, video=jdQ-20JEmgc, status=INIT]Processing videos:  84%|████████▍ | 2268/2700 [31:02<11:31:35, 96.05s/it, video=jdQ-20JEmgc, status=PROCESSING, high=60]Processing videos:  84%|████████▍ | 2268/2700 [31:02<11:31:35, 96.05s/it, video=jdQ-20JEmgc, status=PROCESSING, high=60]  📦 Processing 600 frames in RAM...
+     • Batch size: 600 frames
+     • Total batches: 1
+     • Batch 1/1 (100%) - 600/600 frames
+  ✅ Done: 600 frames in 11.4s (53 fps)
+Processing videos:  84%|▊| 2268/2700 [31:14<11:31:35, 96.05s/it, video=jdQ-20JEmgc, orig=2850, new=600, final=3390, dup=Processing videos:  84%|▊| 2269/2700 [31:14<8:31:09, 71.16s/it, video=jdQ-20JEmgc, orig=2850, new=600, final=3390, dup=6Processing videos:  84%|█████████████████████▊    | 2269/2700 [31:14<8:31:09, 71.16s/it, video=jdQ-20JEmgc, status=INIT]Processing videos:  84%|█████████████████████▊    | 2269/2700 [31:14<8:31:09, 71.16s/it, video=jdQ-20JEmgc, status=INIT]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: jdQ-20JEmgc
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9984 | Min=0.0004 | Range=[0.0004, 0.9984]
+  🎯 Threshold: 0.6989 (70.0% of max)
+  ✅ High-Score Frames: 899/2850 (31.5%)
+  📍 First 10 indices: [92, 230, 253, 299, 322, 345, 368, 644, 1058, 1081]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  84%|█████████████████████▊    | 2269/2700 [31:14<8:31:09, 71.16s/it, video=jdQ-20JEmgc, status=INIT]Processing videos:  84%|████████▍ | 2269/2700 [31:14<8:31:09, 71.16s/it, video=jdQ-20JEmgc, status=PROCESSING, high=899]Processing videos:  84%|████████▍ | 2269/2700 [31:14<8:31:09, 71.16s/it, video=jdQ-20JEmgc, status=PROCESSING, high=899]  📦 Processing 8,990 frames in RAM...
+     • Batch size: 2,000 frames
+     • Total batches: 5
+     • Batch 1/5 (20%) - 2,000/8,990 frames
+     • Batch 2/5 (40%) - 4,000/8,990 frames

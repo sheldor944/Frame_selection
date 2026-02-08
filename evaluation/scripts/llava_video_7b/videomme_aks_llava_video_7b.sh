@@ -32,20 +32,20 @@ set -e
 # ==============================
 #   CONFIGURATION
 # ==============================
-export PYTHONPATH=$PYTHONPATH:/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT
 
-base_score_path=./selected_frames/videomme/blip
-score_type=selected_frames_dbfp_20_alpha_0.75_score_diff_power_law_power_2.0
+
+base_score_path=./selected_frames/videomme/clip
+score_type=selected_dbfp_videomme_clip_k32_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_sim_cosine_lambda1.0_ovlp2.0_iter1
 dataset_name=videomme
 
-frame_num=20
+frame_num=32
 use_topk=True
 
 # ==============================
 #   STEP 1: Convert score file
 # ==============================
 echo "=== Step 1: Running change_score.py on ${score_type} ==="
-python /home/hpc4090/miraj/AKS/AKS/evaluation/change_score.py \
+python3 evaluation/change_score.py \
     --base_score_path $base_score_path \
     --score_type $score_type \
     --dataset_name $dataset_name
@@ -54,7 +54,7 @@ python /home/hpc4090/miraj/AKS/AKS/evaluation/change_score.py \
 #   STEP 2: Insert frame number
 # ==============================
 echo "=== Step 2: Running insert_frame_num.py ==="
-python /home/hpc4090/miraj/AKS/AKS/evaluation/insert_frame_num.py \
+python3 evaluation/insert_frame_num.py \
     --frame_num $frame_num \
     --use_topk $use_topk
 

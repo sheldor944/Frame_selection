@@ -35,14 +35,14 @@ set -e
 export PYTHONPATH=$PYTHONPATH:/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT
 
 base_score_path=./selected_frames/longvideobench/blip
-score_type=selected_dbfp_longvideobench_blip_k16_alpha0.75_sup3_score_diff
+score_type=selected_dbfp_dense_longvideobench_blip_k32_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1
 dataset_name=longvideobench
 
 # ==============================
 #   STEP 1: Convert score file
 # ==============================
 echo "=== Step 1: Running change_score.py on ${score_type} ==="
-python /home/hpc4090/miraj/AKS/AKS/evaluation/change_score.py \
+python3 evaluation/change_score.py \
     --base_score_path $base_score_path \
     --score_type $score_type \
     --dataset_name $dataset_name

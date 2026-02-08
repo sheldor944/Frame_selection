@@ -10,10 +10,10 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='ADA-DQ: Shot-Aware Dual-Quota Frame Selection')
     
     parser.add_argument('--dataset_name', type=str, default='videomme')
-    parser.add_argument('--extract_feature_model', type=str, default='blip')
-    parser.add_argument('--score_path', type=str, default='./outscores/videomme/blip/scores.json')
-    parser.add_argument('--frame_path', type=str, default='./outscores/videomme/blip/frames.json')
-    parser.add_argument('--max_num_frames', type=int, default=20)
+    parser.add_argument('--extract_feature_model', type=str, default='clip')
+    parser.add_argument('--score_path', type=str, default='./outscores/videomme/clip/scores.json')
+    parser.add_argument('--frame_path', type=str, default='./outscores/videomme/clip/frames.json')
+    parser.add_argument('--max_num_frames', type=int, default=64)
     parser.add_argument('--ratio', type=int, default=1)
     parser.add_argument('--output_file', type=str, default='./selected_frames')
     parser.add_argument('--num_videos', type=int, default=None)
@@ -372,7 +372,7 @@ def main(args):
     output_model_dir = os.path.join(output_dir, args.extract_feature_model)
     os.makedirs(output_model_dir, exist_ok=True)
     
-    output_filename = f'selected_frames_ada_dq_M{args.max_num_frames}_beta{args.beta}_delta{args.delta_min}.json'
+    output_filename = f'selected_frames_{args.dataset_name}_ada_dq_M{args.max_num_frames}_beta{args.beta}_delta{args.delta_min}.json'
     output_path = os.path.join(output_model_dir, output_filename)
     
     with open(output_path, 'w') as f:

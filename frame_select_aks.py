@@ -7,110 +7,109 @@ import os
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Extract Video Feature')
 
-    parser.add_argument('--dataset_name', type=str, default='videomme', help='support longvideobench and videomme')
-    parser.add_argument('--extract_feature_model', type=str, default='blip', help='blip/clip/sevila')
-    parser.add_argument('--score_path', type=str, default='./outscores/videomme/blip/scores.json')
-    parser.add_argument('--frame_path', type=str, default='./outscores/videomme/blip/frames.json')
-    parser.add_argument('--max_num_frames', type=int, default=64)
+    parser.add_argument('--dataset_name', type=str, default='longvideobench')
+    parser.add_argument('--extract_feature_model', type=str, default='clip')
+    parser.add_argument('--score_path', type=str, default='./outscores/longvideobench/clip/scores.json')
+    parser.add_argument('--frame_path', type=str, default='./outscores/longvideobench/clip/frames.json')
+    parser.add_argument('--max_num_frames', type=int, default=32)
     parser.add_argument('--ratio', type=int, default=1)
-    parser.add_argument('--t1', type=int, default=0.8)
-    parser.add_argument('--t2', type=int, default=-100)
-    parser.add_argument('--all_depth', type=int, default=5)
+    parser.add_argument('--t1', type=float, default=0.8)
+    parser.add_argument('--t2', type=float, default=-100)
+    parser.add_argument('--all_depth', type=int, default=4)
     parser.add_argument('--output_file', type=str, default='./selected_frames')
+
+    # >>> FIX 1: add output_name argument
+    parser.add_argument('--output_name', type=str, default='selected_frames.json')
 
     return parser.parse_args()
 
-def meanstd(len_scores, dic_scores, n, fns,t1,t2,all_depth):
-        split_scores = []
-        split_fn = []
-        no_split_scores = []
-        no_split_fn = []
-        i= 0
-        for dic_score, fn in zip(dic_scores, fns):
-                # normalized_data = (score - np.min(score)) / (np.max(score) - np.min(score))
-                score = dic_score['score']
-                depth = dic_score['depth']
-                mean = np.mean(score)
-                std = np.std(score)
 
-                top_n = heapq.nlargest(n, range(len(score)), score.__getitem__)
-                top_score = [score[t] for t in top_n]
-                # print(f"split {i}: ",len(score))
-                i += 1
-                mean_diff = np.mean(top_score) - mean
-                if mean_diff > t1 and std > t2:
-                        no_split_scores.append(dic_score)
-                        no_split_fn.append(fn)
-                elif depth < all_depth:
-                # elif len(score)>(len_scores/n)*2 and len(score) >= 8:
-                        score1 = score[:len(score)//2]
-                        score2 = score[len(score)//2:]
-                        fn1 = fn[:len(score)//2]
-                        fn2 = fn[len(score)//2:]                       
-                        split_scores.append(dict(score=score1,depth=depth+1))
-                        split_scores.append(dict(score=score2,depth=depth+1))
-                        split_fn.append(fn1)
-                        split_fn.append(fn2)
-                else:
-                        no_split_scores.append(dic_score)
-                        no_split_fn.append(fn)
-        if len(split_scores) > 0:
-                all_split_score, all_split_fn = meanstd(len_scores, split_scores, n, split_fn,t1,t2,all_depth)
+def meanstd(len_scores, dic_scores, n, fns, t1, t2, all_depth):
+    split_scores = []
+    split_fn = []
+    no_split_scores = []
+    no_split_fn = []
+
+    for dic_score, fn in zip(dic_scores, fns):
+        score = dic_score['score']
+        depth = dic_score['depth']
+        mean = np.mean(score)
+        std = np.std(score)
+
+        top_n = heapq.nlargest(n, range(len(score)), score.__getitem__)
+        top_score = [score[t] for t in top_n]
+        mean_diff = np.mean(top_score) - mean
+
+        if mean_diff > t1 and std > t2:
+            no_split_scores.append(dic_score)
+            no_split_fn.append(fn)
+
+        elif depth < all_depth:
+            mid = len(score)//2
+            split_scores.append(dict(score=score[:mid], depth=depth+1))
+            split_scores.append(dict(score=score[mid:], depth=depth+1))
+            split_fn.append(fn[:mid])
+            split_fn.append(fn[mid:])
+
         else:
-                all_split_score = []
-                all_split_fn = []
-        all_split_score = no_split_scores + all_split_score
-        all_split_fn = no_split_fn + all_split_fn
+            no_split_scores.append(dic_score)
+            no_split_fn.append(fn)
 
+    if split_scores:
+        child_scores, child_fns = meanstd(len_scores, split_scores, n, split_fn, t1, t2, all_depth)
+    else:
+        child_scores, child_fns = [], []
 
-        return all_split_score, all_split_fn
+    return no_split_scores + child_scores, no_split_fn + child_fns
+
 
 def main(args):
-    max_num_frames = args.max_num_frames
-    ratio = args.ratio
-    t1 = args.t1
-    t2 = args.t2
-    all_depth = args.all_depth
     outs = []
-    segs = []
 
     with open(args.score_path) as f:
         itm_outs = json.load(f)
     with open(args.frame_path) as f:
         fn_outs = json.load(f)
 
-    if not os.path.exists(os.path.join(args.output_file,args.dataset_name)):
-        os.mkdir(os.path.join(args.output_file,args.dataset_name))
-    out_score_path = os.path.join(args.output_file,args.dataset_name,args.extract_feature_model)
-    if not os.path.exists(out_score_path):
-        os.mkdir(out_score_path)
+    # Ensure output directories exist
+    base_out = os.path.join(args.output_file, args.dataset_name, args.extract_feature_model)
+    os.makedirs(base_out, exist_ok=True)
 
-    for itm_out,fn_out in zip(itm_outs,fn_outs):
-        nums = int(len(itm_out)/ratio)
-        new_score = [itm_out[num*ratio] for num in range(nums)]
-        new_fnum = [fn_out[num*ratio] for num in range(nums)]
-        score = new_score
-        fn = new_fnum
-        num = max_num_frames
-        if len(score) >= num:
-            normalized_data = (score - np.min(score)) / (np.max(score) - np.min(score))
-            a, b = meanstd(len(score), [dict(score=normalized_data,depth=0)], num, [fn], t1, t2, all_depth)
-            segs.append(len(a))
+    for itm_out, fn_out in zip(itm_outs, fn_outs):
+        nums = int(len(itm_out) / args.ratio)
+        score = [itm_out[i * args.ratio] for i in range(nums)]
+        fn = [fn_out[i * args.ratio] for i in range(nums)]
+
+        if len(score) >= args.max_num_frames:
+            normalized = (score - np.min(score)) / (np.max(score) - np.min(score))
+            segments, frame_segments = meanstd(
+                len(score),
+                [dict(score=normalized, depth=0)],
+                args.max_num_frames,
+                [fn],
+                args.t1,
+                args.t2,
+                args.all_depth
+            )
+
             out = []
-            if len(score) >= num:
-                for s,f in zip(a,b): 
-                    f_num = int(num / 2**(s['depth']))
-                    topk = heapq.nlargest(f_num, range(len(s['score'])), s['score'].__getitem__)
-                    f_nums = [f[t] for t in topk]
-                    out.extend(f_nums)
-            out.sort()
-            outs.append(out)
+            for s, f in zip(segments, frame_segments):
+                f_num = int(args.max_num_frames / (2 ** s['depth']))
+                topk = heapq.nlargest(f_num, range(len(s['score'])), s['score'].__getitem__)
+                out.extend([f[t] for t in topk])
+
+            outs.append(sorted(out))
         else:
             outs.append(fn)
 
-    score_path = os.path.join(out_score_path,'selected_frames.json')
-    with open(score_path,'w') as f:
-        json.dump(outs,f)
+    # >>> FIX 2: use args.output_name
+    output_path = os.path.join(base_out, args.output_name)
+
+    with open(output_path, 'w') as f:
+        json.dump(outs, f)
+
+    print("Saved:", output_path)
+
 
 if __name__ == '__main__':
     args = parse_arguments()

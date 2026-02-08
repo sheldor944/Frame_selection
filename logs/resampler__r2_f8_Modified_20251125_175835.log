@@ -1,0 +1,154 @@
+hello miraj 
+
+======================================================================
+⚡ STREAMING DENSE SAMPLING (UNLIMITED FRAMES)
+======================================================================
+Dataset: videomme
+Score threshold: 70.0% of MAX score
+Neighbor radius: 2 seconds
+Dense FPS: 8.0
+Model: blip
+Batch size: 256
+FP16: True
+Workers: 32
+Checkpoint every: 20 videos
+Resume mode: True
+Mode: STREAMING (no frame limits)
+======================================================================
+
+Loading existing frames and scores...
+✅ Frames file: 2700 videos
+✅ Scores file: 2700 videos
+Loading questions from: ./datasets/videomme/include_frame_idx.json
+✅ Loaded 2700 questions
+
+🎯 Processing 2700 videos (limited by --num_videos)
+
+Video folder: /home/train01/.cache/huggingface/custom_video_qa_cache/data/data
+
+🔍 Checking for existing checkpoint...
+✅ RESUMING from video 1020
+   Already processed: 1020 videos
+   Remaining: 1680 videos
+
+
+======================================================================
+[cuda:1] Loading blip model...
+======================================================================
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+✅ Model loaded successfully
+======================================================================
+
+======================================================================
+Starting video processing...
+======================================================================
+
+Processing videos:  38%|█████████████████████████▋                                          | 1020/2700 [00:00<?, ?it/s]                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.5332 | Min=0.0929 | Range=[0.0929, 0.5332]
+  🎯 Threshold: 0.3732 (70.0% of max)
+  ✅ High-Score Frames: 87/538 (16.2%)
+  📍 First 10 indices: [232, 290, 348, 609, 667, 1566, 1885, 2088, 2146, 2175]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|█████████████████████████▋                                          | 1020/2700 [00:00<?, ?it/s]Processing videos:  38%|█████▋         | 1020/2700 [00:00<?, ?it/s, video=tBVUTFPate0, status=STREAMING, high_frames=87]  📦 Streaming 3143 frames...
+    25% (1000/3143 frames)
+    50% (2000/3143 frames)
+    75% (3000/3143 frames)
+    100% (3143/3143 frames)
+  ✅ Completed: 3143 frames
+Processing videos:  38%|███     | 1020/2700 [00:55<?, ?it/s, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=167]Processing videos:  38%|▍| 1021/2700 [00:55<26:02:51, 55.85s/it, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9890 | Min=0.2037 | Range=[0.2037, 0.9890]
+  🎯 Threshold: 0.6923 (70.0% of max)
+  ✅ High-Score Frames: 512/538 (95.2%)
+  📍 First 10 indices: [174, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1021/2700 [00:56<26:02:51, 55.85s/it, video=tBVUTFPate0, orig=538, new=3143, final=3514, dup=Processing videos:  38%|█▏ | 1021/2700 [00:56<26:02:51, 55.85s/it, video=tBVUTFPate0, status=STREAMING, high_frames=512]  📦 Streaming 14994 frames...
+    20% (3000/14994 frames)
+    40% (6000/14994 frames)
+    60% (9000/14994 frames)
+    80% (12000/14994 frames)
+    100% (14994/14994 frames)
+  ✅ Completed: 14994 frames
+Processing videos:  38%|▍| 1021/2700 [04:46<26:02:51, 55.85s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, duProcessing videos:  38%|▍| 1022/2700 [04:46<74:02:03, 158.83s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, d                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: tBVUTFPate0
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9951 | Min=0.0284 | Range=[0.0284, 0.9951]
+  🎯 Threshold: 0.6966 (70.0% of max)
+  ✅ High-Score Frames: 379/538 (70.4%)
+  📍 First 10 indices: [174, 203, 232, 261, 290, 319, 348, 377, 406, 435]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1022/2700 [04:47<74:02:03, 158.83s/it, video=tBVUTFPate0, orig=538, new=14994, final=15004, dProcessing videos:  38%|▊ | 1022/2700 [04:47<74:02:03, 158.83s/it, video=tBVUTFPate0, status=STREAMING, high_frames=379]  📦 Streaming 11773 frames...
+    17% (2000/11773 frames)
+    33% (4000/11773 frames)
+    50% (6000/11773 frames)
+    67% (8000/11773 frames)
+    83% (10000/11773 frames)
+    100% (11773/11773 frames)
+  ✅ Completed: 11773 frames
+Processing videos:  38%|▍| 1022/2700 [07:52<74:02:03, 158.83s/it, video=tBVUTFPate0, orig=538, new=11773, final=11850, dProcessing videos:  38%|▍| 1023/2700 [07:52<79:46:55, 171.27s/it, video=tBVUTFPate0, orig=538, new=11773, final=11850, d                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: AmrrSfiMxGA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9886 | Min=0.2586 | Range=[0.2586, 0.9886]
+  🎯 Threshold: 0.6920 (70.0% of max)
+  ✅ High-Score Frames: 591/616 (95.9%)
+  📍 First 10 indices: [29, 58, 87, 116, 145, 174, 203, 232, 261, 290]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1023/2700 [07:52<79:46:55, 171.27s/it, video=tBVUTFPate0, orig=538, new=11773, final=11850, dProcessing videos:  38%|▊ | 1023/2700 [07:52<79:46:55, 171.27s/it, video=AmrrSfiMxGA, status=STREAMING, high_frames=591]  📦 Streaming 17365 frames...
+    20% (3500/17365 frames)
+    40% (7000/17365 frames)
+    60% (10500/17365 frames)
+    80% (14000/17365 frames)
+    100% (17365/17365 frames)
+  ✅ Completed: 17365 frames
+Processing videos:  38%|▍| 1023/2700 [12:19<79:46:55, 171.27s/it, video=AmrrSfiMxGA, orig=616, new=17365, final=17367, dProcessing videos:  38%|▍| 1024/2700 [12:19<97:19:48, 209.06s/it, video=AmrrSfiMxGA, orig=616, new=17365, final=17367, d                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: AmrrSfiMxGA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9960 | Min=0.4451 | Range=[0.4451, 0.9960]
+  🎯 Threshold: 0.6972 (70.0% of max)
+  ✅ High-Score Frames: 614/616 (99.7%)
+  📍 First 10 indices: [0, 29, 58, 87, 116, 145, 174, 203, 232, 261]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1024/2700 [12:19<97:19:48, 209.06s/it, video=AmrrSfiMxGA, orig=616, new=17365, final=17367, dProcessing videos:  38%|▊ | 1024/2700 [12:19<97:19:48, 209.06s/it, video=AmrrSfiMxGA, status=STREAMING, high_frames=614]  📦 Streaming 17793 frames...
+    19% (3500/17793 frames)
+    39% (7000/17793 frames)
+    58% (10500/17793 frames)
+    78% (14000/17793 frames)
+    97% (17500/17793 frames)
+  ✅ Completed: 17793 frames
+Processing videos:  38%|▍| 1024/2700 [16:51<97:19:48, 209.06s/it, video=AmrrSfiMxGA, orig=616, new=17793, final=17793, dProcessing videos:  38%|▍| 1025/2700 [16:51<107:47:19, 231.67s/it, video=AmrrSfiMxGA, orig=616, new=17793, final=17793,                                                                                                                         
+──────────────────────────────────────────────────────────────────────
+📹 Video: AmrrSfiMxGA
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.2936 | Min=0.0423 | Range=[0.0423, 0.2936]
+  🎯 Threshold: 0.2055 (70.0% of max)
+  ✅ High-Score Frames: 3/616 (0.5%)
+  📍 First 10 indices: [2204, 12238, 12441]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1025/2700 [16:51<107:47:19, 231.67s/it, video=AmrrSfiMxGA, orig=616, new=17793, final=17793, Processing videos:  38%|█▏ | 1025/2700 [16:51<107:47:19, 231.67s/it, video=AmrrSfiMxGA, status=STREAMING, high_frames=3]  📦 Streaming 123 frames...
+    100% (123/123 frames)
+  ✅ Completed: 123 frames
+Processing videos:  38%|▍| 1025/2700 [16:54<107:47:19, 231.67s/it, video=AmrrSfiMxGA, orig=616, new=123, final=730, dup=Processing videos:  38%|▍| 1026/2700 [16:54<71:30:56, 153.80s/it, video=AmrrSfiMxGA, orig=616, new=123, final=730, dup=9                                                                                                                        
+──────────────────────────────────────────────────────────────────────
+📹 Video: sf4qRY3h_eo
+──────────────────────────────────────────────────────────────────────
+  📊 Scores: Max=0.9992 | Min=0.0349 | Range=[0.0349, 0.9992]
+  🎯 Threshold: 0.6995 (70.0% of max)
+  ✅ High-Score Frames: 760/910 (83.5%)
+  📍 First 10 indices: [29, 58, 87, 116, 145, 174, 203, 232, 261, 290]
+──────────────────────────────────────────────────────────────────────
+
+Processing videos:  38%|▍| 1026/2700 [16:54<71:30:56, 153.80s/it, video=AmrrSfiMxGA, orig=616, new=123, final=730, dup=9Processing videos:  38%|▊ | 1026/2700 [16:54<71:30:56, 153.80s/it, video=sf4qRY3h_eo, status=STREAMING, high_frames=760]  📦 Streaming 22373 frames...

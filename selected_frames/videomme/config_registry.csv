@@ -1,0 +1,5 @@
+hash,timestamp,output_file,dataset_name,extract_feature_model,max_num_frames,alpha,similarity_method,edge_weight_type,overlap_radius_multiplier,min_score_threshold,optimize_remaining,diffusion_iterations,suppression_radius_short,suppression_radius_medium,suppression_radius_long,lambda_sim_short,lambda_sim_medium,lambda_sim_long,sigma_score_short,sigma_score_medium,sigma_score_long,tau_temporal_short,tau_temporal_medium,tau_temporal_long
+4425716000b9,2025-12-07 18:26:22,selected_4425716000b9.json,videomme,clip,32,0.85,gaussian,temporal,2.0,0,False,1,2.0,3.0,5.0,1.0,1.5,2.0,0.05,0.15,0.3,5.0,8.0,12.0
+f9f619252cb8,2025-12-07 18:27:41,selected_f9f619252cb8.json,videomme,clip,32,0.85,gaussian,temporal,2.0,0,False,0,2.0,3.0,5.0,1.0,1.5,2.0,0.05,0.15,0.3,5.0,8.0,12.0
+13a36f17e2b0,2025-12-07 18:27:48,selected_13a36f17e2b0.json,videomme,clip,32,0.85,gaussian,temporal,2.0,0,False,2,2.0,3.0,5.0,1.0,1.5,2.0,0.05,0.15,0.3,5.0,8.0,12.0
+3272058e361b,2025-12-07 18:27:55,selected_3272058e361b.json,videomme,clip,32,0.85,gaussian,temporal,2.0,0,False,3,2.0,3.0,5.0,1.0,1.5,2.0,0.05,0.15,0.3,5.0,8.0,12.0

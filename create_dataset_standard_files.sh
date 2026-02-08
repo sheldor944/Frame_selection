@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # =============== CONFIG ==================
-BASE_SCORE_DIR="/home/hpc4090/miraj/AKS/AKS/all_dbfp_runs"
-OUTPUT_DIR="./converted_frames"       # where final renamed files will go
+BASE_SCORE_DIR="THESIS/Thesis_aks/videomme"
+OUTPUT_DIR="./THESIS_VMME_AKS"       # where final renamed files will go
 DATASET_NAME="videomme"
 
-CHANGE_SCORE_SCRIPT="/home/hpc4090/miraj/AKS/AKS/evaluation/change_score.py"
-INSERT_FRAME_SCRIPT="/home/hpc4090/miraj/AKS/AKS/evaluation/insert_frame_num.py"
+CHANGE_SCORE_SCRIPT="evaluation/change_score.py"
+INSERT_FRAME_SCRIPT="evaluation/insert_frame_num.py"
 
 # ACTUAL path where include_frame_idx.json is generated
-INCLUDE_OUT_FILE="/home/hpc4090/miraj/AKS/AKS/datasets/videomme/include_frame_idx.json"
+INCLUDE_OUT_FILE="datasets/videomme/include_frame_idx.json"
 
 mkdir -p "$OUTPUT_DIR"
 # =========================================
@@ -44,7 +44,7 @@ for json_file in "${BASE_SCORE_DIR}"/*.json; do
     # =============================
     #   STEP 1: change_score.py
     # =============================
-    python "$CHANGE_SCORE_SCRIPT" \
+    python3 "$CHANGE_SCORE_SCRIPT" \
         --base_score_path "$BASE_SCORE_DIR" \
         --score_type "${filename%.json}" \
         --dataset_name "$DATASET_NAME"
@@ -52,7 +52,7 @@ for json_file in "${BASE_SCORE_DIR}"/*.json; do
     # =============================
     #   STEP 2: insert_frame_num.py
     # =============================
-    python "$INSERT_FRAME_SCRIPT" \
+    python3 "$INSERT_FRAME_SCRIPT" \
         --frame_num "$frame_num" \
         --use_topk True
 

@@ -8,15 +8,15 @@ from typing import List, Tuple, Dict
 def parse_arguments():
     parser = argparse.ArgumentParser(description='DBFP: Diffusion-Based Frame Propagation')
     
-    parser.add_argument('--dataset_name', type=str, default='videomme', 
+    parser.add_argument('--dataset_name', type=str, default='longvideobench', 
                         help='Dataset name: longvideobench or videomme')
     parser.add_argument('--extract_feature_model', type=str, default='blip', 
                         help='Feature extraction model: blip/clip/sevila')
     parser.add_argument('--score_path', type=str, 
-                        default='./outscores/videomme/blip/scores.json',
+                        default='./outscores/longvideobench/blip/scores.json',
                         help='Path to input scores JSON file')
     parser.add_argument('--frame_path', type=str, 
-                        default='./outscores/videomme/blip/frames.json',
+                        default='./outscores/longvideobench/blip/frames.json',
                         help='Path to input frame IDs JSON file')
     parser.add_argument('--max_num_frames', type=int, default=64,
                         help='Maximum number of frames to select')
@@ -32,7 +32,7 @@ def parse_arguments():
                         help='Number of diffusion iterations (default: log2(N))')
     parser.add_argument('--suppression_radius', type=float, default=3,
                         help='Temporal suppression radius (default: N/M)')
-    parser.add_argument('--edge_weight_type', type=str, default='score_diff',
+    parser.add_argument('--edge_weight_type', type=str, default='temporal',
                         choices=['uniform', 'score_diff', 'temporal'],
                         help='Edge weight type for diffusion')
     parser.add_argument('--output_file', type=str, default='./selected_frames',

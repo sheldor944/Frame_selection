@@ -21,7 +21,8 @@ if __name__ == '__main__':
     with open(score_path, 'r') as f:
         score = json.load(f)
     for idx, data in enumerate(anno):
-        print(f"Processing video {idx+1}/{len(anno)}")
+        # print(f"Processing video {idx+1}/{len(anno)}")
+        
         # print(f"data : {data}")
         data['frame_idx'] = score[idx]
 
